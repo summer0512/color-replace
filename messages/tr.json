@@ -1,0 +1,185 @@
+{
+    "HomePage": {
+      "title": "Görüntü Renk Değiştirme Aracı - Ücretsiz Çevrimiçi Renk Düzenleyici",
+      "originalImages": "Orijinal Görüntüler",
+      "processedImages": "İşlenmiş Görüntüler",
+      "previewButton": "Önizleme",
+      "downloadButton": "İndir",
+      "description": "Profesyonel çevrimiçi görüntü renk değiştirme aracı. Aynı anda birden fazla rengi değiştirin, görüntüleri toplu işleyin ve görüntü kalitesini koruyun. Tarayıcıda yerel işleme, yükleme gerektirmez. Tasarımcılar, e-ticaret satıcıları ve pazarlama uzmanları için idealdir.",
+      "keywords": "görüntü renk değiştirme,çevrimiçi fotoğraf düzenleyici,renk değiştirme,toplu işleme,ücretsiz görüntü düzenleyici,photoshop çevrimiçi,arka plan kaldırma,grafik tasarım,fotoğraf düzenleme,tasarım araçları"
+    },
+    "Header": {
+      "title": "Renk Değiştir",
+      "subtitle": "Profesyonel Çevrimiçi Görüntü Renk Değiştirme Aracı",
+      "home": "Ana Sayfa",
+      "settings": "Ayarlar",
+      "about": "Hakkında"
+    },
+    "ColorReplaceSettings": {
+      "title": "Renk Değiştirme Ayarları",
+      "addColorPair": "Renk Çifti Ekle",
+      "colorPairTitle": "Renk Çifti #{id}",
+      "removeColorPair": "Bu renk çiftini kaldır",
+      "sourceColor": "Kaynak Renk",
+      "targetColor": "Hedef Renk",
+      "toleranceLabel": "Renk Eşleşme Toleransı: {value}%",
+      "emptyState": "Henüz renk değiştirme kuralı yok. Başlamak için \"Renk Çifti Ekle\"ye tıklayın",
+      "toleranceTitle": "Renk Eşleşme Toleransı",
+      "toleranceLow": "Tam",
+      "toleranceHigh": "Benzer",
+      "replace": "Değiştir",
+      "download": "İndir",
+      "clearFiles": "Görüntüleri temizle"
+    },
+    "ColorPicker": {
+      "transparent": "şeffaf",
+      "useTransparent": "Şeffafı kullan",
+      "useColor": "Rengi kullan"
+    },
+    "EyeDropper": {
+      "tooltip": "Renk seçiciyi kullan"
+    },
+    "ToolDescription": {
+      "title": "Ücretsiz Çevrimiçi Görüntü Renk Değiştirme Aracı",
+      "mainDescription": "Profesyonel renk değiştirme aracımızla görüntülerinizi anında dönüştürün. Tasarımcılar, pazarlamacılar ve içerik üreticileri için mükemmel bir çözüm - görüntü renklerini hızlı ve verimli bir şekilde değiştirebilirsiniz. Ürün varyasyonları oluşturun, marka renklerini ayarlayın veya tasarım seçeneklerini deneyin; aracımız görüntü kalitesini koruyarak kesin renk manipülasyonu sağlar - her şey doğrudan tarayıcınızda, herhangi bir yükleme gerektirmeden.",
+      "features": {
+        "title": "Görüntü Renk Düzenleme için Profesyonel Özellikler",
+        "feature1": {
+          "title": "Akıllı Renk Değiştirme Teknolojisi",
+          "description": "Görüntülerinizdeki herhangi bir rengi piksel mükemmelliğinde değiştirin. Gelişmiş renk eşleştirme algoritması, yumuşak geçişler ve profesyonel görünümlü sonuçlar sağlar, ürün fotoğrafları ve tasarım varlıkları için ideal."
+        },
+        "feature2": {
+          "title": "Çoklu Renk Değiştirme",
+          "description": "Aynı anda birden fazla rengi değiştirerek zaman kazanın. Marka renk güncellemeleri, tema değişiklikleri ve ürün varyasyonları oluşturmak için ideal. Tüm renk şemalarını bir kerede dönüştürmek için birden fazla renk çifti ekleyin."
+        },
+        "feature3": {
+          "title": "Verimli Toplu İşlem",
+          "description": "Güçlü toplu işlem özelliğimizle aynı anda birden fazla görüntüyü işleyin. E-ticaret ürün fotoğrafları, pazarlama materyalleri ve büyük ölçekli tasarım projeleri için mükemmel. Elle düzenleme süresinden saatler kazanın."
+        },
+        "feature4": {
+          "title": "Profesyonel Renk Seçim Araçları",
+          "description": "Görüntülerinizden kesin renkleri seçmek için hassas damlalık aracımızı kullanın. Onaltılık kodlar ve RGB değerleriyle uyumlu, marka renklerinizi mükemmel bir şekilde eşleştirmeyi kolaylaştırır."
+        },
+        "feature5": {
+          "title": "Gelişmiş Renk Eşleştirme Kontrolleri",
+          "description": "Zeki benzerlik kontrolleriyle renk değişimlerinizi hassasça ayarlayın. Gradyanları, gölgeleri ve karmaşık renk varyasyonlarını işlemek için ideal, doğal görünümlü sonuçları korur."
+        },
+        "feature6": {
+          "title": "Güvenli Yerel İşleme",
+          "description": "Tarayıcınızda hızlı ve güvenli görüntü işlemeyi deneyimleyin. Dosya yüklemeye gerek yok - görüntüleriniz asla cihazınızı terk etmez, tam gizlilik ve anında sonuçlar garanti edilir."
+        }
+      },
+      "privacyTitle": "% 100 Gizli ve Güvenli",
+      "privacyDescription": "Gizliliğiniz ve veri güvenliğiniz bizim en üst önceliğimizdir. Diğer çevrimiçi araçların aksine, görüntü işlemcimiz tamamen tarayıcınızda çalışır - görüntüleriniz asla herhangi bir sunucuya yüklenmez. Hassas tasarım varlıklarınızın cihazınızda özel ve güvenli kalacağını bilerek güvenle çalışın."
+    },
+    "UsageExamples": {
+      "title": "Renk Değiştirme Örnekleri",
+      "subtitle": "Görüntü Renk Düzenleme Senaryoları",
+      "examples": [
+        {
+          "title": "Marka Kimliği Yenileme",
+          "description": "Şirket logosunun veya pazarlama materyallerinin renklerini anında değiştirin. Marka renk paletinizi hızlıca güncelleyin ve tutarlı bir görsel kimlik oluşturun.",
+          "tags": ["marka tasarımı", "pazarlama", "kurumsal kimlik"]
+        },
+        {
+          "title": "Fotoğraf Renk Düzeltme",
+          "description": "Eski fotoğrafların renklerini canlandırın veya dijital görüntülerin ton ve renklerini profesyonelce ayarlayın. Nostaljik anıları yeniden renklendirebilir veya görüntülerin görsel etkisini artırabilirsiniz.",
+          "tags": ["fotoğraf düzenleme", "renk düzeltme", "görüntü restorasyonu"]
+        },
+        {
+          "title": "Grafik Tasarım Uygulamaları",
+          "description": "Dijital sanat, illüstrasyon ve grafik tasarım projelerinde renkleri hızlıca değiştirin. Yaratıcı vizyonunuzu anında gerçekleştirin ve tasarım iş akışınızı optimize edin.",
+          "tags": ["dijital sanat", "illüstrasyon", "grafik tasarım"]
+        },
+        {
+          "title": "E-Ticaret Ürün Görüntüleri",
+          "description": "Ürün görüntülerinin renklerini çeşitli varyasyonlar için hızlıca ayarlayın. Farklı renk seçeneklerini göstermek için görüntüleri kolayca değiştirin ve müşteri deneyimini geliştirin.",
+          "tags": ["e-ticaret", "ürün görüntüleri", "pazarlama"]
+        },
+        {
+          "title": "Web ve Dijital Medya İçeriği",
+          "description": "Web siteleri, sosyal medya gönderileri ve dijital reklamlar için görüntü renklerini optimize edin. Marka estetiğinizi güçlendirin ve içeriğinizin görsel çekiciliğini artırın.",
+          "tags": ["web tasarımı", "sosyal medya", "dijital pazarlama"]
+        }
+      ],
+      "howToUse": {
+        "title": "Renk Değiştirme Aracını Kullanma Kılavuzu",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Görüntü Yükleme",
+            "description": "PNG, JPG veya WebP formatındaki görüntüyü sürükleyip bırakın veya dosya seçiciyi kullanarak yükleyin."
+          },
+          {
+            "step": 2,
+            "title": "Renk Seçimi",
+            "description": "Değiştirmek istediğiniz orijinal rengi seçin. Renk seçici veya göz damlatıcı aracını kullanarak kesin rengi belirleyin."
+          },
+          {
+            "step": 3,
+            "title": "Yeni Renk Atama",
+            "description": "Orijinal renkle değiştirilecek yeni rengi seçin. Renk paletinden veya özel renk girişinden faydalanabilirsiniz."
+          },
+          {
+            "step": 4,
+            "title": "Tolerans Ayarlama",
+            "description": "Renk değişiminin hassasiyetini ayarlamak için tolerans kaydırıcısını kullanın. Benzer tonları yakalamak için ayarları optimize edin."
+          },
+          {
+            "step": 5,
+            "title": "Önizleme ve İndirme",
+            "description": "Değişiklikleri önizleyin ve memnun kalınca görüntüyü yüksek kalitede indirin."
+          }
+        ]
+      },
+      "tips": {
+        "title": "Profesyonel Renk Değiştirme İpuçları",
+        "items": [
+          {
+            "title": "Renk Toleransını Anlama",
+            "description": "Tolerans ayarını doğru kullanarak benzer renk tonlarını yakalayın. Düşük tolerans kesin renk değişimi, yüksek tolerans daha yumuşak geçişler sağlar."
+          },
+          {
+            "title": "Çoklu Renk Değişimi",
+            "description": "Aynı anda birden fazla rengi değiştirebilirsiniz. Karmaşık görüntülerde bile hızlı ve verimli renk düzenlemesi yapın."
+          },
+          {
+            "title": "Detayları Koruma",
+            "description": "Gelişmiş ayarları kullanarak görüntü detaylarını ve kalitesini koruyun. Renk değişimi sırasında görüntü bütünlüğünü muhafaza edin."
+          }
+        ]
+      }
+    },
+    "Metadata": {
+      "title": "Renk Değiştir - Ücretsiz Çevrimiçi Görüntü Renk Değiştirme Aracı",
+      "titleTemplate": "%s | Renk Değiştir - Görüntü Renk Düzenleyici",
+      "description": "Görüntü renklerini kesin olarak değiştirmek için ücretsiz çevrimiçi araç. Aynı anda birden fazla rengi değiştirin, görüntüleri toplu işleme alın ve görüntü kalitesini koruyun. Yükleme gerekmiyor - tarayıcıda yerel olarak işleyin",
+      "keywords": [
+        "renk değiştir",
+        "görüntü renk düzenleyici",
+        "renk değiştirme aracı",
+        "toplu görüntü işleme",
+        "görüntü renk değiştiricisi",
+        "renk değişim aracı",
+        "görüntü düzenleme",
+        "tasarım aracı"
+      ],
+      "locale": "tr_TR",
+      "ogTitle": "Renk Değiştir - Ücretsiz Çevrimiçi Görüntü Renk Değiştirme Aracı",
+      "ogDescription": "Güçlü renk değiştirme aracımızla görüntülerinizi dönüştürün. Birden fazla rengi değiştirin, görüntüleri toplu işleme alın ve kaliteyi koruyun. Yükleme gerekmiyor - tüm işlemler tarayıcınızda gerçekleşir.",
+      "ogImageAlt": "Renk Değiştir Araç Arayüzü",
+      "twitterTitle": "Renk Değiştir - Ücretsiz Çevrimiçi Görüntü Renk Değiştirme Aracı",
+      "twitterDescription": "Güçlü renk değiştirme aracımızla görüntülerinizi dönüştürün. Birden fazla rengi değiştirin, görüntüleri toplu işleme alın ve kaliteyi koruyun."
+    },
+    "ImageProcessor": {
+      "dropToUpload": "Yüklemek için görüntüleri bırakın",
+      "dragAndDrop": "Görüntüleri buraya sürükleyip bırakın",
+      "supportedFormats": "PNG, JPG, JPEG, GIF, WEBP formatlarını destekler, dosya başına maksimum 5MB",
+      "uploadError": {
+        "fileType": "Desteklenmeyen dosya türü. Yalnızca JPG, PNG veya WebP görüntüleri yükleyin.",
+        "fileSize": "Dosya çok büyük. Maksimum 10 MB'a kadar izin verilir.",
+        "processingError": "Görüntü işleme sırasında hata oluştu. Tekrar deneyin veya başka bir görüntü yükleyin.",
+        "noFilesUploaded": "Hiç görüntü yüklenmedi"
+      }
+    }
+  }

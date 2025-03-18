@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://color-replace.com
+
+# Sitemaps
+Sitemap: https://color-replace.com/sitemap.xml

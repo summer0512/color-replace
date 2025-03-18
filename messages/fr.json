@@ -1,0 +1,125 @@
+{
+    "HomePage": {
+      "title": "Outil de Remplacement de Couleurs d'Image - Éditeur de Couleurs en Ligne Gratuit",
+      "originalImages": "Images Originales",
+      "processedImages": "Images Traitées",
+      "previewButton": "Aperçu",
+      "downloadButton": "Télécharger",
+      "description": "Outil professionnel en ligne pour le remplacement de couleurs d'images. Remplacez plusieurs couleurs simultanément, traitez des lots d'images et préservez la qualité. Traitement local dans le navigateur sans téléchargement. Idéal pour les designers, e-commerçants et professionnels du marketing.",
+      "keywords": "modifier couleur image,éditeur photo en ligne,remplacement de couleurs,traitement d'images,éditeur d'images gratuit,photoshop en ligne,supprimer arrière-plan,conception graphique,retouche photo,outil de design"
+    },
+    "Header": {
+      "title": "Remplacer Couleur",
+      "subtitle": "Outil Professionnel de Remplacement de Couleurs d'Image en Ligne",
+      "home": "Accueil",
+      "settings": "Paramètres",
+      "about": "À Propos"
+    },
+    "ColorReplaceSettings": {
+      "title": "Paramètres de Remplacement de Couleurs",
+      "addColorPair": "Ajouter une Paire de Couleurs",
+      "colorPairTitle": "Paire de Couleurs #{id}",
+      "removeColorPair": "Supprimer cette paire de couleurs",
+      "sourceColor": "Couleur Source",
+      "targetColor": "Couleur Cible",
+      "toleranceLabel": "Tolérance de Correspondance des Couleurs : {value} %",
+      "emptyState": "Aucune règle de remplacement de couleurs. Cliquez sur \"Ajouter une Paire de Couleurs\" pour commencer",
+      "toleranceTitle": "Tolérance de Correspondance des Couleurs",
+      "toleranceLow": "Exacte",
+      "toleranceHigh": "Similaire",
+      "replace": "Remplacer",
+      "download": "Télécharger",
+      "clearFiles": "Effacer les images"
+    },
+    "ColorPicker": {
+      "transparent": "transparent",
+      "useTransparent": "Utiliser la transparence",
+      "useColor": "Utiliser la couleur"
+    },
+    "EyeDropper": {
+      "tooltip": "Utiliser le piquant de couleur"
+    },
+    "ToolDescription": {
+      "title": "Outil Gratuit de Remplacement de Couleurs d'Image en Ligne",
+      "mainDescription": "Transformez vos images instantanément avec notre outil de remplacement de couleurs professionnel. Parfait pour les designers, les marketeurs et les créateurs de contenu qui doivent changer les couleurs des images rapidement et efficacement. Que vous créiez des variantes de produits, ajustiez les couleurs de marque, ou expérimentiez avec des options de design, notre outil fournit une manipulation de couleurs précise tout en préservant la qualité de l'image - le tout directement dans votre navigateur, sans téléchargement requis.",
+      "features": {
+        "title": "Fonctionnalités Professionnelles pour l'Édition de Couleurs d'Image",
+        "feature1": {
+          "title": "Technologie Intelligente de Remplacement de Couleurs",
+          "description": "Remplacez n'importe quelle couleur dans vos images avec une précision pixel parfaite. Notre algorithme avancé de correspondance des couleurs garantit des transitions fluides et des résultats professionnels, parfait pour les photos de produits et les ressources de design."
+        },
+        "feature2": {
+          "title": "Remplacement Multi-Couleurs",
+          "description": "Gagnez du temps en remplaçant plusieurs couleurs simultanément. Idéal pour les mises à jour de couleurs de marque, les changements de thème et la création de variations de produits. Ajoutez plusieurs paires de couleurs pour transformer des schémas de couleurs entiers en une seule fois."
+        },
+        "feature3": {
+          "title": "Traitement par Lots Efficace",
+          "description": "Traitez plusieurs images simultanément grâce à notre fonctionnalité de traitement par lots puissante. Parfait pour les photos de produits e-commerce, les supports marketing et les grands projets de design. Économisez des heures de temps d'édition manuelle."
+        },
+        "feature4": {
+          "title": "Outils Professionnels de Sélection de Couleurs",
+          "description": "Utilisez notre outil de pipette précis pour sélectionner des couleurs exactes de vos images. Compatible avec les codes hexadécimaux et les valeurs RVB, facilitant le matching parfait de vos couleurs de marque."
+        },
+        "feature5": {
+          "title": "Contrôles Avancés de Correspondance des Couleurs",
+          "description": "Affinez vos remplacements de couleurs avec nos contrôles intelligents de similarité. Parfait pour gérer les dégradés, les ombres et les variations de couleurs complexes tout en maintenant des résultats naturels."
+        },
+        "feature6": {
+          "title": "Traitement Local Sécurisé",
+          "description": "Profitez d'un traitement d'image rapide et sécurisé directement dans votre navigateur. Aucun téléchargement de fichier nécessaire - vos images ne quittent jamais votre appareil, garantissant une confidentialité totale et des résultats instantanés."
+        }
+      },
+      "privacyTitle": "100% Privé & Sécurisé",
+      "privacyDescription": "Votre confidentialité et la sécurité de vos données sont notre priorité absolue. Contrairement à d'autres outils en ligne, notre processeur d'images fonctionne entièrement dans votre navigateur - vos images ne sont jamais téléchargées sur un serveur. Travaillez en toute confiance, sachant que vos ressources de design sensibles restent privées et sécurisées sur votre appareil."
+    },
+    "UsageExamples": {
+      "title": "Exemples d'Utilisation",
+      "description": "Voici quelques exemples d'utilisation de l'outil de remplacement de couleurs :",
+      "before": "Avant",
+      "after": "Après",
+      "settingsTitle": "Paramètres de Couleurs",
+      "tolerance": "Tolérance",
+      "loadExample": "Charger l'Exemple",
+      "example1": {
+        "title": "Paramètres de Paires de Couleurs Multiples",
+        "description": "Remplacez plusieurs couleurs simultanément en ajoutant plusieurs paires de couleurs.",
+        "beforeAlt": "Illustration d'état vide avec un schéma de couleurs rouge",
+        "afterAlt": "Illustration d'état vide avec un schéma de couleurs bleu"
+      },
+      "example2": {
+        "title": "Traitement par Lots d'Images",
+        "description": "Traitez plusieurs images à la fois pour un traitement par lots efficace.",
+        "beforeAlt": "Un ensemble d'icônes bleues",
+        "afterAlt": "Un ensemble d'icônes rouges"
+      },
+      "example3": {
+        "title": "Remplacer la Couleur par Transparent",
+        "description": "Supporte le remplacement de couleur par transparent.",
+        "beforeAlt": "Image d'avatar avec un fond jaune",
+        "afterAlt": "Image d'avatar avec un fond transparent"
+      }
+    },
+    "Metadata": {
+      "title": "Remplacer Couleur - Outil Gratuit de Remplacement de Couleurs d'Image en Ligne",
+      "titleTemplate": "%s | Remplacer Couleur - Éditeur de Couleurs d'Image",
+      "description": "Outil en ligne gratuit pour le remplacement précis de couleurs d'image. Remplacez plusieurs couleurs simultanément, traitez des images par lots et conservez la qualité de l'image. Aucun téléchargement requis - traitement local dans le navigateur.",
+      "keywords": "remplacer couleur, éditeur de couleurs d'image, outil de remplacement de couleurs, traitement par lots d'images, changeur de couleurs d'image, outil de permutation de couleurs, édition d'image, outil de design",
+      "locale": "fr_FR",
+      "ogTitle": "Remplacer Couleur - Outil Gratuit de Remplacement de Couleurs d'Image en Ligne",
+      "ogDescription": "Transformez vos images avec notre outil de remplacement de couleurs puissant. Remplacez plusieurs couleurs, traitez des images par lots et conservez la qualité. Aucun téléchargement nécessaire - tout le traitement se fait dans votre navigateur.",
+      "ogImageAlt": "Interface de l'Outil Remplacer Couleur",
+      "twitterTitle": "Remplacer Couleur - Outil Gratuit de Remplacement de Couleurs d'Image en Ligne",
+      "twitterDescription": "Transformez vos images avec notre outil de remplacement de couleurs puissant. Remplacez plusieurs couleurs, traitez des images par lots et conservez la qualité."
+    },
+    "ImageProcessor": {
+      "dropToUpload": "Déposer pour télécharger des images",
+      "dragAndDrop": "Glissez et déposez des images ici, ou cliquez pour télécharger",
+      "supportedFormats": "Supporte les formats PNG, JPG, JPEG, GIF, WEBP, max. 5 Mo par fichier",
+      "error": {
+        "fileTooLarge": "Fichier trop volumineux, veuillez télécharger des images de moins de 5 Mo",
+        "invalidFormat": "Veuillez télécharger des fichiers image au format valide",
+        "canvasContext": "Impossible de créer le contexte du canevas",
+        "noFilesUploaded": "Aucune image téléchargée"
+      }
+    }
+  }

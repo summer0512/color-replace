@@ -1,0 +1,22 @@
+export const languages = [
+    { value: 'en', name: 'English', label: 'English' },
+    { value: 'zh', name: 'Chinese', label: '中文' },
+    { value: 'hi', name: 'Hindi', label: 'हिन्दी' },
+    { value: 'es', name: 'Spanish', label: 'Español' },
+    { value: 'ar', name: 'Arabic', label: 'العربية' },
+    { value: 'bn', name: 'Bengali', label: 'বাংলা' },
+    { value: 'pt', name: 'Portuguese', label: 'Português' },
+    { value: 'ru', name: 'Russian', label: 'Русский' },
+    { value: 'ja', name: 'Japanese', label: '日本語' },
+    { value: 'de', name: 'German', label: 'Deutsch' },
+    { value: 'fr', name: 'French', label: 'Français' },
+    { value: 'ur', name: 'Urdu', label: 'اردو' },
+    { value: 'id', name: 'Indonesian', label: 'Bahasa Indonesia' },
+    { value: 'it', name: 'Italian', label: 'Italiano' },
+    { value: 'ko', name: 'Korean', label: '한국어' },
+    { value: 'tr', name: 'Turkish', label: 'Türkçe' },
+    { value: 'vi', name: 'Vietnamese', label: 'Tiếng Việt' },
+    { value: 'th', name: 'Thai', label: 'ไทย' },
+    { value: 'nl', name: 'Dutch', label: 'Nederlands' },
+    { value: 'pl', name: 'Polish', label: 'Polski' }
+] as const;

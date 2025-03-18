@@ -1,0 +1,125 @@
+{
+  "HomePage": {
+    "title": "Herramienta de Reemplazo de Color de Imagen - Editor de Color en Línea Gratuito",
+    "originalImages": "Imágenes Originales",
+    "processedImages": "Imágenes Procesadas",
+    "previewButton": "Vista Previa",
+    "downloadButton": "Descargar",
+    "description": "Herramienta profesional en línea para reemplazar colores en imágenes. Reemplaza múltiples colores simultáneamente, procesa imágenes por lotes y mantiene la calidad original. Sin necesidad de subir archivos - procesamiento local en el navegador. Ideal para diseñadores, vendedores de comercio electrónico y profesionales del marketing.",
+    "keywords": "cambiar color imagen,editor de fotos online,reemplazo de colores,procesamiento de imágenes,editor de imágenes gratis,photoshop online,quitar fondo imagen,diseño gráfico,edición de fotos,herramienta de diseño"
+  },
+  "Header": {
+    "title": "Reemplazo de Color",
+    "subtitle": "Herramienta Profesional de Reemplazo de Color de Imagen en Línea",
+    "home": "Inicio",
+    "settings": "Configuración",
+    "about": "Acerca de"
+  },
+  "ColorReplaceSettings": {
+    "title": "Configuración de Reemplazo de Color",
+    "addColorPair": "Agregar Par de Colores",
+    "colorPairTitle": "Par de Colores #{id}",
+    "removeColorPair": "Eliminar este par de colores",
+    "sourceColor": "Color de Origen",
+    "targetColor": "Color de Destino",
+    "toleranceLabel": "Tolerancia de Coincidencia de Color: {value}%",
+    "emptyState": "No hay reglas de reemplazo de color. Haga clic en \"Agregar Par de Colores\" para comenzar",
+    "toleranceTitle": "Tolerancia de Coincidencia de Color",
+    "toleranceLow": "Exacto",
+    "toleranceHigh": "Similar",
+    "replace": "Reemplazar",
+    "download": "Descargar",
+    "clearFiles": "Borrar imágenes"
+  },
+  "ColorPicker": {
+    "transparent": "transparente",
+    "useTransparent": "Usar transparente",
+    "useColor": "Usar color"
+  },
+  "EyeDropper": {
+    "tooltip": "Usar selector de color"
+  },
+  "ToolDescription": {
+    "title": "Herramienta Profesional de Reemplazo de Color de Imagen en Línea",
+    "mainDescription": "Transforma tus imágenes instantáneamente con nuestra herramienta profesional de reemplazo de color. Ideal para diseños, marketing y creadores de contenido que necesitan cambiar colores de imágenes de manera rápida y eficiente. Independientemente de si estás creando variantes de productos, ajustando colores de marca, o experimentando con opciones de diseño, nuestro herramienta permite la manipulación precisa de colores mientras conserva la calidad de la imagen - directamente en tu navegador, sin carga de archivos.",
+    "features": {
+      "title": "Características Profesionales para la Edición de Colores de Imagen",
+      "feature1": {
+        "title": "Tecnología de Reemplazo de Color Inteligente",
+        "description": "Reemplaza cualquier color en tus imágenes con precisión pixel-perfecto. Nuestro algoritmo avanzado de coincidencia de colores asegura transiciones suaves y resultados profesionales, ideales para fotos de productos y activos de diseño."
+      },
+      "feature2": {
+        "title": "Reemplazo de Colores Multiples",
+        "description": "Guarda tiempo al reemplazar múltiples colores al mismo tiempo. Ideal para actualizaciones de colores de marca, cambios de tema, y creación de variantes de productos. Añade pares de colores multiples para transformar entidades de colores en una sola operación."
+      },
+      "feature3": {
+        "title": "Procesamiento de Batch de Imagenes",
+        "description": "Procesa múltiples imágenes simultaneamente con nuestra poderosa característica de procesamiento de lote. Perfecto para fotos de productos, materiales de marketing y proyectos de diseño grandes. Guarda horas de edición manual."
+      },
+      "feature4": {
+        "title": "Herramientas de Selección de Color Profesional",
+        "description": "Usa nuestro preciso herramienta de selector de color para elegir exactamente los colores de tus imágenes. Compatible con codes hex y RGB, lo que permite combinar tus colores perfectamente."
+      },
+      "feature5": {
+        "title": "Control de Coincidencia de Color Avanzado",
+        "description": "Ajusta precisamente tus reemplazos de colores con nuestro control avanzado de similitud. Ideal para manejar gradientes, sombras y variaciones de color complejas, mientras conserva resultados naturales."
+      },
+      "feature6": {
+        "title": "Procesamiento Seguro Local",
+        "description": "Experimenta el procesamiento de imágenes de forma segura directamente en tu navegador. Ningún archivo se sube al servidor, asegurando la privacidad total y resultados instantáneos."
+      }
+    },
+    "privacyTitle": "100% Private & Secure",
+    "privacyDescription": "Your privacy and data security are our top priority. Unlike other online tools, our image processor works entirely in your browser - your images are never uploaded to any server. Work confidently knowing your sensitive design assets stay private and secure on your device."
+  },
+  "UsageExamples": {
+    "title": "Ejemplos de Uso",
+    "description": "Aquí hay algunos ejemplos de como usar la herramienta de reemplazo de color:",
+    "before": "Antes",
+    "after": "Despues",
+    "settingsTitle": "Configuración de Color",
+    "tolerance": "Tolerancia",
+    "loadExample": "Cargar Ejemplo",
+    "example1": {
+      "title": "Configuración de Pares de Colores Multiples",
+      "description": "Reemplaza múltiples colores al mismo tiempo con pares de colores multiples. Ideal para actualizaciones de colores de marca, cambios de tema, y creación de variantes de productos.",
+      "beforeAlt": "Ilustración de estado vacío con esquema de color rojo",
+      "afterAlt": "Ilustración de estado vacío con esquema de color azul"
+    },
+    "example2": {
+      "title": "Procesamiento de Batch de Imagenes",
+      "description": "Procesa múltiples imágenes simultaneamente con nuestra poderosa característica de procesamiento de lote. Perfecto para fotos de productos, materiales de marketing y proyectos de diseño grandes. Guarda horas de edición manual.",
+      "beforeAlt": "un conjunto de iconos azules",
+      "afterAlt": "un conjunto de iconos rojos"
+    },
+    "example3": {
+      "title": "Reemplazo de Color por Transparente",
+      "description": "Soporta reemplazar color por transparente.",
+      "beforeAlt": "imagen de avatar con fondo amarillo",
+      "afterAlt": "imagen de avatar con fondo transparente"
+    }
+  },
+  "Metadata": {
+    "title": "Reemplazo de Color - Herramienta Profesional de Reemplazo de Color de Imagen en Línea",
+    "titleTemplate": "%s | Reemplazo de Color - Editor de Color de Imagen",
+    "description": "Herramienta en línea gratuita para reemplazo preciso de color de imagen. Reemplaza múltiples colores simultáneamente, procesa imágenes por lotes y mantén la calidad de la imagen. Sin carga de archivos - procesamiento local en el navegador.",
+    "keywords": "reemplazo de color, editor de color de imagen, herramienta de reemplazo de color, procesamiento de imágenes por lotes, cambiador de color de imagen, herramienta de intercambio de color, edición de imagen, herramienta de diseño",
+    "locale": "es_ES",
+    "ogTitle": "Reemplazo de Color - Herramienta Profesional de Reemplazo de Color de Imagen en Línea",
+    "ogDescription": "Transforma tus imágenes con nuestra herramienta de reemplazo de color. Reemplaza múltiples colores, procesa imágenes por lotes y mantén la calidad. Sin carga de archivos - todo el procesamiento ocurre en tu navegador.",
+    "ogImageAlt": "Interfaz de Herramienta de Reemplazo de Color",
+    "twitterTitle": "Reemplazo de Color - Herramienta Profesional de Reemplazo de Color de Imagen en Línea",
+    "twitterDescription": "Transforma tus imágenes con nuestra herramienta de reemplazo de color. Reemplaza múltiples colores, procesa imágenes por lotes y mantén la calidad."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Suelta para subir imágenes",
+    "dragAndDrop": "Arrastra y suelta imágenes aquí, o haz clic para subir",
+    "supportedFormats": "Admite formatos PNG, JPG, JPEG, GIF, WEBP, máximo 5MB por archivo",
+    "error": {
+      "fileTooLarge": "Archivo demasiado grande, sube imágenes de menos de 5MB",
+      "invalidFormat": "Por favor, sube archivos de imagen en formato válido",
+      "canvasContext": "No se puede crear el contexto del lienzo",
+      "noFilesUploaded": "No hay imágenes subidas"
+    }
+  }
+}

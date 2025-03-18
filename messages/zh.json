@@ -1,0 +1,126 @@
+{
+  "HomePage": {
+    "title": "图片颜色替换工具 - 在线免费图片颜色编辑器",
+    "originalImages": "原始图片",
+    "processedImages": "处理后的图片",
+    "previewButton": "预览",
+    "downloadButton": "下载",
+    "about": "关于",
+    "description": "专业的在线图片颜色替换工具，支持多颜色同时替换、批量处理图片、保持图片质量。无需上传，在浏览器中本地处理，完全免费。适用于设计师、电商卖家、营销人员的图片颜色编辑需求。",
+    "keywords": "图片颜色替换,在线图片编辑,颜色修改工具,批量图片处理,图片颜色更改,免费图片编辑器,在线PS工具,抠图工具,透明背景制作,设计工具"
+  },
+  "Header": {
+    "title": "颜色替换",
+    "subtitle": "专业的在线图片颜色替换工具",
+    "home": "首页",
+    "settings": "设置",
+    "about": "关于"
+  },
+  "ColorReplaceSettings": {
+    "title": "颜色替换设置",
+    "addColorPair": "添加颜色对",
+    "colorPairTitle": "颜色对 #{id}",
+    "removeColorPair": "移除此颜色对",
+    "sourceColor": "源颜色",
+    "targetColor": "目标颜色",
+    "toleranceLabel": "颜色匹配容差: {value}%",
+    "emptyState": "暂无颜色替换规则。点击\"添加颜色对\"开始",
+    "toleranceTitle": "颜色匹配容差",
+    "toleranceLow": "精确",
+    "toleranceHigh": "相似",
+    "replace": "替换",
+    "download": "下载",
+    "clearFiles": "清除图片"
+  },
+  "ColorPicker": {
+    "transparent": "透明",
+    "useTransparent": "使用透明",
+    "useColor": "使用颜色"
+  },
+  "EyeDropper": {
+    "tooltip": "使用取色器"
+  },
+  "ToolDescription": {
+    "title": "免费在线图片颜色替换工具",
+    "mainDescription": "使用我们专业的颜色替换工具即时转换您的图片。适合需要快速高效更改图片颜色的设计师、营销人员和内容创作者。无论是创建产品变体、调整品牌颜色，还是尝试设计方案，我们的工具都能在保持图片质量的同时提供精确的颜色处理 - 全程在浏览器中完成，无需上传。",
+    "features": {
+      "title": "专业图片颜色编辑功能",
+      "feature1": {
+        "title": "智能颜色替换技术",
+        "description": "以像素级精确度替换图片中的任何颜色。我们的高级颜色匹配算法确保平滑过渡和专业级效果，完美适用于产品照片和设计素材。"
+      },
+      "feature2": {
+        "title": "多颜色替换",
+        "description": "通过同时替换多个颜色节省时间。非常适合品牌颜色更新、主题更改和创建产品变体。添加多个颜色对一次性转换整个配色方案。"
+      },
+      "feature3": {
+        "title": "高效批量处理",
+        "description": "使用我们强大的批量处理功能同时处理多张图片。完美适用于电商产品照片、营销材料和大型设计项目。节省数小时的手动编辑时间。"
+      },
+      "feature4": {
+        "title": "专业颜色选择工具",
+        "description": "使用我们精确的取色器工具从图片中选取准确的颜色。支持十六进制代码和RGB值，轻松匹配您的品牌颜色。"
+      },
+      "feature5": {
+        "title": "高级颜色匹配控制",
+        "description": "使用我们智能的相似度控制微调您的颜色替换。完美处理渐变、阴影和复杂的颜色变化，同时保持自然的效果。"
+      },
+      "feature6": {
+        "title": "安全本地处理",
+        "description": "在浏览器中体验快速、安全的图片处理。无需文件上传 - 您的图片永远不会离开您的设备，确保完全的隐私和即时的结果。"
+      }
+    },
+    "privacyTitle": "100% 隐私与安全",
+    "privacyDescription": "您的隐私和数据安全是我们的首要任务。与其他在线工具不同，我们的图片处理器完全在您的浏览器中工作 - 您的图片永远不会上传到任何服务器。放心工作，知道您的敏感设计资产始终保持私密和安全。"
+  },
+  "UsageExamples": {
+    "title": "使用示例",
+    "description": "以下是颜色替换工具的一些使用示例：",
+    "before": "处理前",
+    "after": "处理后",
+    "settingsTitle": "颜色设置",
+    "tolerance": "容差",
+    "loadExample": "加载示例",
+    "example1": {
+      "title": "多颜色对设置",
+      "description": "通过添加多个颜色对同时替换多个颜色。",
+      "beforeAlt": "红色配色方案的空状态插图",
+      "afterAlt": "蓝色配色方案的空状态插图"
+    },
+    "example2": {
+      "title": "批量图片处理",
+      "description": "一次处理多张图片，实现高效的批量处理。",
+      "beforeAlt": "一组蓝色图标",
+      "afterAlt": "一组红色图标"
+    },
+    "example3": {
+      "title": "颜色替换为透明",
+      "description": "支持将颜色替换为透明。",
+      "beforeAlt": "黄色背景的头像图片",
+      "afterAlt": "透明背景的头像图片"
+    }
+  },
+  "Metadata": {
+    "title": "颜色替换 - 免费在线图片颜色替换工具",
+    "titleTemplate": "%s | 颜色替换 - 图片颜色编辑器",
+    "description": "免费在线工具，用于精确的图片颜色替换。同时替换多个颜色，批量处理图片，并保持图片质量。无需上传 - 在浏览器中本地处理。",
+    "keywords": "颜色替换, 图片颜色编辑器, 颜色替换工具, 批量图片处理, 图片颜色更改器, 颜色交换工具, 图片编辑, 设计工具",
+    "locale": "zh_CN",
+    "ogTitle": "颜色替换 - 免费在线图片颜色替换工具",
+    "ogDescription": "使用我们强大的颜色替换工具转换您的图片。替换多个颜色，批量处理图片，并保持质量。无需上传 - 所有处理都在您的浏览器中完成。",
+    "ogImageAlt": "颜色替换工具界面",
+    "twitterTitle": "颜色替换 - 免费在线图片颜色替换工具",
+    "twitterDescription": "使用我们强大的颜色替换工具转换您的图片。替换多个颜色，批量处理图片，并保持质量。"
+  },
+  "ImageProcessor": {
+    "dropToUpload": "拖放以上传图片",
+    "dragAndDrop": "拖放图片到此处，或点击上传",
+    "supportedFormats": "支持 PNG、JPG、JPEG、GIF、WEBP 格式，每个文件最大 5MB",
+    "error": {
+      "fileTooLarge": "文件太大，请上传小于 5MB 的图片",
+      "invalidFormat": "请上传有效的图像格式文件",
+      "canvasContext": "无法创建画布上下文",
+      "noFilesUploaded": "请先上传需要处理的图片"
+    }
+  }
+}

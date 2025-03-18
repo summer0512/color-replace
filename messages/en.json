@@ -1,0 +1,125 @@
+{
+  "HomePage": {
+    "title": "Image Color Replacement Tool",
+    "originalImages": "Original Images",
+    "processedImages": "Processed Images",
+    "previewButton": "Preview",
+    "downloadButton": "Download",
+    "description": "Free online tool for professional image color replacement. Replace multiple colors simultaneously, batch process images, and maintain quality. No upload needed - process locally in your browser. Perfect for designers, marketers, and content creators.",
+    "keywords": "image color replacement, color swap tool, batch image processing, image color editor, color changer, image editing tool, online image editor, free image color tool, design tool, color replacement software"
+  },
+  "Header": {
+    "title": "Color Replace",
+    "subtitle": "Professional Online Image Color Replacement Tool",
+    "home": "Home",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "ColorReplaceSettings": {
+    "title": "Color Replacement Settings",
+    "addColorPair": "Add Color Pair",
+    "colorPairTitle": "Color Pair #{id}",
+    "removeColorPair": "Remove this color pair",
+    "sourceColor": "Source Color",
+    "targetColor": "Target Color",
+    "toleranceLabel": "Color Match Tolerance: {value}%",
+    "emptyState": "No color replacement rules. Click \"Add Color Pair\" to start",
+    "toleranceTitle": "Color Match Tolerance",
+    "toleranceLow": "Exact",
+    "toleranceHigh": "Similar",
+    "replace": "Replace",
+    "download": "Download",
+    "clearFiles": "Clear Images"
+  },
+  "ColorPicker": {
+    "transparent": "transparent",
+    "useTransparent": "Use transparent",
+    "useColor": "Use color"
+  },
+  "EyeDropper": {
+    "tooltip": "Use color picker"
+  },
+  "ToolDescription": {
+    "title": "Free Online Image Color Replacement Tool",
+    "mainDescription": "Transform your images instantly with our professional color replacement tool. Perfect for designers, marketers, and content creators who need to change image colors quickly and efficiently. Whether you're creating product variants, adjusting brand colors, or experimenting with design options, our tool provides precise color manipulation while preserving image quality - all directly in your browser, with no upload required.",
+    "features": {
+      "title": "Professional Features for Image Color Editing",
+      "feature1": {
+        "title": "Smart Color Replacement Technology",
+        "description": "Replace any color in your images with pixel-perfect accuracy. Our advanced color matching algorithm ensures smooth transitions and professional-looking results, perfect for product photos and design assets."
+      },
+      "feature2": {
+        "title": "Multi-Color Replacement",
+        "description": "Save time by replacing multiple colors simultaneously. Ideal for brand color updates, theme changes, and creating product variations. Add multiple color pairs to transform entire color schemes at once."
+      },
+      "feature3": {
+        "title": "Efficient Batch Processing",
+        "description": "Process multiple images simultaneously with our powerful batch processing feature. Perfect for e-commerce product photos, marketing materials, and large design projects. Save hours of manual editing time."
+      },
+      "feature4": {
+        "title": "Professional Color Selection Tools",
+        "description": "Use our precise eyedropper tool to pick exact colors from your images. Compatible with hex codes and RGB values, making it easy to match your brand colors perfectly."
+      },
+      "feature5": {
+        "title": "Advanced Color Matching Controls",
+        "description": "Fine-tune your color replacements with our intelligent similarity controls. Perfect for handling gradients, shadows, and complex color variations while maintaining natural-looking results."
+      },
+      "feature6": {
+        "title": "Secure Local Processing",
+        "description": "Experience fast, secure image processing right in your browser. No file upload needed - your images never leave your device, ensuring complete privacy and instant results."
+      }
+    },
+    "privacyTitle": "100% Private & Secure",
+    "privacyDescription": "Your privacy and data security are our top priority. Unlike other online tools, our image processor works entirely in your browser - your images are never uploaded to any server. Work confidently knowing your sensitive design assets stay private and secure on your device."
+  },
+  "UsageExamples": {
+    "title": "Usage Examples",
+    "description": "Here are some examples of how to use the color replacement tool:",
+    "before": "Before",
+    "after": "After",
+    "settingsTitle": "Color Settings",
+    "tolerance": "Tolerance",
+    "loadExample": "Load Example",
+    "example1": {
+      "title": "Multiple Color Pair settings",
+      "description": "Replace multiple colors simultaneously by adding multiple color pairs.",
+      "beforeAlt": "Empty state illustration with red color scheme",
+      "afterAlt": "Empty state illustration with blue color scheme"
+    },
+    "example2": {
+      "title": "Batch Images Processing",
+      "description": "Process multiple images at once for efficient batch processing.",
+      "beforeAlt": "a set of blue icons",
+      "afterAlt": "a set of red icons"
+    },
+    "example3": {
+      "title": "replace color by transparent",
+      "description": "support replace color by transparent.",
+      "beforeAlt": "avartar image with yellow background",
+      "afterAlt": "avartar image with transparent background"
+    }
+  },
+  "Metadata": {
+    "title": "Color Replace - Free Online Image Color Replacement Tool",
+    "titleTemplate": "%s | Color Replace - Image Color Editor",
+    "description": "Free online tool for precise image color replacement. Replace multiple colors simultaneously, batch process images, and maintain image quality. No upload required - process locally in browser.",
+    "keywords": "color replace, image color editor, color replacement tool, batch image processing, image color changer, color swap tool, image editing, design tool",
+    "locale": "en_US",
+    "ogTitle": "Color Replace - Free Online Image Color Replacement Tool",
+    "ogDescription": "Transform your images with our powerful color replacement tool. Replace multiple colors, batch process images, and maintain quality. No upload needed - all processing happens in your browser.",
+    "ogImageAlt": "Color Replace Tool Interface",
+    "twitterTitle": "Color Replace - Free Online Image Color Replacement Tool",
+    "twitterDescription": "Transform your images with our powerful color replacement tool. Replace multiple colors, batch process images, and maintain quality."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Drop to upload images",
+    "dragAndDrop": "Drag and drop images here, or click to upload",
+    "supportedFormats": "Supports PNG, JPG, JPEG, GIF, WEBP formats, max 5MB per file",
+    "error": {
+      "fileTooLarge": "File too large, please upload images under 5MB",
+      "invalidFormat": "Please upload valid image format files",
+      "canvasContext": "Cannot create canvas context",
+      "noFilesUploaded": "Please upload images to process"
+    }
+  }
+}

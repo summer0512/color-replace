@@ -1,0 +1,125 @@
+{
+    "HomePage": {
+      "title": "Alat Penggantian Warna Gambar - Editor Warna Online Gratis",
+      "originalImages": "Gambar Asli",
+      "processedImages": "Gambar Diproses",
+      "previewButton": "Pratinjau",
+      "downloadButton": "Unduh",
+      "description": "Alat profesional online untuk mengganti warna gambar. Ganti beberapa warna sekaligus, proses gambar secara batch, dan jaga kualitas gambar. Pemrosesan lokal di browser tanpa perlu mengunggah. Ideal untuk desainer, penjual e-commerce, dan profesional pemasaran.",
+      "keywords": "edit warna gambar,editor foto online,ganti warna,pengolahan gambar,editor gambar gratis,photoshop online,hapus background,desain grafis,edit foto,alat desain"
+    },
+    "Header": {
+      "title": "Ganti Warna",
+      "subtitle": "Alat Profesional Penggantian Warna Gambar Online",
+      "home": "Beranda",
+      "settings": "Pengaturan",
+      "about": "Tentang"
+    },
+    "ColorReplaceSettings": {
+      "title": "Pengaturan Penggantian Warna",
+      "addColorPair": "Tambah Pasangan Warna",
+      "colorPairTitle": "Pasangan Warna #{id}",
+      "removeColorPair": "Hapus pasangan warna ini",
+      "sourceColor": "Warna Sumber",
+      "targetColor": "Warna Tujuan",
+      "toleranceLabel": "Toleransi Kecocokan Warna: {value}%",
+      "emptyState": "Tidak ada aturan penggantian warna. Klik \"Tambah Pasangan Warna\" untuk memulai",
+      "toleranceTitle": "Toleransi Kecocokan Warna",
+      "toleranceLow": "Persis",
+      "toleranceHigh": "Mirip",
+      "replace": "Ganti",
+      "download": "Unduh",
+      "clearFiles": "Hapus gambar"
+    },
+    "ColorPicker": {
+      "transparent": "transparan",
+      "useTransparent": "Gunakan transparan",
+      "useColor": "Gunakan warna"
+    },
+    "EyeDropper": {
+      "tooltip": "Gunakan pemilih warna"
+    },
+    "ToolDescription": {
+      "title": "Alat Penggantian Warna Gambar Online Gratis",
+      "mainDescription": "Ubah gambar Anda secara instan dengan alat penggantian warna profesional kami. Cocok untuk desainer, pemasar, dan pembuat konten yang memerlukan mengubah warna gambar dengan cepat dan efisien. Baik Anda membuat varian produk, menyesuaikan warna merek, atau bereksperimen dengan opsi desain, alat kami menyediakan manipulasi warna yang presisi sambil menjaga kualitas gambar - semuanya langsung di browser Anda, tanpa perlu mengunggah.",
+      "features": {
+        "title": "Fitur Profesional untuk Pengeditan Warna Gambar",
+        "feature1": {
+          "title": "Teknologi Penggantian Warna Cerdas",
+          "description": "Gantilah warna apa pun di gambar Anda dengan akurasi yang tepat. Algoritma pencocokan warna canggih kami memastikan transisi yang halus dan hasil yang profesional, cocok untuk foto produk dan aset desain."
+        },
+        "feature2": {
+          "title": "Penggantian Warna Multi",
+          "description": "Hemat waktu dengan menggantikan beberapa warna secara bersamaan. Ideal untuk pembaruan warna merek, perubahan tema, dan membuat varian produk. Tambahkan beberapa pasangan warna untuk mengubah seluruh skema warna sekaligus."
+        },
+        "feature3": {
+          "title": "Pengolahan Batch yang Efisien",
+          "description": "Proses beberapa gambar secara bersamaan dengan fitur pengolahan batch yang kuat kami. Cocok untuk foto produk e-commerce, materi pemasaran, dan proyek desain besar. Hemat waktu pengeditan manual berjam-jam."
+        },
+        "feature4": {
+          "title": "Alat Pemilihan Warna Profesional",
+          "description": "Gunakan alat eyedropper yang presisi kami untuk memilih warna yang tepat dari gambar Anda. Kompatibel dengan kode heksa dan nilai RGB, membuatnya mudah untuk mencocokkan warna merek Anda dengan sempurna."
+        },
+        "feature5": {
+          "title": "Kendali Pencocokan Warna Cerdas",
+          "description": "Tune penggantian warna Anda dengan kendali kesamaan yang cerdas kami. Cocok untuk menangani gradien, bayangan, dan variasi warna yang kompleks sambil menjaga hasil yang terlihat alami."
+        },
+        "feature6": {
+          "title": "Pengolahan Lokal yang Aman",
+          "description": "Rasakan pengolahan gambar yang cepat dan aman langsung di browser Anda. Tidak perlu mengunggah file - gambar Anda tidak pernah meninggalkan perangkat Anda, memastikan privasi dan hasil yang instan."
+        }
+      },
+      "privacyTitle": "100% Pribadi & Aman",
+      "privacyDescription": "Privasi dan keamanan data Anda adalah prioritas utama kami. Tidak seperti alat online lainnya, pengolah gambar kami bekerja sepenuhnya di browser Anda - gambar Anda tidak pernah diunggah ke server mana pun. Bekerja dengan percaya diri mengetahui aset desain yang sensitif tetap pribadi dan aman di perangkat Anda."
+    },
+    "UsageExamples": {
+      "title": "Contoh Penggunaan",
+      "description": "Berikut beberapa contoh penggunaan alat penggantian warna:",
+      "before": "Sebelum",
+      "after": "Sesudah",
+      "settingsTitle": "Pengaturan Warna",
+      "tolerance": "Toleransi",
+      "loadExample": "Muat Contoh",
+      "example1": {
+        "title": "Pengaturan Pasangan Warna Multi",
+        "description": "Gantilah beberapa warna secara bersamaan dengan menambahkan beberapa pasangan warna.",
+        "beforeAlt": "Ilustrasi keadaan kosong dengan skema warna merah",
+        "afterAlt": "Ilustrasi keadaan kosong dengan skema warna biru"
+      },
+      "example2": {
+        "title": "Pengolahan Gambar Batch",
+        "description": "Proses beberapa gambar sekaligus untuk pengolahan batch yang efisien.",
+        "beforeAlt": "sebuah set ikon biru",
+        "afterAlt": "sebuah set ikon merah"
+      },
+      "example3": {
+        "title": "ganti warna dengan transparan",
+        "description": "mendukung menggantikan warna dengan transparan.",
+        "beforeAlt": "gambar avatar dengan latar belakang kuning",
+        "afterAlt": "gambar avatar dengan latar belakang transparan"
+      }
+    },
+    "Metadata": {
+      "title": "Ganti Warna - Alat Penggantian Warna Gambar Online Gratis",
+      "titleTemplate": "%s | Ganti Warna - Editor Warna Gambar",
+      "description": "Alat online gratis untuk penggantian warna gambar yang presisi. Gantilah beberapa warna secara bersamaan, proses gambar batch, dan pertahankan kualitas gambar. Tidak perlu mengunggah - proses langsung di browser.",
+      "keywords": "ganti warna, editor warna gambar, alat penggantian warna, pengolahan gambar batch, penggantian warna gambar, alat pertukaran warna, pengeditan gambar, alat desain",
+      "locale": "id_ID",
+      "ogTitle": "Ganti Warna - Alat Penggantian Warna Gambar Online Gratis",
+      "ogDescription": "Ubah gambar Anda dengan alat penggantian warna yang kuat kami. Gantilah beberapa warna, proses gambar batch, dan pertahankan kualitas. Tidak perlu mengunggah - semua proses terjadi di browser Anda.",
+      "ogImageAlt": "Antarmuka Alat Ganti Warna",
+      "twitterTitle": "Ganti Warna - Alat Penggantian Warna Gambar Online Gratis",
+      "twitterDescription": "Ubah gambar Anda dengan alat penggantian warna yang kuat kami. Gantilah beberapa warna, proses gambar batch, dan pertahankan kualitas."
+    },
+    "ImageProcessor": {
+      "dropToUpload": "Tarik dan unggah gambar",
+      "dragAndDrop": "Tarik dan unggah gambar di sini, atau klik untuk mengunggah",
+      "supportedFormats": "Mendukung format PNG, JPG, JPEG, GIF, WEBP, maksimum 5MB per file",
+      "error": {
+        "fileTooLarge": "File terlalu besar, silakan unggah gambar di bawah 5MB",
+        "invalidFormat": "Silakan unggah file format gambar yang valid",
+        "canvasContext": "Tidak dapat membuat konteks canvas",
+        "noFilesUploaded": "Tidak ada gambar yang diunggah"
+      }
+    }
+  }

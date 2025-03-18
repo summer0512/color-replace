@@ -1,0 +1,125 @@
+{
+  "HomePage": {
+    "title": "Afbeelding Kleurvervanging Tool - Gratis Online Kleur Editor",
+    "originalImages": "Originele Afbeeldingen",
+    "processedImages": "Verwerkte Afbeeldingen",
+    "previewButton": "Voorvertoning",
+    "downloadButton": "Downloaden",
+    "description": "Professionele online tool voor het vervangen van afbeeldingskleuren. Vervang meerdere kleuren tegelijk, verwerk afbeeldingen in batch en behoud de beeldkwaliteit. Lokale verwerking in de browser zonder upload nodig. Ideaal voor ontwerpers, e-commerce verkopers en marketingprofessionals.",
+    "keywords": "afbeelding kleur wijzigen,online foto bewerken,kleur vervangen,batch afbeeldingen,gratis afbeeldingseditor,photoshop online,achtergrond verwijderen,grafisch ontwerp,foto bewerking,ontwerp tools"
+  },
+  "Header": {
+    "title": "Kleur Vervangen",
+    "subtitle": "Professionele Online Afbeelding Kleurvervanging Tool",
+    "home": "Home",
+    "settings": "Instellingen",
+    "about": "Over"
+  },
+  "ColorReplaceSettings": {
+    "title": "Kleurvervanging Instellingen",
+    "addColorPair": "Kleurpaar Toevoegen",
+    "colorPairTitle": "Kleurpaar #{id}",
+    "removeColorPair": "Verwijder dit kleurpaar",
+    "sourceColor": "Bronkleur",
+    "targetColor": "Doelkleur",
+    "toleranceLabel": "Kleur Overeenkomst Tolerantie: {value}%",
+    "emptyState": "Geen kleurvervangingsregels. Klik op \"Kleurpaar Toevoegen\" om te beginnen",
+    "toleranceTitle": "Kleur Overeenkomst Tolerantie",
+    "toleranceLow": "Exact",
+    "toleranceHigh": "Vergelijkbaar",
+    "replace": "Vervangen",
+    "download": "Downloaden",
+    "clearFiles": "Afbeeldingen wissen"
+  },
+  "ColorPicker": {
+    "transparent": "transparant",
+    "useTransparent": "Gebruik transparant",
+    "useColor": "Gebruik kleur"
+  },
+  "EyeDropper": {
+    "tooltip": "Gebruik kleurkiezer"
+  },
+  "ToolDescription": {
+    "title": "Gratis Online Afbeelding Kleurvervanging Tool",
+    "mainDescription": "Verander uw afbeeldingen in een oogwenk met onze professionele kleurvervangingstool. Perfect voor designers, marketeers en content creators die afbeeldingskleuren snel en efficiënt moeten wijzigen. Of u nu productvarianten maakt, merkkleuren aanpast of ontwerpoplossingen experimenteert, onze tool biedt nauwkeurige kleurmanipulatie terwijl de afbeeldingskwaliteit behouden blijft - alles rechtstreeks in uw browser, zonder upload vereist.",
+    "features": {
+      "title": "Professionele functies voor afbeeldingskleurbedit",
+      "feature1": {
+        "title": "Slimme kleurvervangingstechnologie",
+        "description": "Vervang elke kleur in uw afbeeldingen met pixel-perfecte nauwkeurigheid. Onze geavanceerde kleurmatchingsalgoritme zorgt voor soepele overgangen en professioneel ogende resultaten, perfect voor productfoto's en ontwerpassets."
+      },
+      "feature2": {
+        "title": "Meerkleurige vervanging",
+        "description": "Bespaar tijd door meerdere kleuren tegelijk te vervangen. Ideaal voor merkkleurupdates, themawijzigingen en het maken van productvarianten. Voeg meerdere kleurparen toe om hele kleurenschema's tegelijk te transformeren."
+      },
+      "feature3": {
+        "title": "Efficiënte batchverwerking",
+        "description": "Verwerk meerdere afbeeldingen tegelijk met onze krachtige batchverwerkingsfunctie. Perfect voor e-commerce-productfoto's, marketingmateriaal en grote ontwerpprojecten. Bespaar uren handmatige bewerkingstijd."
+      },
+      "feature4": {
+        "title": "Professionele kleurselectietools",
+        "description": "Gebruik onze precieze pipet om exacte kleuren uit uw afbeeldingen te kiezen. Compatibel met hex-codes en RGB-waarden, waardoor het gemakkelijk is om uw merkkleuren perfect te matchen."
+      },
+      "feature5": {
+        "title": "Geavanceerde kleurmatchingscontroles",
+        "description": "Stel uw kleurvervangingen nauwkeurig in met onze intelligente gelijkeniscontroles. Perfect voor het omgaan met gradients, schaduwen en complexe kleurvariaties terwijl natuurlijk ogende resultaten behouden blijven."
+      },
+      "feature6": {
+        "title": "Beveiligde lokale verwerking",
+        "description": "Ervaar snelle, beveiligde afbeeldingsverwerking rechtstreeks in uw browser. Geen bestandupload nodig - uw afbeeldingen verlaten uw apparaat nooit, waardoor complete privacy en directe resultaten worden gegarandeerd."
+      }
+    },
+    "privacyTitle": "100% Privé & Beveiligd",
+    "privacyDescription": "Uw privacy en gegevensbeveiliging zijn onze topprioriteit. In tegenstelling tot andere online tools werkt onze afbeeldingsprocessor volledig in uw browser - uw afbeeldingen worden nooit naar een server geüpload. Werk vertrouwd in de wetenschap dat uw gevoelige ontwerpassets privé en beveiligd op uw apparaat blijven."
+  },
+  "UsageExamples": {
+    "title": "Gebruiksfoto's",
+    "description": "Hier zijn enkele voorbeelden van hoe u de kleurvervangingstool kunt gebruiken:",
+    "before": "Voor",
+    "after": "Na",
+    "settingsTitle": "Kleurinstellingen",
+    "tolerance": "Tolerantie",
+    "loadExample": "Voorbeeld laden",
+    "example1": {
+      "title": "Meerdere kleurpaarinstellingen",
+      "description": "Vervang meerdere kleuren tegelijk door meerdere kleurparen toe te voegen.",
+      "beforeAlt": "Lege staat illustratie met rode kleurenschema",
+      "afterAlt": "Lege staat illustratie met blauwe kleurenschema"
+    },
+    "example2": {
+      "title": "Batchafbeeldingsverwerking",
+      "description": "Verwerk meerdere afbeeldingen tegelijk voor efficiënte batchverwerking.",
+      "beforeAlt": "Een set blauwe pictogrammen",
+      "afterAlt": "Een set rode pictogrammen"
+    },
+    "example3": {
+      "title": "Kleur vervangen door transparant",
+      "description": "Ondersteunt het vervangen van kleur door transparant.",
+      "beforeAlt": "Avatar-afbeelding met gele achtergrond",
+      "afterAlt": "Avatar-afbeelding met transparante achtergrond"
+    }
+  },
+  "Metadata": {
+    "title": "Kleur Vervangen - Gratis Online Afbeelding Kleurvervanging Tool",
+    "titleTemplate": "%s | Kleur Vervangen - Afbeelding Kleur Editor",
+    "description": "Gratis online tool voor nauwkeurige afbeeldingskleurvervanging. Vervang meerdere kleuren tegelijk, verwerk batchafbeeldingen en behoud afbeeldingskwaliteit. Geen upload vereist - verwerk lokaal in browser.",
+    "keywords": "kleur vervangen, afbeelding kleur editor, kleurvervangingstool, batchafbeeldingsverwerking, afbeeldingskleurwijzigen, kleurwisseltol, afbeeldingsbewerking, ontwerptool",
+    "locale": "nl_NL",
+    "ogTitle": "Kleur Vervangen - Gratis Online Afbeelding Kleurvervanging Tool",
+    "ogDescription": "Verander uw afbeeldingen met onze krachtige kleurvervangingstool. Vervang meerdere kleuren, verwerk batchafbeeldingen en behoud kwaliteit. Geen upload nodig - alle verwerking gebeurt in uw browser.",
+    "ogImageAlt": "Kleur Vervangen Tool Interface",
+    "twitterTitle": "Kleur Vervangen - Gratis Online Afbeelding Kleurvervanging Tool",
+    "twitterDescription": "Verander uw afbeeldingen met onze krachtige kleurvervangingstool. Vervang meerdere kleuren, verwerk batchafbeeldingen en behoud kwaliteit."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Laat vallen om afbeeldingen te uploaden",
+    "dragAndDrop": "Sleep afbeeldingen hierheen of klik om te uploaden",
+    "supportedFormats": "Ondersteunt PNG, JPG, JPEG, GIF, WEBP-formats, max 5MB per bestand",
+    "error": {
+      "fileTooLarge": "Bestand te groot, upload afbeeldingen onder 5MB",
+      "invalidFormat": "Upload geldige afbeeldingsformaatbestanden",
+      "canvasContext": "Kan canvascontext niet maken",
+      "noFilesUploaded": "Geen afbeeldingen geüpload"
+    }
+  }
+}

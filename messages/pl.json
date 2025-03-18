@@ -1,0 +1,125 @@
+{
+    "HomePage": {
+      "title": "Narzędzie do Zamiany Kolorów Obrazów - Darmowy Edytor Kolorów Online",
+      "originalImages": "Oryginalne Obrazy",
+      "processedImages": "Przetworzone Obrazy",
+      "previewButton": "Podgląd",
+      "downloadButton": "Pobierz",
+      "description": "Profesjonalne narzędzie online do zamiany kolorów w obrazach. Zamień wiele kolorów jednocześnie, przetwarzaj obrazy wsadowo i zachowaj jakość obrazu. Lokalne przetwarzanie w przeglądarce bez przesyłania. Idealne dla projektantów, sprzedawców e-commerce i specjalistów od marketingu.",
+      "keywords": "zmiana koloru obrazu,edytor zdjęć online,zamiana kolorów,przetwarzanie wsadowe,darmowy edytor obrazów,photoshop online,usuwanie tła,projekt graficzny,edycja zdjęć,narzędzia projektowe"
+    },
+    "Header": {
+      "title": "Zamiana Kolorów",
+      "subtitle": "Profesjonalne Narzędzie do Zamiany Kolorów Obrazów Online",
+      "home": "Strona Główna",
+      "settings": "Ustawienia",
+      "about": "O Nas"
+    },
+    "ColorReplaceSettings": {
+      "title": "Ustawienia Zamiany Kolorów",
+      "addColorPair": "Dodaj Parę Kolorów",
+      "colorPairTitle": "Para Kolorów #{id}",
+      "removeColorPair": "Usuń tę parę kolorów",
+      "sourceColor": "Kolor Źródłowy",
+      "targetColor": "Kolor Docelowy",
+      "toleranceLabel": "Tolerancja Dopasowania Kolorów: {value}%",
+      "emptyState": "Brak reguł zamiany kolorów. Kliknij \"Dodaj Parę Kolorów\", aby rozpocząć",
+      "toleranceTitle": "Tolerancja Dopasowania Kolorów",
+      "toleranceLow": "Dokładny",
+      "toleranceHigh": "Podobny",
+      "replace": "Zamień",
+      "download": "Pobierz",
+      "clearFiles": "Wyczyść obrazy"
+    },
+    "ColorPicker": {
+      "transparent": "transparencki",
+      "useTransparent": "Użyj transparencki",
+      "useColor": "Użyj kolor"
+    },
+    "EyeDropper": {
+      "tooltip": "Użyj wybranego koloru"
+    },
+    "ToolDescription": {
+      "title": "Darmowe Narzędzie Online do Zamiany Kolorów Obrazów",
+      "mainDescription": "Natychmiast przekształć swoje obrazy za pomocą naszego profesjonalnego narzędzia do zamiany kolorów. Idealne dla projektantów, marketerów i twórców treści, którzy potrzebują szybko i wydajnie zmieniać kolory obrazów. Niezależnie od tego, czy tworzysz warianty produktów, dostosowujesz kolory marki lub eksperymentujesz z opcjami projektowymi, nasze narzędzie zapewnia precyzyjną manipulację kolorami przy jednoczesnym zachowaniu jakości obrazu - wszystko bezpośrednio w przeglądarce, bez konieczności przesyłania plików.",
+      "features": {
+        "title": "Profesjonalne Funkcje Edycji Kolorów Obrazów",
+        "feature1": {
+          "title": "Inteligentna Technologia Zamiany Kolorów",
+          "description": "Zamień dowolny kolor w obrazach z precyzją do poziomu piksela. Nasz zaawansowany algorytm dopasowywania kolorów zapewnia płynne przejścia i profesjonalnie wyglądające rezultaty, idealnie nadające się do zdjęć produktów i zasobów projektowych."
+        },
+        "feature2": {
+          "title": "Zamiana Wielu Kolorów",
+          "description": "Oszczędzaj czas, zamieniając wiele kolorów jednocześnie. Idealne do aktualizacji kolorów marki, zmian motywów i tworzenia wariantów produktów. Dodaj wiele par kolorów, aby jednocześnie przekształcić całe schematy kolorystyczne."
+        },
+        "feature3": {
+          "title": "Wydajna Przetwarzanie Wsadowe",
+          "description": "Przetwarzaj wiele obrazów jednocześnie za pomocą naszej potężnej funkcji przetwarzania wsadowego. Idealne dla zdjęć produktów e-commerce, materiałów marketingowych i dużych projektów. Zaoszczędź godziny ręcznej edycji."
+        },
+        "feature4": {
+          "title": "Profesjonalne Narzędzia Wyboru Kolorów",
+          "description": "Użyj naszego precyzyjnego narzędzia kroplomierza, aby wybrać dokładne kolory z obrazów. Kompatybilne z kodami hex i wartościami RGB, co ułatwia idealne dopasowanie kolorów marki."
+        },
+        "feature5": {
+          "title": "Zaawansowane Kontrole Dopasowywania Kolorów",
+          "description": "Precyzyjnie dostosuj zamiany kolorów za pomocą naszych inteligentnych kontroli podobieństwa. Idealne do obsługi gradientów, cieni i złożonych zmian kolorów przy jednoczesnym zachowaniu naturalnie wyglądających rezultatów."
+        },
+        "feature6": {
+          "title": "Bezpieczne Przetwarzanie Lokalne",
+          "description": "Doświadcz szybkiego, bezpiecznego przetwarzania obrazów bezpośrednio w przeglądarce. Bez konieczności przesyłania plików - Twoje obrazy nigdy nie opuszczają Twojego urządzenia, zapewniając całkowitą prywatność i natychmiastowe rezultaty."
+        }
+      },
+      "privacyTitle": "100% Prywatne i Bezpieczne",
+      "privacyDescription": "Twoja prywatność i bezpieczeństwo danych są naszym najwyższym priorytetem. W przeciwieństwie do innych narzędzi online, nasz procesor obrazów działa całkowicie w Twojej przeglądarce - Twoje obrazy nigdy nie są przesyłane na żaden serwer. Pracuj pewnie, wiedząc, że Twoje wrażliwe zasoby projektowe pozostają prywatne i bezpieczne na Twoim urządzeniu."
+    },
+    "UsageExamples": {
+      "title": "Przykłady Użycia",
+      "description": "Oto kilka przykładów, jak używać narzędzia do zamiany kolorów:",
+      "before": "Przed",
+      "after": "Po",
+      "settingsTitle": "Ustawienia Kolorów",
+      "tolerance": "Tolerancja",
+      "loadExample": "Załaduj Przykład",
+      "example1": {
+        "title": "Ustawienia Wielu Par Kolorów",
+        "description": "Zamień wiele kolorów jednocześnie, dodając wiele par kolorów.",
+        "beforeAlt": "Ilustracja stanu pustego z czerwonym schematem kolorów",
+        "afterAlt": "Ilustracja stanu pustego z niebieskim schematem kolorów"
+      },
+      "example2": {
+        "title": "Przetwarzanie Wsadowe Obrazów",
+        "description": "Przetwarzaj wiele obrazów jednocześnie dla wydajnego przetwarzania wsadowego.",
+        "beforeAlt": "Zestaw niebieskich ikon",
+        "afterAlt": "Zestaw czerwonych ikon"
+      },
+      "example3": {
+        "title": "Zamiana Koloru na Przezroczysty",
+        "description": "Obsługa zamiany koloru na przezroczysty.",
+        "beforeAlt": "Obraz awatara z żółtym tłem",
+        "afterAlt": "Obraz awatara z przezroczystym tłem"
+      }
+    },
+    "Metadata": {
+      "title": "Zamiana Kolorów - Darmowe Narzędzie Online do Zamiany Kolorów Obrazów",
+      "titleTemplate": "%s | Zamiana Kolorów - Edytor Kolorów Obrazów",
+      "description": "Darmowe narzędzie online do precyzyjnej zamiany kolorów obrazów. Zamień wiele kolorów jednocześnie, przetwarzaj obrazy wsadowo i zachowaj jakość obrazu. Bez konieczności przesyłania - przetwarzaj lokalnie w przeglądarce.",
+      "keywords": "zamiana kolorów, edytor kolorów obrazów, narzędzie do zamiany kolorów, przetwarzanie wsadowe obrazów, zmiana koloru obrazu, narzędzie do zamiany kolorów, edycja obrazów, narzędzie projektowe",
+      "locale": "pl_PL",
+      "ogTitle": "Zamiana Kolorów - Darmowe Narzędzie Online do Zamiany Kolorów Obrazów",
+      "ogDescription": "Przekształć swoje obrazy za pomocą naszego potężnego narzędzia do zamiany kolorów. Zamień wiele kolorów, przetwarzaj obrazy wsadowo i zachowaj jakość. Bez konieczności przesyłania - całe przetwarzanie odbywa się w Twojej przeglądarce.",
+      "ogImageAlt": "Interfejs Narzędzia Zamiany Kolorów",
+      "twitterTitle": "Zamiana Kolorów - Darmowe Narzędzie Online do Zamiany Kolorów Obrazów",
+      "twitterDescription": "Przekształć swoje obrazy za pomocą naszego potężnego narzędzia do zamiany kolorów. Zamień wiele kolorów, przetwarzaj obrazy wsadowo i zachowaj jakość."
+    },
+    "ImageProcessor": {
+      "dropToUpload": "Upuść, aby przesłać obrazy",
+      "dragAndDrop": "Przeciągnij i upuść obrazy tutaj lub kliknij, aby przesłać",
+      "supportedFormats": "Obsługuje formaty PNG, JPG, JPEG, GIF, WEBP, maks. 5MB na plik",
+      "error": {
+        "fileTooLarge": "Plik jest za duży, prześlij obrazy o rozmiarze poniżej 5MB",
+        "invalidFormat": "Prześlij pliki obrazów w prawidłowym formacie",
+        "canvasContext": "Nie mogłem utworzyć kontekstu płótna",
+        "noFilesUploaded": "Nie przesłano żadnych obrazów"
+      }
+    }
+  }

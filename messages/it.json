@@ -1,0 +1,133 @@
+{
+    "HomePage": {
+      "title": "Strumento di Sostituzione Colore Immagine - Editor Colori Online Gratuito",
+      "originalImages": "Immagini Originali",
+      "processedImages": "Immagini Elaborate",
+      "previewButton": "Anteprima",
+      "downloadButton": "Scarica",
+      "description": "Strumento professionale online per la sostituzione dei colori nelle immagini. Sostituisci più colori contemporaneamente, elabora immagini in batch e mantieni la qualità originale. Elaborazione locale nel browser senza caricamenti. Ideale per designer, venditori e-commerce e professionisti del marketing.",
+      "keywords": "modifica colore immagine,editor foto online,sostituzione colori,elaborazione immagini,editor immagini gratuito,photoshop online,rimuovi sfondo,design grafico,modifica foto,strumenti di design"
+    },
+    "Header": {
+      "title": "Sostituisci Colore",
+      "subtitle": "Strumento Professionale Online per la Sostituzione Colore Immagine",
+      "home": "Home",
+      "settings": "Impostazioni",
+      "about": "Informazioni"
+    },
+    "ColorReplaceSettings": {
+      "title": "Impostazioni Sostituzione Colore",
+      "addColorPair": "Aggiungi Coppia di Colori",
+      "colorPairTitle": "Coppia di Colori #{id}",
+      "removeColorPair": "Rimuovi questa coppia di colori",
+      "sourceColor": "Colore Sorgente",
+      "targetColor": "Colore Destinazione",
+      "toleranceLabel": "Tolleranza Corrispondenza Colore: {value}%",
+      "emptyState": "Nessuna regola di sostituzione colore. Fai clic su \"Aggiungi Coppia di Colori\" per iniziare",
+      "toleranceTitle": "Tolleranza Corrispondenza Colore",
+      "toleranceLow": "Esatto",
+      "toleranceHigh": "Simile",
+      "replace": "Sostituisci",
+      "download": "Scarica",
+      "clearFiles": "Cancella immagini"
+    },
+    "ColorPicker": {
+      "transparent": "trasparente",
+      "useTransparent": "Usa trasparente",
+      "useColor": "Usa colore"
+    },
+    "EyeDropper": {
+      "tooltip": "Usa selettore colore"
+    },
+    "ToolDescription": {
+      "title": "Strumento Gratuito Online per la Sostituzione Colore Immagine",
+      "mainDescription": "Trasforma istantaneamente le tue immagini con il nostro strumento professionale di sostituzione colore. Perfetto per designer, esperti di marketing e creatori di contenuti che necessitano di modificare rapidamente ed efficacemente i colori delle immagini. Che tu stia creando varianti di prodotti, modificando i colori del marchio o sperimentando con opzioni di design, il nostro strumento offre una manipolazione precisa dei colori preservando la qualità dell'immagine - tutto direttamente nel tuo browser, senza bisogno di caricamenti.",
+      "features": {
+        "title": "Funzionalità Professionali per la Modifica Colore Immagine",
+        "feature1": {
+          "title": "Tecnologia Intelligente di Sostituzione Colore",
+          "description": "Sostituisci qualsiasi colore nelle tue immagini con precisione pixel-perfect. Il nostro algoritmo avanzato di corrispondenza colore garantisce transizioni uniformi e risultati professionali, perfetto per foto di prodotti e risorse grafiche."
+        },
+        "feature2": {
+          "title": "Sostituzione Multi-Colore",
+          "description": "Risparmia tempo sostituendo più colori simultaneamente. Ideale per aggiornamenti dei colori del marchio, cambi di tema e creazione di varianti di prodotti. Aggiungi più coppie di colori per trasformare l'intera gamma cromatica in una volta."
+        },
+        "feature3": {
+          "title": "Elaborazione Batch Efficiente",
+          "description": "Elabora più immagini contemporaneamente con la nostra potente funzione di elaborazione batch. Perfetto per foto di prodotti e-commerce, materiali di marketing e grandi progetti di design. Risparmia ore di editing manuale."
+        },
+        "feature4": {
+          "title": "Strumenti Professionali di Selezione Colore",
+          "description": "Utilizza il nostro preciso strumento di selezione colore per prelevare colori esatti dalle tue immagini. Compatibile con codici esadecimali e valori RGB, rendendo facile abbinare perfettamente i colori del tuo marchio."
+        },
+        "feature5": {
+          "title": "Controlli Avanzati di Corrispondenza Colore",
+          "description": "Ottimizza le tue sostituzioni di colore con i nostri intelligenti controlli di somiglianza. Perfetto per gestire sfumature, ombre e variazioni di colore complesse, mantenendo risultati dall'aspetto naturale."
+        },
+        "feature6": {
+          "title": "Elaborazione Locale Sicura",
+          "description": "Sperimenta un'elaborazione di immagini veloce e sicura direttamente nel tuo browser. Nessun caricamento di file necessario - le tue immagini non lasciano mai il tuo dispositivo, garantendo privacy completa e risultati istantanei."
+        }
+      },
+      "privacyTitle": "100% Privato e Sicuro",
+      "privacyDescription": "La tua privacy e la sicurezza dei dati sono la nostra massima priorità. A differenza di altri strumenti online, il nostro processore di immagini funziona interamente nel tuo browser - le tue immagini non vengono mai caricate su alcun server. Lavora con fiducia, sapendo che i tuoi preziosi asset di design rimangono privati e sicuri sul tuo dispositivo."
+    },
+    "UsageExamples": {
+      "title": "Esempi di Utilizzo",
+      "description": "Ecco alcuni esempi di come utilizzare lo strumento di sostituzione colore:",
+      "before": "Prima",
+      "after": "Dopo",
+      "settingsTitle": "Impostazioni Colore",
+      "tolerance": "Tolleranza",
+      "loadExample": "Carica Esempio",
+      "example1": {
+        "title": "Impostazioni Coppia di Colori Multiple",
+        "description": "Sostituisci più colori contemporaneamente aggiungendo più coppie di colori.",
+        "beforeAlt": "Illustrazione stato vuoto con schema colori rosso",
+        "afterAlt": "Illustrazione stato vuoto con schema colori blu"
+      },
+      "example2": {
+        "title": "Elaborazione Batch di Immagini",
+        "description": "Elabora più immagini contemporaneamente per un'elaborazione batch efficiente.",
+        "beforeAlt": "un set di icone blu",
+        "afterAlt": "un set di icone rosse"
+      },
+      "example3": {
+        "title": "sostituisci colore con trasparente",
+        "description": "supporta la sostituzione del colore con trasparente.",
+        "beforeAlt": "immagine avatar con sfondo giallo",
+        "afterAlt": "immagine avatar con sfondo trasparente"
+      }
+    },
+    "Metadata": {
+      "title": "Strumento Gratuito di Sostituzione Colore Immagine - Modifica Colori Online",
+      "description": "Sostituisci e modifica i colori delle immagini istantaneamente con il nostro strumento online professionale. Elaborazione pixel-perfect, supporto multi-colore, elaborazione batch e selezione precisa del colore. Nessun caricamento richiesto, 100% privato.",
+      "keywords": [
+        "sostituzione colore",
+        "modifica colore immagine",
+        "strumento colore online",
+        "cambio colore",
+        "editor colore",
+        "sostituzione colore pixel",
+        "elaborazione batch immagini",
+        "strumento colore gratuito",
+        "editor immagini online",
+        "modifica colore professionale"
+      ],
+      "ogTitle": "Strumento di Sostituzione Colore Immagine - Modifica Colori Facilmente",
+      "ogDescription": "Trasforma le tue immagini con il nostro strumento di sostituzione colore. Sostituisci, modifica e personalizza i colori con precisione professionale. Nessun caricamento, 100% privato.",
+      "twitterTitle": "Strumento di Sostituzione Colore Immagine - Modifica Colori Istantaneamente",
+      "twitterDescription": "Sostituisci e personalizza i colori delle immagini con il nostro strumento online. Elaborazione pixel-perfect, multi-colore, batch e privata. Nessun caricamento richiesto!"
+    },
+    "ImageProcessor": {
+      "dropToUpload": "Trascina per caricare immagini",
+      "dragAndDrop": "Trascina e rilascia le immagini qui",
+      "supportedFormats": "Supporta formati PNG, JPG, JPEG, GIF, WEBP, max 5MB per file",
+      "uploadError": {
+        "fileType": "Tipo di file non supportato. Carica solo immagini JPG, PNG o WebP.",
+        "fileSize": "Dimensione file troppo grande. Il limite massimo è di 10 MB.",
+        "processingError": "Errore durante l'elaborazione dell'immagine. Riprova o carica un'altra immagine.",
+        "noFilesUploaded": "Nessuna immagine caricata"
+      }
+    }
+  }

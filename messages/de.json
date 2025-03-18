@@ -1,0 +1,125 @@
+{
+    "HomePage": {
+      "title": "Bild-Farbersetzungstool - Kostenloser Online-Farbeditor",
+      "originalImages": "Originalbilder",
+      "processedImages": "Bearbeitete Bilder",
+      "previewButton": "Vorschau",
+      "downloadButton": "Herunterladen",
+      "description": "Professionelles Online-Tool für Bild-Farbersetzung. Ersetzen Sie mehrere Farben gleichzeitig, verarbeiten Sie Bilder im Stapel und behalten Sie die Bildqualität bei. Keine Uploads erforderlich - lokale Verarbeitung im Browser. Ideal für Designer, E-Commerce-Händler und Marketing-Profis.",
+      "keywords": "Bildfarben ändern,Online Bildbearbeitung,Farbersetzung,Stapelverarbeitung Bilder,Farbwechsel Tool,Kostenloser Bildeditor,Photoshop Alternative,Hintergrund entfernen,Bilddesign,Grafikbearbeitung Online"
+    },
+    "Header": {
+      "title": "Farbe Ersetzen",
+      "subtitle": "Professionelles Online-Bild-Farbersetzungstool",
+      "home": "Startseite",
+      "settings": "Einstellungen",
+      "about": "Über"
+    },
+    "ColorReplaceSettings": {
+      "title": "Farbersetzungseinstellungen",
+      "addColorPair": "Farbpaar hinzufügen",
+      "colorPairTitle": "Farbpaar #{id}",
+      "removeColorPair": "Dieses Farbpaar entfernen",
+      "sourceColor": "Ausgangsfarbe",
+      "targetColor": "Zielfarbe",
+      "toleranceLabel": "Farbübereinstimmungstoleranz: {value}%",
+      "emptyState": "Keine Farbersetzungsregeln. Klicken Sie auf \"Farbpaar hinzufügen\", um zu beginnen",
+      "toleranceTitle": "Farbübereinstimmungstoleranz",
+      "toleranceLow": "Exakt",
+      "toleranceHigh": "Ähnlich",
+      "replace": "Ersetzen",
+      "download": "Herunterladen",
+      "clearFiles": "Bilder löschen"
+    },
+    "ColorPicker": {
+      "transparent": "transparent",
+      "useTransparent": "Transparent verwenden",
+      "useColor": "Farbe verwenden"
+    },
+    "EyeDropper": {
+      "tooltip": "Farbauswahl verwenden"
+    },
+    "ToolDescription": {
+      "title": "Kostenloses Online-Bild-Farbersetzungstool",
+      "mainDescription": "Verwandeln Sie Ihre Bilder sofort mit unserem professionellen Farbersetzungstool. Perfekt für Designer, Vermarkter und Content-Ersteller, die Bildfarben schnell und effizient ändern müssen. Ob Sie Produktvarianten erstellen, Markenfarben anpassen oder Designoptionen ausprobieren - unser Tool bietet präzise Farbmanipulation bei Erhalt der Bildqualität - alles direkt im Browser, ohne Dateiupload.",
+      "features": {
+        "title": "Professionelle Funktionen für Bildfarbbearbeitung",
+        "feature1": {
+          "title": "Intelligente Farbersetzungstechnologie",
+          "description": "Ersetzen Sie beliebige Farben in Ihren Bildern mit pixelgenauer Präzision. Unser fortschrittlicher Farbabgleichalgorithmus gewährleistet sanfte Übergänge und professionelle Ergebnisse, ideal für Produktfotos und Designressourcen."
+        },
+        "feature2": {
+          "title": "Mehrfache Farbersetzung",
+          "description": "Sparen Sie Zeit durch gleichzeitiges Ersetzen mehrerer Farben. Ideal für Markenfarbaktualisierungen, Themenänderungen und Produktvariationen. Fügen Sie mehrere Farbpaare hinzu, um ganze Farbschemata auf einmal zu transformieren."
+        },
+        "feature3": {
+          "title": "Effiziente Stapelverarbeitung",
+          "description": "Verarbeiten Sie mehrere Bilder gleichzeitig mit unserer leistungsstarken Stapelverarbeitungsfunktion. Perfekt für E-Commerce-Produktfotos, Marketingmaterialien und große Designprojekte. Sparen Sie Stunden manueller Bearbeitungszeit."
+        },
+        "feature4": {
+          "title": "Professionelle Farbauswahl-Tools",
+          "description": "Verwenden Sie unser präzises Farbpipetten-Tool, um exakte Farben aus Ihren Bildern auszuwählen. Kompatibel mit Hex-Codes und RGB-Werten, um Ihre Markenfarben perfekt zu treffen."
+        },
+        "feature5": {
+          "title": "Erweiterte Farbabgleichssteuerung",
+          "description": "Optimieren Sie Ihre Farbersetzungen mit unseren intelligenten Ähnlichkeitskontrollen. Perfekt für Farbverläufe, Schatten und komplexe Farbvariationen bei Erhalt natürlich wirkender Ergebnisse."
+        },
+        "feature6": {
+          "title": "Sichere lokale Verarbeitung",
+          "description": "Erleben Sie schnelle, sichere Bildverarbeitung direkt in Ihrem Browser. Kein Dateiupload erforderlich - Ihre Bilder verlassen niemals Ihr Gerät und gewährleisten vollständige Privatsphäre und sofortige Ergebnisse."
+        }
+      },
+      "privacyTitle": "100% Privat & Sicher",
+      "privacyDescription": "Ihre Privatsphäre und Datensicherheit haben für uns höchste Priorität. Anders als andere Online-Tools arbeitet unser Bildprozessor vollständig in Ihrem Browser - Ihre Bilder werden niemals auf einen Server hochgeladen. Arbeiten Sie mit dem Wissen, dass Ihre sensiblen Designressourcen privat und sicher auf Ihrem Gerät bleiben."
+    },
+    "UsageExamples": {
+      "title": "Verwendungsbeispiele",
+      "description": "Hier sind einige Beispiele zur Nutzung des Farbersetzungstools:",
+      "before": "Vorher",
+      "after": "Nachher",
+      "settingsTitle": "Farbeinstellungen",
+      "tolerance": "Toleranz",
+      "loadExample": "Beispiel laden",
+      "example1": {
+        "title": "Mehrere Farbpaar-Einstellungen",
+        "description": "Ersetzen Sie mehrere Farben gleichzeitig, indem Sie mehrere Farbpaare hinzufügen.",
+        "beforeAlt": "Leerzustandsillustration mit rotem Farbschema",
+        "afterAlt": "Leerzustandsillustration mit blauem Farbschema"
+      },
+      "example2": {
+        "title": "Stapelbildverarbeitung",
+        "description": "Verarbeiten Sie mehrere Bilder gleichzeitig für effiziente Stapelverarbeitung.",
+        "beforeAlt": "Eine Reihe blauer Symbole",
+        "afterAlt": "Eine Reihe roter Symbole"
+      },
+      "example3": {
+        "title": "Farbe durch Transparent ersetzen",
+        "description": "Unterstützt das Ersetzen von Farben durch Transparent.",
+        "beforeAlt": "Avatar-Bild mit gelbem Hintergrund",
+        "afterAlt": "Avatar-Bild mit transparentem Hintergrund"
+      }
+    },
+    "Metadata": {
+      "title": "Farbe Ersetzen - Kostenloser Online-Bild-Farbersetzungstool",
+      "titleTemplate": "%s | Farbe Ersetzen - Bild-Farbeditor",
+      "description": "Kostenloser Online-Tool zur präzisen Bild-Farbersetzung. Ersetzen Sie mehrere Farben gleichzeitig, verarbeiten Sie Bilder im Stapel und erhalten Sie die Bildqualität. Kein Upload erforderlich - Verarbeitung lokal im Browser.",
+      "keywords": "Farbe ersetzen, Bild-Farbeditor, Farbersetzungstool, Stapel-Bildverarbeitung, Bild-Farbwechsel, Farbwechsel-Tool, Bildbearbeitung, Designtool",
+      "locale": "de_DE",
+      "ogTitle": "Farbe Ersetzen - Kostenloser Online-Bild-Farbersetzungstool",
+      "ogDescription": "Verwandeln Sie Ihre Bilder mit unserem leistungsstarken Farbersetzungstool. Ersetzen Sie mehrere Farben, verarbeiten Sie Bilder im Stapel und erhalten Sie die Qualität. Kein Upload nötig - gesamte Verarbeitung im Browser.",
+      "ogImageAlt": "Farbe Ersetzen Tool-Schnittstelle",
+      "twitterTitle": "Farbe Ersetzen - Kostenloser Online-Bild-Farbersetzungstool",
+      "twitterDescription": "Verwandeln Sie Ihre Bilder mit unserem leistungsstarken Farbersetzungstool. Ersetzen Sie mehrere Farben, verarbeiten Sie Bilder im Stapel und erhalten Sie die Qualität."
+    },
+    "ImageProcessor": {
+      "dropToUpload": "Bilder zum Hochladen ablegen",
+      "dragAndDrop": "Bilder hierher ziehen und ablegen oder zum Hochladen klicken",
+      "supportedFormats": "Unterstützt PNG, JPG, JPEG, GIF, WEBP-Formate, max. 5 MB pro Datei",
+      "error": {
+        "fileTooLarge": "Datei zu groß, bitte Bilder unter 5 MB hochladen",
+        "invalidFormat": "Bitte Bilddateien in gültigem Format hochladen",
+        "canvasContext": "Canvas-Kontext konnte nicht erstellt werden",
+        "noFilesUploaded": "Keine Bilder hochgeladen"
+      }
+    }
+  }

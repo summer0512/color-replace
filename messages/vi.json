@@ -1,0 +1,134 @@
+{
+  "HomePage": {
+    "title": "Công Cụ Thay Đổi Màu Ảnh - Trình Chỉnh Sửa Màu Trực Tuyến Miễn Phí",
+    "originalImages": "Ảnh Gốc",
+    "processedImages": "Ảnh Đã Xử Lý",
+    "previewButton": "Xem Trước",
+    "downloadButton": "Tải Xuống",
+    "description": "Công cụ chuyên nghiệp trực tuyến để thay đổi màu ảnh. Thay đổi nhiều màu cùng lúc, xử lý hàng loạt ảnh và duy trì chất lượng. Xử lý cục bộ trên trình duyệt không cần tải lên. Lý tưởng cho nhà thiết kế, người bán thương mại điện tử và chuyên gia marketing.",
+    "keywords": "thay đổi màu ảnh,chỉnh sửa ảnh online,thay đổi màu,xử lý hàng loạt,phần mềm chỉnh ảnh miễn phí,photoshop online,xóa nền,thiết kế đồ họa,chỉnh sửa ảnh,công cụ thiết kế"
+  },
+  "Header": {
+    "title": "Thay Đổi Màu",
+    "subtitle": "Công Cụ Chuyên Nghiệp Thay Đổi Màu Ảnh Trực Tuyến",
+    "home": "Trang Chủ",
+    "settings": "Cài Đặt",
+    "about": "Giới Thiệu"
+  },
+  "ColorReplaceSettings": {
+    "title": "Cài Đặt Thay Đổi Màu",
+    "addColorPair": "Thêm Cặp Màu",
+    "colorPairTitle": "Cặp Màu #{id}",
+    "removeColorPair": "Xóa cặp màu này",
+    "sourceColor": "Màu Nguồn",
+    "targetColor": "Màu Đích",
+    "toleranceLabel": "Độ Tương Đồng Màu: {value}%",
+    "emptyState": "Chưa có quy tắc thay đổi màu. Nhấp \"Thêm Cặp Màu\" để bắt đầu",
+    "toleranceTitle": "Độ Tương Đồng Màu",
+    "toleranceLow": "Chính Xác",
+    "toleranceHigh": "Tương Tự",
+    "replace": "Thay Đổi",
+    "download": "Tải Xuống",
+    "clearFiles": "Xóa ảnh"
+  },
+  "ColorPicker": {
+    "transparent": "trong suốt",
+    "useTransparent": "Sử dụng trong suốt",
+    "useColor": "Sử dụng màu"
+  },
+  "EyeDropper": {
+    "tooltip": "Sử dụng bộ chọn màu"
+  },
+  "ToolDescription": {
+    "title": "Công Cụ Thay Đổi Màu Ảnh Trực Tuyến Miễn Phí",
+    "mainDescription": "Biến đổi hình ảnh của bạn ngay lập tức với công cụ chuyên nghiệp thay đổi màu. Hoàn hảo cho các nhà thiết kế, nhà tiếp thị và người tạo nội dung cần thay đổi màu sắc hình ảnh một cách nhanh chóng và hiệu quả. Cho dù bạn đang tạo các biến thể sản phẩm, điều chỉnh màu thương hiệu hay thử nghiệm các tùy chọn thiết kế, công cụ của chúng tôi cung cấp khả năng thao tác màu sắc chính xác trong khi vẫn giữ nguyên chất lượng hình ảnh - tất cả đều diễn ra trực tiếp trên trình duyệt của bạn, không cần tải lên.",
+    "features": {
+      "title": "Các Tính Năng Chuyên Nghiệp Cho Chỉnh Sửa Màu Ảnh",
+      "feature1": {
+        "title": "Công Nghệ Thay Đổi Màu Thông Minh",
+        "description": "Thay đổi bất kỳ màu nào trong hình ảnh của bạn với độ chính xác từng điểm ảnh. Thuật toán khớp màu nâng cao của chúng tôi đảm bảo các chuyển đổi mượt mà và kết quả chuyên nghiệp, hoàn hảo cho ảnh sản phẩm và tài sản thiết kế."
+      },
+      "feature2": {
+        "title": "Thay Đổi Nhiều Màu",
+        "description": "Tiết kiệm thời gian bằng cách thay đổi nhiều màu đồng thời. Lý tưởng cho việc cập nhật màu thương hiệu, thay đổi chủ đề và tạo các biến thể sản phẩm. Thêm nhiều cặp màu để chuyển đổi toàn bộ bảng màu ngay lập tức."
+      },
+      "feature3": {
+        "title": "Xử Lý Hàng Loạt Hiệu Quả",
+        "description": "Xử lý nhiều hình ảnh đồng thời với tính năng xử lý hàng loạt mạnh mẽ của chúng tôi. Hoàn hảo cho ảnh sản phẩm thương mại điện tử, tài liệu tiếp thị và các dự án thiết kế lớn. Tiết kiệm hàng giờ thời gian chỉnh sửa thủ công."
+      },
+      "feature4": {
+        "title": "Công Cụ Chọn Màu Chuyên Nghiệp",
+        "description": "Sử dụng công cụ nhỏ giọt chính xác của chúng tôi để chọn màu chính xác từ hình ảnh. Tương thích với mã hex và giá trị RGB, giúp dễ dàng khớp màu thương hiệu một cách hoàn hảo."
+      },
+      "feature5": {
+        "title": "Điều Khiển Khớp Màu Nâng Cao",
+        "description": "Tinh chỉnh các thay đổi màu với các điều khiển tương tự thông minh của chúng tôi. Hoàn hảo để xử lý gradient, bóng và các biến đổi màu phức tạp trong khi vẫn duy trì kết quả tự nhiên."
+      },
+      "feature6": {
+        "title": "Xử Lý Cục Bộ An Toàn",
+        "description": "Trải nghiệm xử lý hình ảnh nhanh chóng, an toàn ngay trên trình duyệt của bạn. Không cần tải tệp - hình ảnh của bạn không bao giờ rời khỏi thiết bị, đảm bảo quyền riêng tư hoàn toàn và kết quả tức thì."
+      }
+    },
+    "privacyTitle": "100% Riêng Tư & An Toàn",
+    "privacyDescription": "Quyền riêng tư và an ninh dữ liệu của bạn là ưu tiên hàng đầu của chúng tôi. Không giống như các công cụ trực tuyến khác, bộ xử lý hình ảnh của chúng tôi hoạt động hoàn toàn trong trình duyệt của bạn - hình ảnh của bạn không bao giờ được tải lên bất kỳ máy chủ nào. Hãy tự tin làm việc, biết rằng các tài sản thiết kế nhạy cảm của bạn sẽ luôn riêng tư và an toàn trên thiết bị của bạn."
+  },
+  "UsageExamples": {
+    "title": "Ví Dụ Sử Dụng",
+    "description": "Dưới đây là một số ví dụ về cách sử dụng công cụ thay đổi màu:",
+    "before": "Trước",
+    "after": "Sau",
+    "settingsTitle": "Cài Đặt Màu",
+    "tolerance": "Độ Tương Đồng",
+    "loadExample": "Tải Ví Dụ",
+    "example1": {
+      "title": "Cài Đặt Nhiều Cặp Màu",
+      "description": "Thay đổi nhiều màu đồng thời bằng cách thêm nhiều cặp màu.",
+      "beforeAlt": "Minh họa trạng thái trống với phối màu đỏ",
+      "afterAlt": "Minh họa trạng thái trống với phối màu xanh"
+    },
+    "example2": {
+      "title": "Xử Lý Hình Ảnh Hàng Loạt",
+      "description": "Xử lý nhiều hình ảnh cùng một lúc để tối ưu hóa hiệu quả.",
+      "beforeAlt": "Một bộ các biểu tượng màu xanh",
+      "afterAlt": "Một bộ các biểu tượng màu đỏ"
+    },
+    "example3": {
+      "title": "Thay Đổi Màu Thành Trong Suốt",
+      "description": "Hỗ trợ thay đổi màu thành trong suốt.",
+      "beforeAlt": "Ảnh đại diện với nền màu vàng",
+      "afterAlt": "Ảnh đại diện với nền trong suốt"
+    }
+  },
+  "Metadata": {
+    "title": "Thay Đổi Màu - Công Cụ Thay Đổi Màu Ảnh Trực Tuyến Miễn Phí",
+    "titleTemplate": "%s | Thay Đổi Màu - Trình Chỉnh Sửa Màu Ảnh",
+    "description": "Công cụ trực tuyến miễn phí để thay đổi màu ảnh chính xác. Thay đổi nhiều màu đồng thời, xử lý hàng loạt hình ảnh và duy trì chất lượng. Không cần tải lên - xử lý cục bộ trên trình duyệt.",
+    "keywords": [
+      "thay đổi màu",
+      "chỉnh sửa màu ảnh",
+      "công cụ thay đổi màu",
+      "xử lý ảnh hàng loạt",
+      "thay đổi màu ảnh",
+      "công cụ đổi màu",
+      "chỉnh sửa ảnh",
+      "công cụ thiết kế"
+    ],
+    "locale": "vi_VN",
+    "ogTitle": "Thay Đổi Màu - Công Cụ Thay Đổi Màu Ảnh Trực Tuyến Miễn Phí",
+    "ogDescription": "Biến đổi hình ảnh của bạn với công cụ thay đổi màu mạnh mẽ. Thay đổi nhiều màu, xử lý hàng loạt và duy trì chất lượng. Không cần tải lên - tất cả xử lý diễn ra trên trình duyệt của bạn.",
+    "ogImageAlt": "Giao Diện Công Cụ Thay Đổi Màu",
+    "twitterTitle": "Thay Đổi Màu - Công Cụ Thay Đổi Màu Ảnh Trực Tuyến Miễn Phí",
+    "twitterDescription": "Biến đổi hình ảnh của bạn với công cụ thay đổi màu mạnh mẽ. Thay đổi nhiều màu, xử lý hàng loạt và duy trì chất lượng."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Thả ảnh để tải lên",
+    "dragAndDrop": "Kéo và thả ảnh vào đây",
+    "supportedFormats": "Định dạng ảnh hoặc ảnh Ảnh hoặc ảnh GIF, PNG, JPG, JPEG, WEBP. Dung lượng tối đa 5MB cho mỗi tệp.",
+    "error": {
+      "fileTooLarge": "Tệp quá lớn, vui lòng tải lên ảnh duoi 5MB",
+      "invalidFormat": "Vui lòng tải lên ảnh hoặc ảnh Ảnh hoặc ảnh GIF, PNG, JPG, JPEG, WEBP",
+      "canvasContext": "Không thể tạo canvas context",
+      "noFilesUploaded": "Chưa có ảnh nào được tải lên"
+    }
+  }
+}

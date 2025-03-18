@@ -1,0 +1,125 @@
+{
+    "HomePage": {
+      "title": "Ferramenta de Substituição de Cores de Imagem - Editor de Cores Online Gratuito",
+      "originalImages": "Imagens Originais",
+      "processedImages": "Imagens Processadas",
+      "previewButton": "Pré-visualizar",
+      "downloadButton": "Baixar",
+      "description": "Ferramenta profissional online para substituição de cores em imagens. Substitua múltiplas cores simultaneamente, processe imagens em lote e mantenha a qualidade. Processamento local no navegador sem necessidade de upload. Ideal para designers, vendedores de e-commerce e profissionais de marketing.",
+      "keywords": "mudar cor imagem,editor de fotos online,substituição de cores,processamento em lote,editor de imagens grátis,photoshop online,remover fundo,design gráfico,edição de fotos,ferramentas de design"
+    },
+    "Header": {
+      "title": "Substituir Cor",
+      "subtitle": "Ferramenta Profissional Online de Substituição de Cores de Imagem",
+      "home": "Início",
+      "settings": "Configurações",
+      "about": "Sobre"
+    },
+    "ColorReplaceSettings": {
+      "title": "Configurações de Substituição de Cores",
+      "addColorPair": "Adicionar Par de Cores",
+      "colorPairTitle": "Par de Cores #{id}",
+      "removeColorPair": "Remover este par de cores",
+      "sourceColor": "Cor de Origem",
+      "targetColor": "Cor de Destino",
+      "toleranceLabel": "Tolerância de Correspondência de Cores: {value}%",
+      "emptyState": "Sem regras de substituição de cores. Clique em \"Adicionar Par de Cores\" para começar",
+      "toleranceTitle": "Tolerância de Correspondência de Cores",
+      "toleranceLow": "Exato",
+      "toleranceHigh": "Semelhante",
+      "replace": "Substituir",
+      "download": "Baixar",
+      "clearFiles": "Limpar imagens"
+    },
+    "ColorPicker": {
+      "transparent": "transparento",
+      "useTransparent": "Use transparento",
+      "useColor": "Use cor"
+    },
+    "EyeDropper": { 
+      "tooltip": "Use color picker"
+    },
+    "ToolDescription": {
+      "title": "Ferramenta Gratuita de Substituição de Cores de Imagem Online",
+      "mainDescription": "Transforme suas imagens instantaneamente com nossa ferramenta profissional de substituição de cores. Ideal para designers, marketing e criadores de conteúdo que precisam alterar as cores de suas imagens rapidamente e eficientemente. Independente se você está criando variações de produtos, ajustando cores de marca ou experimentando opções de design, nossa ferramenta permite a manipulação precisa das cores sem perder a qualidade da imagem - diretamente no navegador, sem upload obrigatório.",
+      "features": {
+        "title": "Características Profissionais para Edição de Imagens de Cor",
+        "feature1": {
+          "title": "Tecnologia de Substituição de Cores Inteligente",
+          "description": "Substitua qualquer cor em suas imagens com precisação. Nosso algoritmo avançado de correspondencia de cores garante transicoes suaves e resultados profissionais, ideal para fotos de produtos e assets de design."
+        },
+        "feature2": {
+          "title": "Substituição de Varios Cores Simultaneamente",
+          "description": "Acelere o processo de edição de imagens substituindo múltiplas cores simultaneamente. Ideal para atualizações de cores de marca, mudancas de tema e criacao de variacoes de produtos. Adicione múltiplas pares de cores para transformar todo o esquema de cores em um so passo."
+        },
+        "feature3": {
+          "title": "Processo de Batch Efficiente",
+          "description": "Processe multiple images simultaneamente with nosso poderoso processo de batch. Perfect para fotos de produtos, materiais de marketing e projetos de design grandes. Salve horas de edicao manual."
+        },
+        "feature4": {
+          "title": "Ferramenta de Seleção de Cores Profissional",
+          "description": "Use nossa ferramenta de seleção de cores precisa para escolher cores exatas de suas imagens. Compatível com códigos hexadecimais e valores RGB, facilitando a correspondência perfeita das cores da sua marca."
+        },
+        "feature5": {
+          "title": "Controles Avançados de Correspondência Inteligente",
+          "description": "Ajuste suas substituições de cores com precisão com nossos controles avançados de correspondência de cores. Perfeito para lidar com gradientes, sombras e variacoes complexas de cores, mantendo resultados naturais."
+        },
+        "feature6": {
+          "title": "Processo Seguro Local",
+          "description": "Experimente o processamento de imagens seguro diretamente no navegador. Nenhum upload de arquivo é necessário - suas imagens nunca saem do seu dispositivo, garantindo a privacidade completa e resultados instantâneos."
+        }
+      },
+      "privacyTitle": "100% Privado & Seguro",
+      "privacyDescription": "Sua privacidade e segurança de dados são nossos principais valores. Diferentemente de outras ferramentas on-line, nosso processador de imagem funciona completamente no navegador - suas imagens nunca saem de seu dispositivo. Trabalhe com confiança sabendo que seus ativos sensíveis de design permanecem privados e seguros no seu dispositivo."
+    },
+    "UsageExamples": {
+      "title": "Exemplos de Uso",
+      "description": "Aqui são alguns exemplos de como usar a ferramenta de substituição de cores:",
+      "before": "Antes",
+      "after": "Depois",
+      "settingsTitle": "Configurações de Cor",
+      "tolerance": "Tolerância",
+      "loadExample": "Carregar Exemplo",
+      "example1": {
+        "title": "Multiplos Pares de Cores",
+        "description": "Substitua multiplos cores ao mesmo tempo adicionando multiplos pares de cores.",
+        "beforeAlt": "Ilustração de estado vazio com um esquema de cores vermelho",
+        "afterAlt": "Ilustração de estado vazio com um esquema de cores azul"
+      },
+      "example2": {
+        "title": "Processamento de Imagens em Lote",
+        "description": "Processar imagens em lote para um processamento eficiente em lotes.",
+        "beforeAlt": "um conjunto de ícones azuis",
+        "afterAlt": "um conjunto de ícones vermelhos"
+      },
+      "example3": {
+        "title": "Substituir Cor por Transparente",
+        "description": "Suporte para substituir cor por transparente.",
+        "beforeAlt": "imagem de avatar com fundo amarelo",
+        "afterAlt": "imagem de avatar com fundo transparente"
+      }
+    },
+    "Metadata": {
+      "title": "Substituir Cor - Ferramenta Gratuita Online de Substituição de Cores de Imagem",
+      "titleTemplate": "%s | Substituir Cor - Editor de Cores de Imagem",
+      "description": "Ferramenta online gratuita para substituição precisa de cores em imagens. Substitua múltiplas cores simultaneamente, processe imagens em lote e mantenha a qualidade. Sem upload necessário - processamento local no navegador.",
+      "keywords": "substituir cor, editor de cores de imagem, ferramenta de substituição de cores, processamento de imagens em lote, alterador de cores de imagem, ferramenta de troca de cores, edição de imagem, ferramenta de design",
+      "locale": "pt_BR",
+      "ogTitle": "Substituir Cor - Ferramenta Gratuita Online de Substituição de Cores de Imagem",
+      "ogDescription": "Transforme suas imagens com nossa poderosa ferramenta de substituição de cores. Substitua múltiplas cores, processe imagens em lote e mantenha a qualidade. Sem upload necessário - todo processamento acontece no seu navegador.",
+      "ogImageAlt": "Interface da Ferramenta Substituir Cor",
+      "twitterTitle": "Substituir Cor - Ferramenta Gratuita Online de Substituição de Cores de Imagem",
+      "twitterDescription": "Transforme suas imagens com nossa poderosa ferramenta de substituição de cores. Substitua múltiplas cores, processe imagens em lote e mantenha a qualidade."
+    },
+    "ImageProcessor": {
+      "dropToUpload": "Solte para fazer upload de imagens",
+      "dragAndDrop": "Arraste e solte imagens aqui, ou clique para fazer upload",
+      "supportedFormats": "Suporta formatos PNG, JPG, JPEG, GIF, WEBP, máximo de 5MB por arquivo",
+      "error": {
+        "fileTooLarge": "Arquivo muito grande, por favor, faça upload de imagens com menos de 5MB",
+        "invalidFormat": "Por favor, faça upload de arquivos de imagem válidos",
+        "canvasContext": "Não foi possível criar o contexto do canvas",
+        "noFilesUploaded": "Nenhuma imagem carregada"
+      }
+    }
+  }
