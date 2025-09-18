@@ -181,5 +181,128 @@
         "processingError": "Görüntü işleme sırasında hata oluştu. Tekrar deneyin veya başka bir görüntü yükleyin.",
         "noFilesUploaded": "Hiç görüntü yüklenmedi"
       }
+    },
+    "Privacy": {
+      "title": "Gizlilik Politikası",
+      "description": "Color Replace görüntü renk değiştirme aracı için gizlilik politikası",
+      "keywords": "gizlilik politikası, veri koruma, GDPR, kullanıcı gizliliği, görüntü işleme",
+      "information_collection": {
+        "title": "Topladığımız Bilgiler",
+        "description": "Renk değiştirme hizmetimizi sağlamak için minimum bilgi topluyoruz:",
+        "uploaded_images": "Renk değiştirme için yüklediğiniz görüntüler (tarayıcınızda yerel olarak işlenir)",
+        "usage_data": "Temel kullanım istatistikleri ve analiz verileri",
+        "device_info": "Hizmet optimizasyonu için cihaz ve tarayıcı bilgileri"
+      },
+      "data_usage": {
+        "title": "Verilerinizi Nasıl Kullanıyoruz",
+        "description": "Topladığımız bilgileri aşağıdaki amaçlar için kullanıyoruz:",
+        "provide_service": "Renk değiştirme hizmetimizi sağlamak ve sürdürmek için",
+        "improve_service": "Aracımızın performansını iyileştirmek ve optimize etmek için",
+        "analytics": "Kullanım kalıplarını anlamak ve kullanıcı deneyimini geliştirmek için",
+        "advertising": "Google AdSense aracılığıyla ilgili reklamlar göstermek için"
+      },
+      "data_storage": {
+        "title": "Veri Depolama ve Güvenlik",
+        "description": "Gizliliğiniz ve veri güvenliğiniz bizim en üst önceliğimizdir:",
+        "temporary": "Yüklenen görüntüler tarayıcınızda yerel olarak işlenir ve sunucularımızda depolanmaz"
+      },
+      "third_party": {
+        "title": "Üçüncü Taraf Hizmetleri",
+        "description": "Aşağıdaki üçüncü taraf hizmetlerini kullanıyoruz:",
+        "analytics": "Web sitesi analizi ve performans izleme için",
+        "advertising": "Web sitemizde reklam göstermek için"
+      },
+      "cookies": {
+        "title": "Çerezler ve İzleme",
+        "description": "Deneyiminizi geliştirmek ve analiz sağlamak için çerezler ve benzer teknolojiler kullanıyoruz.",
+        "control": "Çerez tercihlerinizi tarayıcı ayarlarınız veya rıza yönetim platformumuz aracılığıyla kontrol edebilirsiniz."
+      },
+      "user_rights": {
+        "title": "Haklarınız",
+        "description": "GDPR ve diğer gizlilik yasaları uyarınca aşağıdaki haklara sahipsiniz:",
+        "access": "Kişisel verilerinize erişim hakkı",
+        "correction": "Yanlış kişisel verileri düzeltme hakkı",
+        "deletion": "Kişisel verilerinizin silinmesini talep etme hakkı",
+        "portability": "Veri taşınabilirliği hakkı"
+      },
+      "contact": {
+        "title": "Bizimle İletişime Geçin",
+        "description": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen web sitemiz aracılığıyla bizimle iletişime geçin."
+      },
+      "updates": {
+        "title": "Politika Güncellemeleri",
+        "description": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikleri bu sayfada yeni Gizlilik Politikasını yayınlayarak size bildireceğiz."
+      },
+      "last_updated": "Son güncelleme"
+    },
+    "Terms": {
+      "title": "Hizmet Şartları",
+      "description": "Color Replace görüntü renk değiştirme aracı için hizmet şartları",
+      "keywords": "hizmet şartları, kullanıcı sözleşmesi, şartlar ve koşullar, hizmet koşulları",
+      "acceptance": {
+        "title": "Şartları Kabul Etme",
+        "description": "Color Replace aracımıza erişerek ve kullanarak, bu anlaşmanın şart ve hükümlerine bağlı kalmayı kabul edersiniz."
+      },
+      "service_description": {
+        "title": "Hizmet Açıklaması",
+        "description": "Color Replace, aşağıdakileri sağlayan ücretsiz bir çevrimiçi araçtır:",
+        "color_replacement": "Görüntü renk değiştirme ve düzenleme yetenekleri",
+        "image_processing": "Sunucu yükleme olmadan yerel görüntü işleme",
+        "free_service": "Tüm temel renk değiştirme özelliklerine ücretsiz erişim"
+      },
+      "user_responsibilities": {
+        "title": "Kullanıcı Sorumlulukları",
+        "description": "Hizmetimizin kullanıcısı olarak, aşağıdakileri kabul edersiniz:",
+        "legal_content": "Sadece kullanma hakkına sahip olduğunuz görüntüleri yüklemek ve işlemek",
+        "copyright": "Telif haklarına ve fikri mülkiyet haklarına saygı göstermek",
+        "appropriate_use": "Hizmeti sadece yasal amaçlar için kullanmak",
+        "no_harmful_content": "Zararlı, rahatsız edici veya uygunsuz içerik yüklememek"
+      },
+      "prohibited_uses": {
+        "title": "Yasak Kullanımlar",
+        "description": "Hizmetimizi aşağıdaki amaçlar için kullanamazsınız:",
+        "illegal_content": "Yasadışı veya zararlı içerik işlemek",
+        "copyright_violation": "Telif haklarını veya fikri mülkiyet haklarını ihlal etmek",
+        "malicious_use": "Herhangi bir kötü niyetli veya zararlı faaliyet",
+        "system_abuse": "Sistemlerimizi kötüye kullanmaya veya aşırı yüklemeye çalışmak"
+      },
+      "intellectual_property": {
+        "title": "Fikri Mülkiyet",
+        "description": "Color Replace aracı ve orijinal içeriği, özellikleri ve işlevleri bize aittir ve uluslararası telif hakkı, ticari marka ve diğer fikri mülkiyet yasaları tarafından korunmaktadır.",
+        "user_content": "Aracımızı kullanarak yüklediğiniz ve işlediğiniz görüntülerdeki tüm hakları saklı tutarsınız."
+      },
+      "disclaimers": {
+        "title": "Feragatnameler",
+        "description": "Hizmetimiz 'olduğu gibi' sağlanmaktadır. Hiçbir garanti, açık veya zımni vermiyoruz ve burada diğer tüm garantileri reddediyoruz:",
+        "as_is": "Hizmet herhangi bir garanti olmaksızın sağlanmaktadır",
+        "availability": "Kesintisiz veya hatasız hizmet garantisi vermiyoruz",
+        "accuracy": "Sonuçların doğruluğunu veya eksiksizliğini garanti etmiyoruz"
+      },
+      "limitation_liability": {
+        "title": "Sorumluluğun Sınırlanması",
+        "description": "Hiçbir durumda Color Replace, kâr, veri, kullanım, itibar veya diğer maddi olmayan zararların kaybı dahil ancak bunlarla sınırlı olmamak üzere, dolaylı, arızi, özel, sonuçsal veya cezai zararlardan sorumlu olmayacaktır."
+      },
+      "termination": {
+        "title": "Feshetme",
+        "description": "Şartları ihlal etmeniz dahil ancak bununla sınırlı olmamak üzere, herhangi bir nedenle, önceden bildirim veya sorumluluk olmaksızın erişiminizi hemen sonlandırabilir veya askıya alabiliriz."
+      },
+      "changes": {
+        "title": "Şartlardaki Değişiklikler",
+        "description": "Bu Şartları her zaman kendi takdirimize bağlı olarak değiştirme veya değiştirme hakkını saklı tutarız. Bir revizyon önemli ise, yeni şartlar yürürlüğe girmeden önce en az 30 gün önceden bildirim vermeye çalışacağız."
+      },
+      "governing_law": {
+        "title": "Yürüten Hukuk",
+        "description": "Bu Şartlar, çalıştığımız yargı bölgesinin yasalarına göre yorumlanacak ve yönetilecektir, kanun çatışması hükümlerine bakılmaksızın."
+      },
+      "contact": {
+        "title": "İletişim Bilgileri",
+        "description": "Bu Hizmet Şartları hakkında sorularınız varsa, lütfen web sitemiz aracılığıyla bizimle iletişime geçin."
+      },
+      "last_updated": "Son güncelleme"
+    },
+    "Footer": {
+      "rights_reserved": "Tüm hakları saklıdır.",
+      "privacy_policy": "Gizlilik Politikası",
+      "terms_of_service": "Hizmet Şartları"
     }
   }

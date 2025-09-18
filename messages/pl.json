@@ -121,5 +121,128 @@
         "canvasContext": "Nie mogłem utworzyć kontekstu płótna",
         "noFilesUploaded": "Nie przesłano żadnych obrazów"
       }
-    }
+    },
+  "Privacy": {
+    "title": "Polityka Prywatności",
+    "description": "Polityka prywatności dla narzędzia do zamiany kolorów obrazów Zamiana Kolorów",
+    "keywords": "polityka prywatności, ochrona danych, RODO, prywatność użytkownika, przetwarzanie obrazów",
+    "information_collection": {
+      "title": "Informacje, które zbieramy",
+      "description": "Zbieramy minimalne informacje, aby zapewnić naszą usługę zamiany kolorów:",
+      "uploaded_images": "Obrazy, które przesyłasz w celu zamiany kolorów (przetwarzane lokalnie w Twojej przeglądarce)",
+      "usage_data": "Podstawowe statystyki użycia i dane analityczne",
+      "device_info": "Informacje o urządzeniu i przeglądarce w celu optymalizacji usługi"
+    },
+    "data_usage": {
+      "title": "Jak używamy Twoich danych",
+      "description": "Używamy zebranych informacji w następujących celach:",
+      "provide_service": "Aby zapewnić i utrzymać naszą usługę zamiany kolorów",
+      "improve_service": "Aby poprawić i zoptymalizować wydajność naszego narzędzia",
+      "analytics": "Aby zrozumieć wzorce użycia i poprawić doświadczenie użytkownika",
+      "advertising": "Aby wyświetlać odpowiednie reklamy za pośrednictwem Google AdSense"
+    },
+    "data_storage": {
+      "title": "Przechowywanie i bezpieczeństwo danych",
+      "description": "Twoja prywatność i bezpieczeństwo danych są naszym najwyższym priorytetem:",
+      "temporary": "Przesłane obrazy są przetwarzane lokalnie w Twojej przeglądarce i nie są przechowywane na naszych serwerach"
+    },
+    "third_party": {
+      "title": "Usługi osób trzecich",
+      "description": "Używamy następujących usług osób trzecich:",
+      "analytics": "Do analizy strony internetowej i monitorowania wydajności",
+      "advertising": "Do wyświetlania reklam na naszej stronie internetowej"
+    },
+    "cookies": {
+      "title": "Pliki cookie i śledzenie",
+      "description": "Używamy plików cookie i podobnych technologii, aby poprawić Twoje doświadczenie i zapewnić analizę.",
+      "control": "Możesz zarządzać preferencjami plików cookie za pomocą ustawień przeglądarki lub naszej platformy zarządzania zgodami."
+    },
+    "user_rights": {
+      "title": "Twoje prawa",
+      "description": "Zgodnie z RODO i innymi przepisami o prywatności, masz następujące prawa:",
+      "access": "Prawo do dostępu do Twoich danych osobowych",
+      "correction": "Prawo do sprostowania nieprawidłowych danych osobowych",
+      "deletion": "Prawo do żądania usunięcia Twoich danych osobowych",
+      "portability": "Prawo do przenoszalności danych"
+    },
+    "contact": {
+      "title": "Skontaktuj się z nami",
+      "description": "Jeśli masz jakiekolwiek pytania dotyczące tej Polityki Prywatności, skontaktuj się z nami przez naszą stronę internetową."
+    },
+    "updates": {
+      "title": "Aktualizacje polityki",
+      "description": "Możemy od czasu do czasu aktualizować tę Politykę Prywatności. Poinformujemy Cię o wszelkich zmianach, publikując nową Politykę Prywatności na tej stronie."
+    },
+    "last_updated": "Ostatnio zaktualizowane"
+  },
+  "Terms": {
+    "title": "Warunki Korzystania z Usługi",
+    "description": "Warunki korzystania z usługi dla narzędzia do zamiany kolorów obrazów Zamiana Kolorów",
+    "keywords": "warunki korzystania z usługi, umowa użytkownika, warunki i postanowienia, warunki usługi",
+    "acceptance": {
+      "title": "Akceptacja warunków",
+      "description": "Uzyskując dostęp i korzystając z naszego narzędzia Zamiana Kolorów, akceptujesz i zgadzasz się być związanym warunkami i postanowieniami tej umowy."
+    },
+    "service_description": {
+      "title": "Opis usługi",
+      "description": "Zamiana Kolorów jest darmowym narzędziem online, które zapewnia:",
+      "color_replacement": "Możliwości zamiany i edycji kolorów obrazów",
+      "image_processing": "Lokalne przetwarzanie obrazów bez przesyłania na serwer",
+      "free_service": "Darmowy dostęp do wszystkich podstawowych funkcji zamiany kolorów"
+    },
+    "user_responsibilities": {
+      "title": "Odpowiedzialności użytkownika",
+      "description": "Jako użytkownik naszej usługi, zgadzasz się:",
+      "legal_content": "Przesyłać i przetwarzać tylko obrazy, do których masz prawne prawo użycia",
+      "copyright": "Szanować prawa autorskie i własność intelektualną",
+      "appropriate_use": "Używać usługi wyłącznie do legalnych celów",
+      "no_harmful_content": "Nie przesyłać szkodliwej, obraźliwej lub nieodpowiedniej zawartości"
+    },
+    "prohibited_uses": {
+      "title": "Zabronione zastosowania",
+      "description": "Nie możesz używać naszej usługi do:",
+      "illegal_content": "Przetwarzania nielegalnej lub szkodliwej zawartości",
+      "copyright_violation": "Naruszania praw autorskich lub własności intelektualnej",
+      "malicious_use": "Jakichkolwiek złośliwych lub szkodliwych działań",
+      "system_abuse": "Prób nadużywania lub przeciążania naszych systemów"
+    },
+    "intellectual_property": {
+      "title": "Własność intelektualna",
+      "description": "Narzędzie Zamiana Kolorów i jego oryginalna zawartość, funkcje i funkcjonalności należą do nas i są chronione międzynarodowymi prawami autorskimi, znakami towarowymi i innymi prawami własności intelektualnej.",
+      "user_content": "Zachowujesz wszystkie prawa do obrazów, które przesyłasz i przetwarzasz za pomocą naszego narzędzia."
+    },
+    "disclaimers": {
+      "title": "Zrzeczenia się odpowiedzialności",
+      "description": "Nasza usługa jest świadczona 'w takiej formie, w jakiej jest'. Nie udzielamy żadnych gwarancji, wyraźnych ani dorozumianych, i niniejszym zrzekamy się wszelkich innych gwarancji, w tym:",
+      "as_is": "Usługa jest świadczona bez jakiejkolwiek gwarancji",
+      "availability": "Nie gwarantujemy nieprzerwanego lub wolnego od błędów działania usługi",
+      "accuracy": "Nie gwarantujemy dokładności lub kompletności wyników"
+    },
+    "limitation_liability": {
+      "title": "Ograniczenie odpowiedzialności",
+      "description": "W żadnym wypadku Zamiana Kolorów nie będzie odpowiedzialna za żadne pośrednie, przypadkowe, specjalne, następcze lub karne szkody, w tym, bez ograniczeń, utratę zysków, danych, użytkowania, dobrej woli lub innych niematerialnych strat."
+    },
+    "termination": {
+      "title": "Zakończenie",
+      "description": "Możemy natychmiast zakończyć lub zawiesić Twój dostęp, bez wcześniejszego powiadomienia lub odpowiedzialności, z jakiegokolwiek powodu, w tym, bez ograniczeń, jeśli naruszysz Warunki."
+    },
+    "changes": {
+      "title": "Zmiany w warunkach",
+      "description": "Zastrzegamy sobie prawo, według własnego uznania, do modyfikacji lub zastąpienia tych Warunków w dowolnym momencie. Jeśli zmiana jest materialna, postaramy się zapewnić co najmniej 30-dniowe powiadomienie przed wejściem w życie nowych warunków."
+    },
+    "governing_law": {
+      "title": "Obowiązujące prawo",
+      "description": "Te Warunki będą interpretowane i regulowane przez prawo jurysdykcji, w której działamy, bez względu na jej przepisy kolizyjne."
+    },
+    "contact": {
+      "title": "Informacje kontaktowe",
+      "description": "Jeśli masz jakiekolwiek pytania dotyczące tych Warunków Korzystania z Usługi, skontaktuj się z nami przez naszą stronę internetową."
+    },
+    "last_updated": "Ostatnio zaktualizowane"
+  },
+  "Footer": {
+    "rights_reserved": "Wszelkie prawa zastrzeżone.",
+    "privacy_policy": "Polityka Prywatności",
+    "terms_of_service": "Warunki Korzystania z Usługi"
   }
+}

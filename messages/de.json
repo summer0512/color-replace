@@ -121,5 +121,128 @@
         "canvasContext": "Canvas-Kontext konnte nicht erstellt werden",
         "noFilesUploaded": "Keine Bilder hochgeladen"
       }
+    },
+    "Privacy": {
+      "title": "Datenschutzerklärung",
+      "description": "Datenschutzerklärung für das Color Replace Bild-Farbersetzungstool",
+      "keywords": "Datenschutzerklärung, Datenschutz, GDPR, Benutzerprivatsphäre, Bildverarbeitung",
+      "information_collection": {
+        "title": "Informationen, die wir sammeln",
+        "description": "Wir sammeln minimale Informationen, um unseren Farbersetzungsservice bereitzustellen:",
+        "uploaded_images": "Bilder, die Sie zur Farbersetzung hochladen (lokal in Ihrem Browser verarbeitet)",
+        "usage_data": "Grundlegende Nutzungsstatistiken und Analysedaten",
+        "device_info": "Geräte- und Browserinformationen zur Serviceoptimierung"
+      },
+      "data_usage": {
+        "title": "Wie wir Ihre Daten verwenden",
+        "description": "Wir verwenden gesammelte Informationen für folgende Zwecke:",
+        "provide_service": "Zur Bereitstellung und Wartung unseres Farbersetzungsservices",
+        "improve_service": "Zur Verbesserung und Optimierung der Leistung unseres Tools",
+        "analytics": "Zum Verständnis von Nutzungsmustern und zur Verbesserung der Benutzererfahrung",
+        "advertising": "Zur Anzeige relevanter Werbung über Google AdSense"
+      },
+      "data_storage": {
+        "title": "Datenspeicherung und Sicherheit",
+        "description": "Ihre Privatsphäre und Datensicherheit haben für uns höchste Priorität:",
+        "temporary": "Hochgeladene Bilder werden lokal in Ihrem Browser verarbeitet und nicht auf unseren Servern gespeichert"
+      },
+      "third_party": {
+        "title": "Drittanbieter-Services",
+        "description": "Wir verwenden folgende Drittanbieter-Services:",
+        "analytics": "Für Website-Analysen und Leistungsüberwachung",
+        "advertising": "Zur Anzeige von Werbung auf unserer Website"
+      },
+      "cookies": {
+        "title": "Cookies und Tracking",
+        "description": "Wir verwenden Cookies und ähnliche Technologien, um Ihre Erfahrung zu verbessern und Analysen bereitzustellen.",
+        "control": "Sie können Cookie-Einstellungen über Ihre Browsereinstellungen oder unsere Einverständnis-Management-Plattform steuern."
+      },
+      "user_rights": {
+        "title": "Ihre Rechte",
+        "description": "Unter der DSGVO und anderen Datenschutzgesetzen haben Sie folgende Rechte:",
+        "access": "Recht auf Zugang zu Ihren personenbezogenen Daten",
+        "correction": "Recht auf Berichtigung unrichtiger personenbezogener Daten",
+        "deletion": "Recht auf Löschung Ihrer personenbezogenen Daten",
+        "portability": "Recht auf Datenübertragbarkeit"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "description": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte über unsere Website."
+      },
+      "updates": {
+        "title": "Richtlinien-Updates",
+        "description": "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen."
+      },
+      "last_updated": "Zuletzt aktualisiert"
+    },
+    "Terms": {
+      "title": "Nutzungsbedingungen",
+      "description": "Nutzungsbedingungen für das Color Replace Bild-Farbersetzungstool",
+      "keywords": "Nutzungsbedingungen, Benutzervereinbarung, Geschäftsbedingungen, Service-Bedingungen",
+      "acceptance": {
+        "title": "Annahme der Bedingungen",
+        "description": "Durch den Zugriff auf und die Nutzung unseres Color Replace Tools akzeptieren Sie die Bedingungen und Bestimmungen dieser Vereinbarung."
+      },
+      "service_description": {
+        "title": "Service-Beschreibung",
+        "description": "Color Replace ist ein kostenloses Online-Tool, das Folgendes bietet:",
+        "color_replacement": "Bild-Farbersetzungs- und Bearbeitungsfunktionen",
+        "image_processing": "Lokale Bildverarbeitung ohne Server-Uploads",
+        "free_service": "Kostenloser Zugang zu allen grundlegenden Farbersetzungsfunktionen"
+      },
+      "user_responsibilities": {
+        "title": "Benutzerverantwortlichkeiten",
+        "description": "Als Benutzer unseres Services stimmen Sie zu:",
+        "legal_content": "Nur Bilder hochzuladen und zu verarbeiten, für die Sie das rechtliche Nutzungsrecht haben",
+        "copyright": "Urheberrechte und geistige Eigentumsrechte zu respektieren",
+        "appropriate_use": "Den Service nur für rechtmäßige Zwecke zu verwenden",
+        "no_harmful_content": "Keine schädlichen, anstößigen oder unangemessenen Inhalte hochzuladen"
+      },
+      "prohibited_uses": {
+        "title": "Verbotene Nutzungen",
+        "description": "Sie dürfen unseren Service nicht verwenden für:",
+        "illegal_content": "Verarbeitung illegaler oder schädlicher Inhalte",
+        "copyright_violation": "Verletzung von Urheberrechten oder geistigen Eigentumsrechten",
+        "malicious_use": "Jegliche böswillige oder schädliche Aktivitäten",
+        "system_abuse": "Versuche, unsere Systeme zu missbrauchen oder zu überlasten"
+      },
+      "intellectual_property": {
+        "title": "Geistiges Eigentum",
+        "description": "Das Color Replace Tool und seine ursprünglichen Inhalte, Funktionen und Funktionalitäten sind unser Eigentum und durch internationale Urheberrechts-, Marken- und andere Gesetze zum geistigen Eigentum geschützt.",
+        "user_content": "Sie behalten alle Rechte an Bildern, die Sie mit unserem Tool hochladen und verarbeiten."
+      },
+      "disclaimers": {
+        "title": "Haftungsausschlüsse",
+        "description": "Unser Service wird auf 'wie besehen'-Basis bereitgestellt. Wir geben keine Garantien, ausdrücklich oder stillschweigend, ab und lehnen hiermit alle anderen Garantien ab, einschließlich:",
+        "as_is": "Der Service wird ohne jegliche Garantie bereitgestellt",
+        "availability": "Wir garantieren keinen ununterbrochenen oder fehlerfreien Service",
+        "accuracy": "Wir garantieren nicht die Genauigkeit oder Vollständigkeit der Ergebnisse"
+      },
+      "limitation_liability": {
+        "title": "Haftungsbeschränkung",
+        "description": "In keinem Fall haftet Color Replace für indirekte, zufällige, besondere, Folge- oder Strafschäden, einschließlich ohne Einschränkung Verlust von Gewinnen, Daten, Nutzung, Goodwill oder anderen immateriellen Verlusten."
+      },
+      "termination": {
+        "title": "Kündigung",
+        "description": "Wir können Ihren Zugang sofort, ohne vorherige Ankündigung oder Haftung, aus jedem Grund kündigen oder aussetzen, einschließlich ohne Einschränkung, wenn Sie gegen die Bedingungen verstoßen."
+      },
+      "changes": {
+        "title": "Änderungen der Bedingungen",
+        "description": "Wir behalten uns das Recht vor, diese Bedingungen nach unserem alleinigen Ermessen jederzeit zu ändern oder zu ersetzen. Wenn eine Überarbeitung wesentlich ist, werden wir versuchen, mindestens 30 Tage im Voraus zu benachrichtigen, bevor neue Bedingungen in Kraft treten."
+      },
+      "governing_law": {
+        "title": "Geltendes Recht",
+        "description": "Diese Bedingungen werden nach den Gesetzen der Gerichtsbarkeit ausgelegt und geregelt, in der wir tätig sind, ohne Berücksichtigung von Kollisionsnormen."
+      },
+      "contact": {
+        "title": "Kontaktinformationen",
+        "description": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte über unsere Website."
+      },
+      "last_updated": "Zuletzt aktualisiert"
+    },
+    "Footer": {
+      "rights_reserved": "Alle Rechte vorbehalten.",
+      "privacy_policy": "Datenschutzerklärung",
+      "terms_of_service": "Nutzungsbedingungen"
     }
   }

@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
@@ -45,8 +46,13 @@ export default async function RootLayout(props: Readonly<{
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-            <Header />
-            {children}
+            <div className="min-h-screen flex flex-col">
+              <Header />
+              <main className="flex-1">
+                {children}
+              </main>
+              <Footer />
+            </div>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

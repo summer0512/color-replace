@@ -121,5 +121,128 @@
       "canvasContext": "Kan canvascontext niet maken",
       "noFilesUploaded": "Geen afbeeldingen geüpload"
     }
+  },
+  "Privacy": {
+    "title": "Privacybeleid",
+    "description": "Privacybeleid voor de Kleur Vervangen afbeeldingskleurvervangingstool",
+    "keywords": "privacybeleid, gegevensbescherming, AVG, gebruikersprivacy, afbeeldingsverwerking",
+    "information_collection": {
+      "title": "Informatie die we verzamelen",
+      "description": "We verzamelen minimale informatie om onze kleurvervangingsservice te bieden:",
+      "uploaded_images": "Afbeeldingen die u uploadt voor kleurvervanging (lokaal verwerkt in uw browser)",
+      "usage_data": "Basis gebruikstatistieken en analysedata",
+      "device_info": "Apparaat- en browserinformatie voor serviceoptimalisatie"
+    },
+    "data_usage": {
+      "title": "Hoe we uw gegevens gebruiken",
+      "description": "We gebruiken verzamelde informatie voor de volgende doeleinden:",
+      "provide_service": "Om onze kleurvervangingsservice te bieden en te onderhouden",
+      "improve_service": "Om de prestaties van onze tool te verbeteren en te optimaliseren",
+      "analytics": "Om gebruikspatronen te begrijpen en gebruikerservaring te verbeteren",
+      "advertising": "Om relevante advertenties weer te geven via Google AdSense"
+    },
+    "data_storage": {
+      "title": "Gegevensopslag en beveiliging",
+      "description": "Uw privacy en gegevensbeveiliging zijn onze topprioriteiten:",
+      "temporary": "Geüploade afbeeldingen worden lokaal in uw browser verwerkt en niet op onze servers opgeslagen"
+    },
+    "third_party": {
+      "title": "Externe diensten",
+      "description": "We gebruiken de volgende externe diensten:",
+      "analytics": "Voor website-analyse en prestatiebewaking",
+      "advertising": "Voor het weergeven van advertenties op onze website"
+    },
+    "cookies": {
+      "title": "Cookies en tracking",
+      "description": "We gebruiken cookies en vergelijkbare technologieën om uw ervaring te verbeteren en analyse te bieden.",
+      "control": "U kunt cookievoorkeuren beheren via uw browserinstellingen of ons toestemmingsbeheerplatform."
+    },
+    "user_rights": {
+      "title": "Uw rechten",
+      "description": "Onder de AVG en andere privacywetten heeft u de volgende rechten:",
+      "access": "Recht op toegang tot uw persoonlijke gegevens",
+      "correction": "Recht op rectificatie van onjuiste persoonlijke gegevens",
+      "deletion": "Recht op verwijdering van uw persoonlijke gegevens",
+      "portability": "Recht op gegevensportabiliteit"
+    },
+    "contact": {
+      "title": "Neem contact op",
+      "description": "Als u vragen heeft over dit Privacybeleid, neem dan via onze website contact met ons op."
+    },
+    "updates": {
+      "title": "Beleidswijzigingen",
+      "description": "We kunnen dit Privacybeleid van tijd tot tijd bijwerken. We stellen u op de hoogte van wijzigingen door het nieuwe Privacybeleid op deze pagina te plaatsen."
+    },
+    "last_updated": "Laatst bijgewerkt"
+  },
+  "Terms": {
+    "title": "Servicevoorwaarden",
+    "description": "Servicevoorwaarden voor de Kleur Vervangen afbeeldingskleurvervangingstool",
+    "keywords": "servicevoorwaarden, gebruikersovereenkomst, algemene voorwaarden, servicevoorwaarden",
+    "acceptance": {
+      "title": "Aanvaarding van voorwaarden",
+      "description": "Door toegang te krijgen tot en onze Kleur Vervangen tool te gebruiken, aanvaardt u en stemt u ermee in gebonden te zijn aan de voorwaarden en bepalingen van deze overeenkomst."
+    },
+    "service_description": {
+      "title": "Servicebeschrijving",
+      "description": "Kleur Vervangen is een gratis online tool die biedt:",
+      "color_replacement": "Afbeeldingskleurvervanging- en bewerkingsmogelijkheden",
+      "image_processing": "Lokale afbeeldingsverwerking zonder serveruploads",
+      "free_service": "Gratis toegang tot alle basis kleurvervangingsfuncties"
+    },
+    "user_responsibilities": {
+      "title": "Gebruikersverantwoordelijkheden",
+      "description": "Als gebruiker van onze service gaat u ermee akkoord:",
+      "legal_content": "Alleen afbeeldingen te uploaden en verwerken waar u het wettelijk recht tot gebruik hebt",
+      "copyright": "Auteursrechten en intellectueel eigendom te respecteren",
+      "appropriate_use": "De service alleen voor wettige doeleinden te gebruiken",
+      "no_harmful_content": "Geen schadelijke, beledigende of ongepaste inhoud te uploaden"
+    },
+    "prohibited_uses": {
+      "title": "Verboden gebruiken",
+      "description": "U mag onze service niet gebruiken voor:",
+      "illegal_content": "Het verwerken van illegale of schadelijke inhoud",
+      "copyright_violation": "Het schenden van auteursrechten of intellectueel eigendom",
+      "malicious_use": "Kwaadwillige of schadelijke activiteiten",
+      "system_abuse": "Pogingen tot misbruik of overbelasting van onze systemen"
+    },
+    "intellectual_property": {
+      "title": "Intellectueel eigendom",
+      "description": "De Kleur Vervangen tool en de originele inhoud, functies en functionaliteiten zijn van ons en beschermd door internationale auteursrecht-, handelsmerk- en andere intellectuele eigendomswetten.",
+      "user_content": "U behoudt alle rechten op afbeeldingen die u uploadt en verwerkt met onze tool."
+    },
+    "disclaimers": {
+      "title": "Vrijwaringen",
+      "description": "Onze service wordt 'zoals deze is' aangeboden. We geven geen garanties, expliciet of impliciet, en doen hierbij afstand van alle andere garanties, inclusief:",
+      "as_is": "De service wordt geleverd zonder enige vorm van garantie",
+      "availability": "We garanderen geen ononderbroken of foutloze service",
+      "accuracy": "We garanderen niet de nauwkeurigheid of volledigheid van resultaten"
+    },
+    "limitation_liability": {
+      "title": "Beperking van aansprakelijkheid",
+      "description": "In geen geval zal Kleur Vervangen aansprakelijk zijn voor enige indirecte, incidentele, speciale, gevolg- of boeteschaden, inclusief maar niet beperkt tot verlies van winst, gegevens, gebruik, goodwill of andere immateriële verliezen."
+    },
+    "termination": {
+      "title": "Beëindiging",
+      "description": "We kunnen uw toegang onmiddellijk, zonder voorafgaande kennisgeving of aansprakelijkheid, om welke reden dan ook beëindigen of opschorten, inclusief maar niet beperkt tot het geval dat u de Voorwaarden schendt."
+    },
+    "changes": {
+      "title": "Wijzigingen in voorwaarden",
+      "description": "We behouden ons het recht voor, naar eigen goeddunken, deze Voorwaarden op elk moment te wijzigen of te vervangen. Als een revisie materieel is, zullen we proberen minimaal 30 dagen voorafgaand aan nieuwe voorwaarden van kracht worden kennisgeving te geven."
+    },
+    "governing_law": {
+      "title": "Toepasselijk recht",
+      "description": "Deze Voorwaarden worden geïnterpreteerd en beheerst door de wetten van de jurisdictie waarin we opereren, zonder inachtneming van haar conflictenrechtelijke bepalingen."
+    },
+    "contact": {
+      "title": "Contactinformatie",
+      "description": "Als u vragen heeft over deze Servicevoorwaarden, neem dan via onze website contact met ons op."
+    },
+    "last_updated": "Laatst bijgewerkt"
+  },
+  "Footer": {
+    "rights_reserved": "Alle rechten voorbehouden.",
+    "privacy_policy": "Privacybeleid",
+    "terms_of_service": "Servicevoorwaarden"
   }
 }

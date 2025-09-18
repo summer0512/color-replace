@@ -122,5 +122,128 @@
       "canvasContext": "无法创建画布上下文",
       "noFilesUploaded": "请先上传需要处理的图片"
     }
+  },
+  "Privacy": {
+    "title": "隐私政策",
+    "description": "颜色替换图片颜色替换工具隐私政策",
+    "keywords": "隐私政策, 数据保护, GDPR, 用户隐私, 图片处理",
+    "information_collection": {
+      "title": "我们收集的信息",
+      "description": "我们收集最少的信息来提供颜色替换服务：",
+      "uploaded_images": "您上传的用于颜色替换的图片（在您的浏览器中本地处理）",
+      "usage_data": "基本使用统计和分析数据",
+      "device_info": "设备和浏览器信息，用于服务优化"
+    },
+    "data_usage": {
+      "title": "我们如何使用您的数据",
+      "description": "我们将收集的信息用于以下目的：",
+      "provide_service": "提供和维护我们的颜色替换服务",
+      "improve_service": "改进和优化我们工具的性能",
+      "analytics": "了解使用模式并改善用户体验",
+      "advertising": "通过Google AdSense展示相关广告"
+    },
+    "data_storage": {
+      "title": "数据存储和安全",
+      "description": "您的隐私和数据安全是我们的首要任务：",
+      "temporary": "上传的图片在您的浏览器中本地处理，不会存储在我们的服务器上"
+    },
+    "third_party": {
+      "title": "第三方服务",
+      "description": "我们使用以下第三方服务：",
+      "analytics": "用于网站分析和性能监控",
+      "advertising": "用于在我们网站上展示广告"
+    },
+    "cookies": {
+      "title": "Cookie和跟踪",
+      "description": "我们使用Cookie和类似技术来增强您的体验并提供分析。",
+      "control": "您可以通过浏览器设置或我们的同意管理平台控制Cookie偏好。"
+    },
+    "user_rights": {
+      "title": "您的权利",
+      "description": "根据GDPR和其他隐私法律，您拥有以下权利：",
+      "access": "访问您个人数据的权利",
+      "correction": "更正不准确个人数据的权利",
+      "deletion": "请求删除您个人数据的权利",
+      "portability": "数据可携带权"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "如果您对本隐私政策有任何疑问，请通过我们的网站联系我们。"
+    },
+    "updates": {
+      "title": "政策更新",
+      "description": "我们可能会不时更新本隐私政策。我们将通过在此页面发布新的隐私政策来通知您任何更改。"
+    },
+    "last_updated": "最后更新"
+  },
+  "Terms": {
+    "title": "服务条款",
+    "description": "颜色替换图片颜色替换工具服务条款",
+    "keywords": "服务条款, 用户协议, 条款和条件, 服务条款",
+    "acceptance": {
+      "title": "条款接受",
+      "description": "通过访问和使用我们的颜色替换工具，您接受并同意受本协议条款和规定的约束。"
+    },
+    "service_description": {
+      "title": "服务描述",
+      "description": "颜色替换是一个免费的在线工具，提供：",
+      "color_replacement": "图片颜色替换和编辑功能",
+      "image_processing": "本地图片处理，无需服务器上传",
+      "free_service": "免费访问所有基本颜色替换功能"
+    },
+    "user_responsibilities": {
+      "title": "用户责任",
+      "description": "作为我们服务的用户，您同意：",
+      "legal_content": "仅上传和处理您有合法使用权的图片",
+      "copyright": "尊重版权和知识产权",
+      "appropriate_use": "仅将服务用于合法目的",
+      "no_harmful_content": "不上传有害、冒犯性或不当内容"
+    },
+    "prohibited_uses": {
+      "title": "禁止使用",
+      "description": "您不得将我们的服务用于：",
+      "illegal_content": "处理非法或有害内容",
+      "copyright_violation": "违反版权或知识产权",
+      "malicious_use": "任何恶意或有害活动",
+      "system_abuse": "试图滥用或超载我们的系统"
+    },
+    "intellectual_property": {
+      "title": "知识产权",
+      "description": "颜色替换工具及其原创内容、功能和特性归我们所有，受国际版权、商标和其他知识产权法律保护。",
+      "user_content": "您保留对使用我们工具上传和处理的图片的所有权利。"
+    },
+    "disclaimers": {
+      "title": "免责声明",
+      "description": "我们的服务按现状提供。我们不作任何明示或暗示的保证，特此声明不承担所有其他保证，包括：",
+      "as_is": "服务按现状提供，不提供任何形式的保证",
+      "availability": "我们不保证服务不间断或无错误",
+      "accuracy": "我们不保证结果的准确性或完整性"
+    },
+    "limitation_liability": {
+      "title": "责任限制",
+      "description": "在任何情况下，颜色替换都不对任何间接、偶然、特殊、后果性或惩罚性损害承担责任，包括但不限于利润、数据、使用、商誉或其他无形损失的损失。"
+    },
+    "termination": {
+      "title": "终止",
+      "description": "我们可能因任何原因立即终止或暂停您的访问，无需事先通知或承担责任，包括但不限于您违反条款的情况。"
+    },
+    "changes": {
+      "title": "条款变更",
+      "description": "我们保留随时修改或替换这些条款的权利。如果修订是重大的，我们将尝试在任何新条款生效前至少提前30天通知。"
+    },
+    "governing_law": {
+      "title": "适用法律",
+      "description": "这些条款应根据我们运营所在司法管辖区的法律进行解释和管辖，不考虑其法律冲突规定。"
+    },
+    "contact": {
+      "title": "联系信息",
+      "description": "如果您对这些服务条款有任何疑问，请通过我们的网站联系我们。"
+    },
+    "last_updated": "最后更新"
+  },
+  "Footer": {
+    "rights_reserved": "版权所有。",
+    "privacy_policy": "隐私政策",
+    "terms_of_service": "服务条款"
   }
 }

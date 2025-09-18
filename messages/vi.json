@@ -130,5 +130,128 @@
       "canvasContext": "Không thể tạo canvas context",
       "noFilesUploaded": "Chưa có ảnh nào được tải lên"
     }
+  },
+  "Privacy": {
+    "title": "Chính Sách Quyền Riêng Tư",
+    "description": "Chính sách quyền riêng tư cho công cụ thay đổi màu ảnh Color Replace",
+    "keywords": "chính sách quyền riêng tư, bảo vệ dữ liệu, GDPR, quyền riêng tư người dùng, xử lý ảnh",
+    "information_collection": {
+      "title": "Thông Tin Chúng Tôi Thu Thập",
+      "description": "Chúng tôi thu thập thông tin tối thiểu để cung cấp dịch vụ thay đổi màu:",
+      "uploaded_images": "Ảnh bạn tải lên để thay đổi màu (được xử lý cục bộ trên trình duyệt của bạn)",
+      "usage_data": "Thống kê sử dụng cơ bản và dữ liệu phân tích",
+      "device_info": "Thông tin thiết bị và trình duyệt để tối ưu hóa dịch vụ"
+    },
+    "data_usage": {
+      "title": "Cách Chúng Tôi Sử Dụng Dữ Liệu Của Bạn",
+      "description": "Chúng tôi sử dụng thông tin thu thập được cho các mục đích sau:",
+      "provide_service": "Để cung cấp và duy trì dịch vụ thay đổi màu của chúng tôi",
+      "improve_service": "Để cải thiện và tối ưu hóa hiệu suất công cụ của chúng tôi",
+      "analytics": "Để hiểu các mẫu sử dụng và cải thiện trải nghiệm người dùng",
+      "advertising": "Để hiển thị quảng cáo liên quan thông qua Google AdSense"
+    },
+    "data_storage": {
+      "title": "Lưu Trữ và Bảo Mật Dữ Liệu",
+      "description": "Quyền riêng tư và an ninh dữ liệu của bạn là ưu tiên hàng đầu của chúng tôi:",
+      "temporary": "Ảnh tải lên được xử lý cục bộ trên trình duyệt của bạn và không được lưu trữ trên máy chủ của chúng tôi"
+    },
+    "third_party": {
+      "title": "Dịch Vụ Bên Thứ Ba",
+      "description": "Chúng tôi sử dụng các dịch vụ bên thứ ba sau:",
+      "analytics": "Để phân tích trang web và giám sát hiệu suất",
+      "advertising": "Để hiển thị quảng cáo trên trang web của chúng tôi"
+    },
+    "cookies": {
+      "title": "Cookie và Theo Dõi",
+      "description": "Chúng tôi sử dụng cookie và công nghệ tương tự để nâng cao trải nghiệm của bạn và cung cấp phân tích.",
+      "control": "Bạn có thể kiểm soát sở thích cookie thông qua cài đặt trình duyệt hoặc nền tảng quản lý sự đồng ý của chúng tôi."
+    },
+    "user_rights": {
+      "title": "Quyền Của Bạn",
+      "description": "Theo GDPR và các luật quyền riêng tư khác, bạn có các quyền sau:",
+      "access": "Quyền truy cập dữ liệu cá nhân của bạn",
+      "correction": "Quyền sửa chữa dữ liệu cá nhân không chính xác",
+      "deletion": "Quyền yêu cầu xóa dữ liệu cá nhân của bạn",
+      "portability": "Quyền di chuyển dữ liệu"
+    },
+    "contact": {
+      "title": "Liên Hệ Chúng Tôi",
+      "description": "Nếu bạn có bất kỳ câu hỏi nào về Chính Sách Quyền Riêng Tư này, vui lòng liên hệ chúng tôi qua trang web."
+    },
+    "updates": {
+      "title": "Cập Nhật Chính Sách",
+      "description": "Chúng tôi có thể cập nhật Chính Sách Quyền Riêng Tư này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng Chính Sách Quyền Riêng Tư mới trên trang này."
+    },
+    "last_updated": "Cập nhật lần cuối"
+  },
+  "Terms": {
+    "title": "Điều Khoản Dịch Vụ",
+    "description": "Điều khoản dịch vụ cho công cụ thay đổi màu ảnh Color Replace",
+    "keywords": "điều khoản dịch vụ, thỏa thuận người dùng, điều khoản và điều kiện, điều khoản dịch vụ",
+    "acceptance": {
+      "title": "Chấp Nhận Điều Khoản",
+      "description": "Bằng cách truy cập và sử dụng công cụ Color Replace của chúng tôi, bạn chấp nhận và đồng ý bị ràng buộc bởi các điều khoản và điều khoản của thỏa thuận này."
+    },
+    "service_description": {
+      "title": "Mô Tả Dịch Vụ",
+      "description": "Color Replace là công cụ trực tuyến miễn phí cung cấp:",
+      "color_replacement": "Khả năng thay đổi và chỉnh sửa màu ảnh",
+      "image_processing": "Xử lý ảnh cục bộ mà không cần tải lên máy chủ",
+      "free_service": "Truy cập miễn phí vào tất cả các tính năng thay đổi màu cơ bản"
+    },
+    "user_responsibilities": {
+      "title": "Trách Nhiệm Người Dùng",
+      "description": "Với tư cách là người dùng dịch vụ của chúng tôi, bạn đồng ý:",
+      "legal_content": "Chỉ tải lên và xử lý ảnh mà bạn có quyền sử dụng hợp pháp",
+      "copyright": "Tôn trọng quyền tác giả và sở hữu trí tuệ",
+      "appropriate_use": "Chỉ sử dụng dịch vụ cho mục đích hợp pháp",
+      "no_harmful_content": "Không tải lên nội dung có hại, gây xúc phạm hoặc không phù hợp"
+    },
+    "prohibited_uses": {
+      "title": "Các Mục Đích Bị Cấm",
+      "description": "Bạn không thể sử dụng dịch vụ của chúng tôi để:",
+      "illegal_content": "Xử lý nội dung bất hợp pháp hoặc có hại",
+      "copyright_violation": "Vi phạm quyền tác giả hoặc sở hữu trí tuệ",
+      "malicious_use": "Bất kỳ hoạt động độc hại hoặc gây hại nào",
+      "system_abuse": "Cố gắng lạm dụng hoặc quá tải hệ thống của chúng tôi"
+    },
+    "intellectual_property": {
+      "title": "Sở Hữu Trí Tuệ",
+      "description": "Công cụ Color Replace và nội dung, tính năng và chức năng gốc của nó thuộc sở hữu của chúng tôi và được bảo vệ bởi luật bản quyền quốc tế, nhãn hiệu và các luật sở hữu trí tuệ khác.",
+      "user_content": "Bạn giữ lại tất cả các quyền đối với ảnh bạn tải lên và xử lý bằng công cụ của chúng tôi."
+    },
+    "disclaimers": {
+      "title": "Từ Chối Trách Nhiệm",
+      "description": "Dịch vụ của chúng tôi được cung cấp 'nguyên trạng'. Chúng tôi không đưa ra bất kỳ bảo đảm nào, dù là rõ ràng hay ngụ ý, và tại đây từ chối tất cả các bảo đảm khác bao gồm:",
+      "as_is": "Dịch vụ được cung cấp mà không có bất kỳ loại bảo đảm nào",
+      "availability": "Chúng tôi không đảm bảo dịch vụ không bị gián đoạn hoặc không có lỗi",
+      "accuracy": "Chúng tôi không bảo đảm tính chính xác hoặc đầy đủ của kết quả"
+    },
+    "limitation_liability": {
+      "title": "Giới Hạn Trách Nhiệm",
+      "description": "Trong bất kỳ trường hợp nào, Color Replace sẽ không chịu trách nhiệm cho bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt, hậu quả hoặc trừng phạt nào, bao gồm nhưng không giới hạn, mất lợi nhuận, dữ liệu, sử dụng, uy tín hoặc các tổn thất vô hình khác."
+    },
+    "termination": {
+      "title": "Chấm Dứt",
+      "description": "Chúng tôi có thể chấm dứt hoặc đình chỉ quyền truy cập của bạn ngay lập tức, không cần thông báo hoặc trách nhiệm trước, cho bất kỳ lý do nào, bao gồm nhưng không giới hạn nếu bạn vi phạm Điều Khoản."
+    },
+    "changes": {
+      "title": "Thay Đổi Điều Khoản",
+      "description": "Chúng tôi bảo lưu quyền, theo sự quyết định duy nhất của mình, để sửa đổi hoặc thay thế các Điều Khoản này bất cứ lúc nào. Nếu một bản sửa đổi là quan trọng, chúng tôi sẽ cố gắng cung cấp thông báo trước ít nhất 30 ngày trước khi các điều khoản mới có hiệu lực."
+    },
+    "governing_law": {
+      "title": "Luật Áp Dụng",
+      "description": "Các Điều Khoản này sẽ được giải thích và chi phối bởi luật pháp của khu vực tài phán nơi chúng tôi hoạt động, không quan tâm đến các quy định về xung đột luật pháp của nó."
+    },
+    "contact": {
+      "title": "Thông Tin Liên Hệ",
+      "description": "Nếu bạn có bất kỳ câu hỏi nào về các Điều Khoản Dịch Vụ này, vui lòng liên hệ chúng tôi qua trang web."
+    },
+    "last_updated": "Cập nhật lần cuối"
+  },
+  "Footer": {
+    "rights_reserved": "Mọi quyền được bảo lưu.",
+    "privacy_policy": "Chính Sách Quyền Riêng Tư",
+    "terms_of_service": "Điều Khoản Dịch Vụ"
   }
 }

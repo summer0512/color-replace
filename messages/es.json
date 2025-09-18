@@ -121,5 +121,128 @@
       "canvasContext": "No se puede crear el contexto del lienzo",
       "noFilesUploaded": "No hay imágenes subidas"
     }
+  },
+  "Privacy": {
+    "title": "Política de Privacidad",
+    "description": "Política de privacidad para la herramienta de reemplazo de color de imagen Color Replace",
+    "keywords": "política de privacidad, protección de datos, GDPR, privacidad del usuario, procesamiento de imágenes",
+    "information_collection": {
+      "title": "Información que Recopilamos",
+      "description": "Recopilamos información mínima para proporcionar nuestro servicio de reemplazo de color:",
+      "uploaded_images": "Imágenes que subes para el reemplazo de color (procesadas localmente en tu navegador)",
+      "usage_data": "Estadísticas básicas de uso y datos de análisis",
+      "device_info": "Información del dispositivo y navegador para la optimización del servicio"
+    },
+    "data_usage": {
+      "title": "Cómo Usamos tus Datos",
+      "description": "Usamos la información recopilada para los siguientes propósitos:",
+      "provide_service": "Para proporcionar y mantener nuestro servicio de reemplazo de color",
+      "improve_service": "Para mejorar y optimizar el rendimiento de nuestra herramienta",
+      "analytics": "Para entender los patrones de uso y mejorar la experiencia del usuario",
+      "advertising": "Para mostrar anuncios relevantes a través de Google AdSense"
+    },
+    "data_storage": {
+      "title": "Almacenamiento y Seguridad de Datos",
+      "description": "Tu privacidad y seguridad de datos son nuestras máximas prioridades:",
+      "temporary": "Las imágenes subidas se procesan localmente en tu navegador y no se almacenan en nuestros servidores"
+    },
+    "third_party": {
+      "title": "Servicios de Terceros",
+      "description": "Utilizamos los siguientes servicios de terceros:",
+      "analytics": "Para análisis de sitio web y monitoreo de rendimiento",
+      "advertising": "Para mostrar anuncios en nuestro sitio web"
+    },
+    "cookies": {
+      "title": "Cookies y Seguimiento",
+      "description": "Utilizamos cookies y tecnologías similares para mejorar tu experiencia y proporcionar análisis.",
+      "control": "Puedes controlar las preferencias de cookies a través de la configuración de tu navegador o nuestra plataforma de gestión de consentimiento."
+    },
+    "user_rights": {
+      "title": "Tus Derechos",
+      "description": "Bajo el GDPR y otras leyes de privacidad, tienes los siguientes derechos:",
+      "access": "Derecho a acceder a tus datos personales",
+      "correction": "Derecho a corregir datos personales inexactos",
+      "deletion": "Derecho a solicitar la eliminación de tus datos personales",
+      "portability": "Derecho a la portabilidad de datos"
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos a través de nuestro sitio web."
+    },
+    "updates": {
+      "title": "Actualizaciones de la Política",
+      "description": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página."
+    },
+    "last_updated": "Última actualización"
+  },
+  "Terms": {
+    "title": "Términos de Servicio",
+    "description": "Términos de servicio para la herramienta de reemplazo de color de imagen Color Replace",
+    "keywords": "términos de servicio, acuerdo de usuario, términos y condiciones, términos del servicio",
+    "acceptance": {
+      "title": "Aceptación de los Términos",
+      "description": "Al acceder y usar nuestra herramienta Color Replace, aceptas y aceptas estar sujeto a los términos y disposiciones de este acuerdo."
+    },
+    "service_description": {
+      "title": "Descripción del Servicio",
+      "description": "Color Replace es una herramienta en línea gratuita que proporciona:",
+      "color_replacement": "Capacidades de reemplazo y edición de color de imagen",
+      "image_processing": "Procesamiento de imágenes local sin subidas al servidor",
+      "free_service": "Acceso gratuito a todas las características básicas de reemplazo de color"
+    },
+    "user_responsibilities": {
+      "title": "Responsabilidades del Usuario",
+      "description": "Como usuario de nuestro servicio, aceptas:",
+      "legal_content": "Solo subir y procesar imágenes para las que tengas el derecho legal de usar",
+      "copyright": "Respetar los derechos de autor y propiedad intelectual",
+      "appropriate_use": "Usar el servicio solo para fines lícitos",
+      "no_harmful_content": "No subir contenido dañino, ofensivo o inapropiado"
+    },
+    "prohibited_uses": {
+      "title": "Usos Prohibidos",
+      "description": "No puedes usar nuestro servicio para:",
+      "illegal_content": "Procesar contenido ilegal o dañino",
+      "copyright_violation": "Violar los derechos de autor o propiedad intelectual",
+      "malicious_use": "Cualquier actividad maliciosa o dañina",
+      "system_abuse": "Intentar abusar o sobrecargar nuestros sistemas"
+    },
+    "intellectual_property": {
+      "title": "Propiedad Intelectual",
+      "description": "La herramienta Color Replace y su contenido original, características y funcionalidades nos pertenecen y están protegidos por leyes internacionales de derechos de autor, marcas registradas y otras leyes de propiedad intelectual.",
+      "user_content": "Conservas todos los derechos sobre las imágenes que subes y procesas usando nuestra herramienta."
+    },
+    "disclaimers": {
+      "title": "Descargos de Responsabilidad",
+      "description": "Nuestro servicio se proporciona 'tal cual'. No hacemos garantías, expresas o implícitas, y por la presente renunciamos a todas las demás garantías incluyendo:",
+      "as_is": "El servicio se proporciona sin garantía de ningún tipo",
+      "availability": "No garantizamos el servicio ininterrumpido o sin errores",
+      "accuracy": "No garantizamos la precisión o integridad de los resultados"
+    },
+    "limitation_liability": {
+      "title": "Limitación de Responsabilidad",
+      "description": "En ningún caso Color Replace será responsable por cualquier daño indirecto, incidental, especial, consecuente o punitivo, incluyendo sin limitación, pérdida de ganancias, datos, uso, buena voluntad u otras pérdidas intangibles."
+    },
+    "termination": {
+      "title": "Terminación",
+      "description": "Podemos terminar o suspender tu acceso inmediatamente, sin previo aviso o responsabilidad, por cualquier motivo, incluyendo sin limitación si violas los Términos."
+    },
+    "changes": {
+      "title": "Cambios en los Términos",
+      "description": "Nos reservamos el derecho, a nuestra discreción, de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es material, intentaremos proporcionar al menos 30 días de aviso antes de que cualquier nuevo término entre en vigor."
+    },
+    "governing_law": {
+      "title": "Ley Aplicable",
+      "description": "Estos Términos se interpretarán y regirán por las leyes de la jurisdicción en la que operamos, sin tener en cuenta sus disposiciones de conflicto de leyes."
+    },
+    "contact": {
+      "title": "Información de Contacto",
+      "description": "Si tienes alguna pregunta sobre estos Términos de Servicio, contáctanos a través de nuestro sitio web."
+    },
+    "last_updated": "Última actualización"
+  },
+  "Footer": {
+    "rights_reserved": "Todos los derechos reservados.",
+    "privacy_policy": "Política de Privacidad",
+    "terms_of_service": "Términos de Servicio"
   }
 }

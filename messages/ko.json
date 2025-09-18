@@ -130,5 +130,128 @@
         "processingError": "이미지 처리 중 오류가 발생했습니다. 다시 시도하거나 다른 이미지를 업로드하세요.",
         "noFilesUploaded": "업로드된 이미지가 없습니다"
       }
+    },
+    "Privacy": {
+      "title": "개인정보 처리방침",
+      "description": "컬러 리플레이스 이미지 색상 대체 도구를 위한 개인정보 처리방침",
+      "keywords": "개인정보 처리방침, 데이터 보호, GDPR, 사용자 개인정보, 이미지 처리",
+      "information_collection": {
+        "title": "수집하는 정보",
+        "description": "색상 대체 서비스를 제공하기 위해 최소한의 정보를 수집합니다:",
+        "uploaded_images": "색상 대체를 위해 업로드하는 이미지(브라우저에서 로컬로 처리됨)",
+        "usage_data": "기본 사용 통계 및 분석 데이터",
+        "device_info": "서비스 최적화를 위한 기기 및 브라우저 정보"
+      },
+      "data_usage": {
+        "title": "데이터 사용 방식",
+        "description": "수집된 정보는 다음 목적을 위해 사용됩니다:",
+        "provide_service": "색상 대체 서비스를 제공하고 유지하기 위해",
+        "improve_service": "도구의 성능을 개선하고 최적화하기 위해",
+        "analytics": "사용 패턴을 이해하고 사용자 경험을 개선하기 위해",
+        "advertising": "Google AdSense를 통해 관련 광고를 표시하기 위해"
+      },
+      "data_storage": {
+        "title": "데이터 저장 및 보안",
+        "description": "귀하의 개인정보와 데이터 보안은 우리의 최우선 과제입니다:",
+        "temporary": "업로드된 이미지는 브라우저에서 로컬로 처리되며 서버에 저장되지 않습니다"
+      },
+      "third_party": {
+        "title": "제3자 서비스",
+        "description": "다음과 같은 제3자 서비스를 사용합니다:",
+        "analytics": "웹사이트 분석 및 성능 모니터링을 위해",
+        "advertising": "웹사이트에 광고를 표시하기 위해"
+      },
+      "cookies": {
+        "title": "쿠키 및 추적",
+        "description": "경험을 향상시키고 분석을 제공하기 위해 쿠키 및 유사 기술을 사용합니다.",
+        "control": "브라우저 설정이나 동의 관리 플랫폼을 통해 쿠키 기본 설정을 제어할 수 있습니다."
+      },
+      "user_rights": {
+        "title": "사용자 권리",
+        "description": "GDPR 및 기타 개인정보 보호법에 따라 다음 권리가 있습니다:",
+        "access": "개인 데이터에 접근할 권리",
+        "correction": "부정확한 개인 데이터를 정정할 권리",
+        "deletion": "개인 데이터 삭제를 요청할 권리",
+        "portability": "데이터 이동성에 대한 권리"
+      },
+      "contact": {
+        "title": "문의하기",
+        "description": "이 개인정보 처리방침에 대한 질문이 있으시면 웹사이트를 통해 문의해 주세요."
+      },
+      "updates": {
+        "title": "정책 업데이트",
+        "description": "이 개인정보 처리방침을 수시로 업데이트할 수 있습니다. 이 페이지에 새로운 개인정보 처리방침을 게시하여 변경 사항을 알려드리겠습니다."
+      },
+      "last_updated": "마지막 업데이트"
+    },
+    "Terms": {
+      "title": "서비스 이용약관",
+      "description": "컬러 리플레이스 이미지 색상 대체 도구를 위한 서비스 이용약관",
+      "keywords": "서비스 이용약관, 사용자 계약, 약관 및 조건, 서비스 약관",
+      "acceptance": {
+        "title": "약관 수락",
+        "description": "컬러 리플레이스 도구에 접근하고 사용함으로써 이 계약의 약관과 조건에 구속되는 것에 동의합니다."
+      },
+      "service_description": {
+        "title": "서비스 설명",
+        "description": "컬러 리플레이스는 다음을 제공하는 무료 온라인 도구입니다:",
+        "color_replacement": "이미지 색상 대체 및 편집 기능",
+        "image_processing": "서버 업로드 없는 로컬 이미지 처리",
+        "free_service": "모든 기본 색상 대체 기능에 대한 무료 접근"
+      },
+      "user_responsibilities": {
+        "title": "사용자 책임",
+        "description": "서비스 사용자로서 다음에 동의합니다:",
+        "legal_content": "사용할 법적 권리가 있는 이미지만 업로드하고 처리할 것",
+        "copyright": "저작권 및 지적 재산권을 존중할 것",
+        "appropriate_use": "서비스를 합법적인 목적으로만 사용할 것",
+        "no_harmful_content": "유해하거나 불쾌하거나 부적절한 콘텐츠를 업로드하지 않을 것"
+      },
+      "prohibited_uses": {
+        "title": "금지된 사용",
+        "description": "다음 목적으로 서비스를 사용할 수 없습니다:",
+        "illegal_content": "불법적이거나 유해한 콘텐츠 처리",
+        "copyright_violation": "저작권 또는 지적 재산권 위반",
+        "malicious_use": "악의적이거나 유해한 활동",
+        "system_abuse": "시스템을 남용하거나 과부하시키려는 시도"
+      },
+      "intellectual_property": {
+        "title": "지적 재산",
+        "description": "컬러 리플레이스 도구와 그 원본 콘텐츠, 기능 및 기능은 우리가 소유하며 국제 저작권, 상표 및 기타 지적 재산권 법에 의해 보호됩니다.",
+        "user_content": "우리 도구를 사용하여 업로드하고 처리하는 이미지에 대한 모든 권리를 보유합니다."
+      },
+      "disclaimers": {
+        "title": "면책 조항",
+        "description": "당사의 서비스는 '있는 그대로' 제공됩니다. 당사는 명시적이거나 묵시적인 보증을 제공하지 않으며, 다음을 포함한 모든 기타 보증을 면제합니다:",
+        "as_is": "서비스는 어떠한 종류의 보증 없이 제공됩니다",
+        "availability": "중단되지 않거나 오류가 없는 서비스를 보장하지 않습니다",
+        "accuracy": "결과의 정확성이나 완전성을 보증하지 않습니다"
+      },
+      "limitation_liability": {
+        "title": "책임 제한",
+        "description": "어떠한 경우에도 컬러 리플레이스는 이익, 데이터, 사용, 명성 또는 기타 무형적 손실의 손실을 포함하되 이에 국한되지 않는 간접적, 부수적, 특별, 결과적 또는 징벌적 손해에 대해 책임을 지지 않습니다."
+      },
+      "termination": {
+        "title": "계약 해지",
+        "description": "당사는 약관 위반을 포함하되 이에 국한되지 않는 모든 이유로 사전 통지나 책임 없이 즉시 귀하의 접근을 종료하거나 중단할 수 있습니다."
+      },
+      "changes": {
+        "title": "약관 변경",
+        "description": "당사는 단독 재량에 따라 언제든지 이 약관을 수정하거나 대체할 권리를 보유합니다. 개정이 중요한 경우 새로운 약관이 발효되기 전에 최소 30일의 통지를 제공하려고 노력합니다."
+      },
+      "governing_law": {
+        "title": "준거법",
+        "description": "이 약관은 당사가 운영하는 관할권의 법률에 따라 해석되고 관리되며, 법률 충돌 조항과 관계없이 적용됩니다."
+      },
+      "contact": {
+        "title": "연락처 정보",
+        "description": "이 서비스 이용약관에 대한 질문이 있으시면 웹사이트를 통해 문의해 주세요."
+      },
+      "last_updated": "마지막 업데이트"
+    },
+    "Footer": {
+      "rights_reserved": "모든 권리 보유.",
+      "privacy_policy": "개인정보 처리방침",
+      "terms_of_service": "서비스 이용약관"
     }
   }

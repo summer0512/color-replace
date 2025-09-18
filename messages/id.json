@@ -121,5 +121,128 @@
         "canvasContext": "Tidak dapat membuat konteks canvas",
         "noFilesUploaded": "Tidak ada gambar yang diunggah"
       }
+    },
+    "Privacy": {
+      "title": "Kebijakan Privasi",
+      "description": "Kebijakan privasi untuk alat penggantian warna gambar Color Replace",
+      "keywords": "kebijakan privasi, perlindungan data, GDPR, privasi pengguna, pengolahan gambar",
+      "information_collection": {
+        "title": "Informasi yang Kami Kumpulkan",
+        "description": "Kami mengumpulkan informasi minimal untuk menyediakan layanan penggantian warna:",
+        "uploaded_images": "Gambar yang Anda unggah untuk penggantian warna (diproses secara lokal di browser Anda)",
+        "usage_data": "Statistik penggunaan dasar dan data analitik",
+        "device_info": "Informasi perangkat dan browser untuk optimasi layanan"
+      },
+      "data_usage": {
+        "title": "Bagaimana Kami Menggunakan Data Anda",
+        "description": "Kami menggunakan informasi yang dikumpulkan untuk tujuan berikut:",
+        "provide_service": "Untuk menyediakan dan memelihara layanan penggantian warna kami",
+        "improve_service": "Untuk meningkatkan dan mengoptimalkan kinerja alat kami",
+        "analytics": "Untuk memahami pola penggunaan dan meningkatkan pengalaman pengguna",
+        "advertising": "Untuk menampilkan iklan yang relevan melalui Google AdSense"
+      },
+      "data_storage": {
+        "title": "Penyimpanan dan Keamanan Data",
+        "description": "Privasi dan keamanan data Anda adalah prioritas utama kami:",
+        "temporary": "Gambar yang diunggah diproses secara lokal di browser Anda dan tidak disimpan di server kami"
+      },
+      "third_party": {
+        "title": "Layanan Pihak Ketiga",
+        "description": "Kami menggunakan layanan pihak ketiga berikut:",
+        "analytics": "Untuk analitik website dan pemantauan kinerja",
+        "advertising": "Untuk menampilkan iklan di website kami"
+      },
+      "cookies": {
+        "title": "Cookie dan Pelacakan",
+        "description": "Kami menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda dan menyediakan analitik.",
+        "control": "Anda dapat mengontrol preferensi cookie melalui pengaturan browser atau platform manajemen persetujuan kami."
+      },
+      "user_rights": {
+        "title": "Hak Anda",
+        "description": "Di bawah GDPR dan undang-undang privasi lainnya, Anda memiliki hak berikut:",
+        "access": "Hak untuk mengakses data pribadi Anda",
+        "correction": "Hak untuk memperbaiki data pribadi yang tidak akurat",
+        "deletion": "Hak untuk meminta penghapusan data pribadi Anda",
+        "portability": "Hak atas portabilitas data"
+      },
+      "contact": {
+        "title": "Hubungi Kami",
+        "description": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami melalui website kami."
+      },
+      "updates": {
+        "title": "Pembaruan Kebijakan",
+        "description": "Kami mungkin memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan dengan memposting Kebijakan Privasi baru di halaman ini."
+      },
+      "last_updated": "Terakhir diperbarui"
+    },
+    "Terms": {
+      "title": "Syarat Layanan",
+      "description": "Syarat layanan untuk alat penggantian warna gambar Color Replace",
+      "keywords": "syarat layanan, perjanjian pengguna, syarat dan ketentuan, ketentuan layanan",
+      "acceptance": {
+        "title": "Penerimaan Syarat",
+        "description": "Dengan mengakses dan menggunakan alat Color Replace kami, Anda menerima dan setuju untuk terikat oleh syarat dan ketentuan perjanjian ini."
+      },
+      "service_description": {
+        "title": "Deskripsi Layanan",
+        "description": "Color Replace adalah alat online gratis yang menyediakan:",
+        "color_replacement": "Kemampuan penggantian dan pengeditan warna gambar",
+        "image_processing": "Pengolahan gambar lokal tanpa pengunggahan ke server",
+        "free_service": "Akses gratis ke semua fitur penggantian warna dasar"
+      },
+      "user_responsibilities": {
+        "title": "Tanggung Jawab Pengguna",
+        "description": "Sebagai pengguna layanan kami, Anda setuju untuk:",
+        "legal_content": "Hanya mengunggah dan memproses gambar yang memiliki hak legal untuk digunakan",
+        "copyright": "Menghormati hak cipta dan hak kekayaan intelektual",
+        "appropriate_use": "Menggunakan layanan hanya untuk tujuan yang sah",
+        "no_harmful_content": "Tidak mengunggah konten yang berbahaya, ofensif, atau tidak pantas"
+      },
+      "prohibited_uses": {
+        "title": "Penggunaan yang Dilarang",
+        "description": "Anda tidak dapat menggunakan layanan kami untuk:",
+        "illegal_content": "Memproses konten ilegal atau berbahaya",
+        "copyright_violation": "Melanggar hak cipta atau hak kekayaan intelektual",
+        "malicious_use": "Aktivitas berbahaya atau merusak apa pun",
+        "system_abuse": "Mencoba menyalahgunakan atau membebani sistem kami"
+      },
+      "intellectual_property": {
+        "title": "Kekayaan Intelektual",
+        "description": "Alat Color Replace dan konten, fitur, dan fungsionalitas aslinya dimiliki oleh kami dan dilindungi oleh undang-undang hak cipta, merek dagang, dan kekayaan intelektual internasional lainnya.",
+        "user_content": "Anda mempertahankan semua hak atas gambar yang Anda unggah dan proses menggunakan alat kami."
+      },
+      "disclaimers": {
+        "title": "Penafian",
+        "description": "Layanan kami disediakan 'sebagaimana adanya'. Kami tidak memberikan jaminan, baik tersurat maupun tersirat, dan dengan ini menolak semua jaminan lainnya termasuk:",
+        "as_is": "Layanan disediakan tanpa jaminan apa pun",
+        "availability": "Kami tidak menjamin layanan yang tidak terganggu atau bebas kesalahan",
+        "accuracy": "Kami tidak menjamin keakuratan atau kelengkapan hasil"
+      },
+      "limitation_liability": {
+        "title": "Pembatasan Tanggung Jawab",
+        "description": "Dalam keadaan apa pun Color Replace tidak akan bertanggung jawab atas kerusakan tidak langsung, insidental, khusus, konsekuensial, atau hukuman, termasuk tanpa batasan, kerugian laba, data, penggunaan, goodwill, atau kerugian tidak berwujud lainnya."
+      },
+      "termination": {
+        "title": "Penghentian",
+        "description": "Kami mungkin menghentikan atau menangguhkan akses Anda segera, tanpa pemberitahuan sebelumnya atau tanggung jawab, untuk alasan apa pun, termasuk tanpa batasan jika Anda melanggar Syarat."
+      },
+      "changes": {
+        "title": "Perubahan Syarat",
+        "description": "Kami berhak, atas kebijakan tunggal kami, untuk memodifikasi atau mengganti Syarat ini kapan saja. Jika revisi bersifat material, kami akan mencoba memberikan setidaknya 30 hari pemberitahuan sebelum syarat baru berlaku."
+      },
+      "governing_law": {
+        "title": "Hukum yang Berlaku",
+        "description": "Syarat ini akan ditafsirkan dan diatur oleh hukum yurisdiksi di mana kami beroperasi, tanpa memperhatikan ketentuan konflik hukumnya."
+      },
+      "contact": {
+        "title": "Informasi Kontak",
+        "description": "Jika Anda memiliki pertanyaan tentang Syarat Layanan ini, silakan hubungi kami melalui website kami."
+      },
+      "last_updated": "Terakhir diperbarui"
+    },
+    "Footer": {
+      "rights_reserved": "Semua hak dilindungi.",
+      "privacy_policy": "Kebijakan Privasi",
+      "terms_of_service": "Syarat Layanan"
     }
   }

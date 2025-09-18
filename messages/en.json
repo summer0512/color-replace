@@ -121,5 +121,128 @@
       "canvasContext": "Cannot create canvas context",
       "noFilesUploaded": "Please upload images to process"
     }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "description": "Privacy policy for Color Replace image color replacement tool",
+    "keywords": "privacy policy, data protection, GDPR, user privacy, image processing",
+    "information_collection": {
+      "title": "Information We Collect",
+      "description": "We collect minimal information to provide our color replacement service:",
+      "uploaded_images": "Images you upload for color replacement (processed locally in your browser)",
+      "usage_data": "Basic usage statistics and analytics data",
+      "device_info": "Device and browser information for service optimization"
+    },
+    "data_usage": {
+      "title": "How We Use Your Data",
+      "description": "We use collected information for the following purposes:",
+      "provide_service": "To provide and maintain our color replacement service",
+      "improve_service": "To improve and optimize our tool's performance",
+      "analytics": "To understand usage patterns and improve user experience",
+      "advertising": "To display relevant advertisements through Google AdSense"
+    },
+    "data_storage": {
+      "title": "Data Storage and Security",
+      "description": "Your privacy and data security are our top priorities:",
+      "temporary": "Uploaded images are processed locally in your browser and are not stored on our servers"
+    },
+    "third_party": {
+      "title": "Third-Party Services",
+      "description": "We use the following third-party services:",
+      "analytics": "For website analytics and performance monitoring",
+      "advertising": "For displaying advertisements on our website"
+    },
+    "cookies": {
+      "title": "Cookies and Tracking",
+      "description": "We use cookies and similar technologies to enhance your experience and provide analytics.",
+      "control": "You can control cookie preferences through your browser settings or our consent management platform."
+    },
+    "user_rights": {
+      "title": "Your Rights",
+      "description": "Under GDPR and other privacy laws, you have the following rights:",
+      "access": "Right to access your personal data",
+      "correction": "Right to correct inaccurate personal data",
+      "deletion": "Right to request deletion of your personal data",
+      "portability": "Right to data portability"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about this Privacy Policy, please contact us through our website."
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page."
+    },
+    "last_updated": "Last updated"
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "description": "Terms of service for Color Replace image color replacement tool",
+    "keywords": "terms of service, user agreement, terms and conditions, service terms",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By accessing and using our Color Replace tool, you accept and agree to be bound by the terms and provision of this agreement."
+    },
+    "service_description": {
+      "title": "Service Description",
+      "description": "Color Replace is a free online tool that provides:",
+      "color_replacement": "Image color replacement and editing capabilities",
+      "image_processing": "Local image processing without server uploads",
+      "free_service": "Free access to all basic color replacement features"
+    },
+    "user_responsibilities": {
+      "title": "User Responsibilities",
+      "description": "As a user of our service, you agree to:",
+      "legal_content": "Only upload and process images you have the legal right to use",
+      "copyright": "Respect copyright and intellectual property rights",
+      "appropriate_use": "Use the service for lawful purposes only",
+      "no_harmful_content": "Not upload harmful, offensive, or inappropriate content"
+    },
+    "prohibited_uses": {
+      "title": "Prohibited Uses",
+      "description": "You may not use our service for:",
+      "illegal_content": "Processing illegal or harmful content",
+      "copyright_violation": "Violating copyright or intellectual property rights",
+      "malicious_use": "Any malicious or harmful activities",
+      "system_abuse": "Attempting to abuse or overload our systems"
+    },
+    "intellectual_property": {
+      "title": "Intellectual Property",
+      "description": "The Color Replace tool and its original content, features, and functionality are owned by us and are protected by international copyright, trademark, and other intellectual property laws.",
+      "user_content": "You retain all rights to images you upload and process using our tool."
+    },
+    "disclaimers": {
+      "title": "Disclaimers",
+      "description": "Our service is provided on an 'as is' basis. We make no warranties, expressed or implied, and hereby disclaim all other warranties including:",
+      "as_is": "The service is provided without warranty of any kind",
+      "availability": "We do not guarantee uninterrupted or error-free service",
+      "accuracy": "We do not warrant the accuracy or completeness of results"
+    },
+    "limitation_liability": {
+      "title": "Limitation of Liability",
+      "description": "In no event shall Color Replace be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses."
+    },
+    "termination": {
+      "title": "Termination",
+      "description": "We may terminate or suspend your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "description": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days notice prior to any new terms taking effect."
+    },
+    "governing_law": {
+      "title": "Governing Law",
+      "description": "These Terms shall be interpreted and governed by the laws of the jurisdiction in which we operate, without regard to its conflict of law provisions."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "description": "If you have any questions about these Terms of Service, please contact us through our website."
+    },
+    "last_updated": "Last updated"
+  },
+  "Footer": {
+    "rights_reserved": "All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service"
   }
 }
