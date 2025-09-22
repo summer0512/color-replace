@@ -45,7 +45,6 @@ const HeadInfo: React.FC<HeadInfoProps> = ({
       {
         languages.map((item) => {
           const currentPage = page;
-          let hrefLang = item.value;
           let href: string;
           if (currentPage) {
             href = `${process.env.NEXT_PUBLIC_SITE_URL}/${item.value}/${currentPage}`;
@@ -59,7 +58,7 @@ const HeadInfo: React.FC<HeadInfoProps> = ({
             }
           }
           if (locale == item.value) {
-            return <link key={href + 'canonical'} rel="canonical" hrefLang={hrefLang} href={href} />
+            return <link key={`canonical-${item.value}`} rel="canonical" href={href} />
           }
         })
       }
