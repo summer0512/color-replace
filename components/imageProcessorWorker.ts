@@ -78,9 +78,12 @@ function processImage(imageData: ImageData, colorPairs: ColorPair[]): ImageData 
         data[i] = targetRgb.r;
         data[i + 1] = targetRgb.g;
         data[i + 2] = targetRgb.b;
-        // data[i + 3] = targetRgb.a;
+
+        // Only adjust alpha when toggling transparency state
         if (targetRgb.a === 0) {
-          data[i + 3] = targetRgb.a
+          data[i + 3] = targetRgb.a;
+        } else if (sourceRgb.a === 0) {
+          data[i + 3] = targetRgb.a;
         }
         break; // Stop checking other pairs once we've found a match
       }
