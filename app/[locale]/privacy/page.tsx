@@ -3,9 +3,8 @@ import type { Metadata } from 'next';
 import { languages } from '@/i18n/config';
 
 
-export default async function PrivacyPage(props: {params: Promise<{locale: string}>}) {
-  const params = await props.params;
-  const locale = params.locale;
+export default async function PrivacyPage(props: { params: Promise<{ locale: string }> }) {
+  const { locale } = await props.params;
   const t = await getTranslations('Privacy');
 
   return (
@@ -89,11 +88,12 @@ export default async function PrivacyPage(props: {params: Promise<{locale: strin
 }
 
 export async function generateMetadata(
-  { params }: { params: { locale: string } }
+  { params }: any
 ): Promise<Metadata> {
   const DEFAULT_LOCALE = 'en';
   const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://color-replace.com').replace(/\/+$/, '');
-  const locale = params.locale || DEFAULT_LOCALE;
+  const awaited = await Promise.resolve(params);
+  const locale = awaited?.locale || DEFAULT_LOCALE;
   const isDefault = locale === DEFAULT_LOCALE;
   const canonicalPath = `${isDefault ? '' : '/' + locale}/privacy` || '/privacy';
 

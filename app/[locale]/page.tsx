@@ -1,16 +1,15 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState, useEffect, useRef, use } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ImageProcessor, ImageProcessorRef } from '@/components/ImageProcessor';
 import { ColorReplaceSettings } from '@/components/ColorReplaceSettings';
 import { ColorPair } from '@/types/color';
 import ToolDescription from '@/components/ToolDescription';
 import UsageExamples from '@/components/UsageExamples';
 
-export default function Home(props: { params: Promise<{ locale: string }> }) {
+export default function Home() {
   const homeT = useTranslations('HomePage');
-  const params = use(props.params);
   const [colorSettings, setColorSettings] = useState<ColorPair[]>([
     {
       id: '1',

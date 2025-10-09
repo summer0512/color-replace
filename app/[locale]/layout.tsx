@@ -23,12 +23,10 @@ const geistMono = Geist_Mono({
 
 export default async function RootLayout(props: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>; 
+  params: Promise<{ locale: string }>;
 }>) {
-  const params = await props.params;
-
-  const { locale } = params;
   const { children } = props;
+  const { locale } = await props.params;
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale as any)) {
     notFound();
@@ -66,11 +64,12 @@ export default async function RootLayout(props: Readonly<{
 // Ensure important head tags render even when the page is a Client Component.
 // This supplies canonical + hreflang for the localized root ("/" or "/{locale}").
 export async function generateMetadata(
-  { params }: { params: { locale: string } }
+  { params }: any
 ): Promise<Metadata> {
   const DEFAULT_LOCALE = 'en';
   const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://color-replace.com').replace(/\/+$/, '');
-  const locale = params.locale || DEFAULT_LOCALE;
+  const awaited = await Promise.resolve(params);
+  const locale = awaited?.locale || DEFAULT_LOCALE;
   const isDefault = locale === DEFAULT_LOCALE;
   const canonicalPath = isDefault ? '/' : `/${locale}`;
 
