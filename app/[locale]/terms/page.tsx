@@ -103,11 +103,12 @@ export default async function TermsPage(props: {params: Promise<{locale: string}
 }
 
 export async function generateMetadata(
-  { params }: { params: { locale: string } }
+  { params }: any
 ): Promise<Metadata> {
   const DEFAULT_LOCALE = 'en';
   const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://color-replace.com').replace(/\/+$/, '');
-  const locale = params.locale || DEFAULT_LOCALE;
+  const awaited = await Promise.resolve(params);
+  const locale = awaited?.locale || DEFAULT_LOCALE;
   const isDefault = locale === DEFAULT_LOCALE;
   const canonicalPath = `${isDefault ? '' : '/' + locale}/terms` || '/terms';
 
