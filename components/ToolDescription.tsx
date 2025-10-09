@@ -1,21 +1,35 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 
+const featureOrder = [1, 2, 3, 4, 5, 6] as const;
+
 const ToolDescription: React.FC = () => {
   const t = useTranslations('ToolDescription');
 
   return (
-    <div className="max-w-6xl mx-auto py-8">
-      <h2 className="text-2xl font-bold mb-6">🛠️ {t('title')} 👏</h2>
-      <div className="space-y-6">
-        <p className="text-lg">{t('mainDescription')}</p>
+    <section
+      className="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8 rounded-lg border border-border bg-gray-50 dark:bg-gray-900"
+      aria-labelledby="tool-description-title"
+    >
+      <h2 id="tool-description-title" className="text-3xl font-bold mb-6">
+        🛠️{t('title')}👏
+      </h2>
+      <div className="space-y-8">
+        <p className="text-lg text-muted-foreground">
+          {t('mainDescription')}
+        </p>
 
-        <div className="mt-8">
-          <h3 className="text-xl font-semibold mb-4">✨ {t('features.title')}</h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            {[1, 2, 3, 4, 5, 6].map((num) => (
-              <div key={num} className="bg-card p-4 rounded-lg shadow-sm border border-gray-100 dark:border-gray-800">
-                <h4 className="font-medium text-lg mb-2 flex items-center">
+        <div>
+          <h3 className="text-xl font-semibold mb-4">
+            ✨{t('features.title')}
+          </h3>
+          <div className="grid gap-6 md:grid-cols-2">
+            {featureOrder.map((num) => (
+              <article
+                key={`feature-${num}`}
+                className="bg-card p-5 rounded-lg shadow-sm border border-border"
+              >
+                <h4 className="font-semibold text-lg mb-2">
                   {num === 1 && "🎨 "}
                   {num === 2 && "🖼️ "}
                   {num === 3 && "💻 "}
@@ -27,17 +41,21 @@ const ToolDescription: React.FC = () => {
                 <p className="text-muted-foreground">
                   {t(`features.feature${num}.description`)}
                 </p>
-              </div>
+              </article>
             ))}
           </div>
         </div>
 
-        <div className="mt-8 bg-blue-50/80 dark:bg-blue-950/20 p-6 rounded-lg border border-blue-100 dark:border-blue-900">
-          <h3 className="text-xl font-semibold mb-4">🛡️ {t('privacyTitle')}</h3>
-          <p className="text-muted-foreground">{t('privacyDescription')}</p>
-        </div>
+        <aside className="bg-blue-50/80 dark:bg-blue-950/20 p-6 rounded-lg border border-blue-100 dark:border-blue-900">
+          <h3 className="text-xl font-semibold mb-3">
+            🛡️{t('privacyTitle')}
+          </h3>
+          <p className="text-muted-foreground">
+            {t('privacyDescription')}
+          </p>
+        </aside>
       </div>
-    </div>
+    </section>
   );
 };
 

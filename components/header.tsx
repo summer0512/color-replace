@@ -15,7 +15,7 @@ export default function Header({ className }: { className?: string }) {
           <div className="flex justify-start items-center gap-4">
             <Link href="/" className="flex items-center gap-4">
               <Image src="/logo.png" alt="logo" width={32} height={32} />
-              <h1 className="md:text-2xl font-bold">{t('title')}</h1>
+              <span className="md:text-2xl font-bold">{t('title')}</span>
             </Link>
           </div>
           {/* header right */}

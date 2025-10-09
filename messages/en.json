@@ -5,8 +5,8 @@
     "processedImages": "Processed Images",
     "previewButton": "Preview",
     "downloadButton": "Download",
-    "description": "Free online tool for professional image color replacement. Replace multiple colors simultaneously, batch process images, and maintain quality. No upload needed - process locally in your browser. Perfect for designers, marketers, and content creators.",
-    "keywords": "image color replacement, color swap tool, batch image processing, image color editor, color changer, image editing tool, online image editor, free image color tool, design tool, color replacement software"
+    "description": "Browser-based tool for fast image color replacement. Swap multiple colors, batch edit files, and keep quality with private on-device processing.",
+    "keywords": "image color replacement, color swap tool, batch image editing, color changer, design tool"
   },
   "Header": {
     "title": "Color Replace",
