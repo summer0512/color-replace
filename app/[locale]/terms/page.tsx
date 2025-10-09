@@ -3,7 +3,8 @@ import type { Metadata } from 'next';
 import { languages } from '@/i18n/config';
 
 
-export default async function TermsPage({ params }: { params: { locale: string } }) {
+export default async function TermsPage(props: { params: Promise<{ locale: string }> }) {
+  const params = await props.params;
   const t = await getTranslations('Terms');
 
   return (
