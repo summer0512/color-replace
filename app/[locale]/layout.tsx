@@ -7,6 +7,9 @@ import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import { ThemeProvider } from "@/components/theme-provider";
+import type { Metadata } from 'next';
+import { languages } from '@/i18n/config';
+import { getTranslations } from 'next-intl/server';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -58,4 +61,57 @@ export default async function RootLayout(props: Readonly<{
       </body>
     </html>
   );
+}
+
+// Ensure important head tags render even when the page is a Client Component.
+// This supplies canonical + hreflang for the localized root ("/" or "/{locale}").
+export async function generateMetadata(
+  { params }: { params: { locale: string } }
+): Promise<Metadata> {
+  const DEFAULT_LOCALE = 'en';
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://color-replace.com').replace(/\/+$/, '');
+  const locale = params.locale || DEFAULT_LOCALE;
+  const isDefault = locale === DEFAULT_LOCALE;
+  const canonicalPath = isDefault ? '/' : `/${locale}`;
+
+  // Title/description fallback for the home page; page-level routes can override.
+  // Using next-intl to localize defaults.
+  const t = await getTranslations({ locale, namespace: 'HomePage' });
+  const title = t('title');
+  const description = t('description');
+
+  // Build hreflang map
+  const langMap: Record<string, string> = {};
+  for (const { value, hrefLang } of languages) {
+    const p = value === DEFAULT_LOCALE ? '/' : `/${value}`;
+    langMap[hrefLang || value] = p;
+  }
+  // x-default points to default locale
+  (langMap as any)['x-default'] = '/';
+
+  return {
+    metadataBase: new URL(siteUrl),
+    title,
+    description,
+    robots: { index: true, follow: true },
+    alternates: {
+      canonical: canonicalPath,
+      languages: langMap
+    },
+    openGraph: {
+      type: 'website',
+      title,
+      description,
+      url: canonicalPath,
+      siteName: 'Color Replace',
+      images: [{ url: '/logo.png' }],
+      locale: locale.replace(/_/g, '-')
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['/logo.png']
+    }
+  };
 }

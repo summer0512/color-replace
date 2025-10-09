@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
-import HeadInfo from '@/components/head-info';
+import type { Metadata } from 'next';
+import { languages } from '@/i18n/config';
 
 
 export default async function TermsPage(props: {params: Promise<{locale: string}>}) {
@@ -8,13 +9,6 @@ export default async function TermsPage(props: {params: Promise<{locale: string}
 
   return (
     <>
-      <HeadInfo 
-        locale={params.locale} 
-        page="terms" 
-        title={t('title')} 
-        description={t('description')} 
-        keywords={t('keywords')} 
-      />
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         <h1 className="text-3xl font-bold mb-8">{t('title')}</h1>
         
@@ -106,4 +100,48 @@ export default async function TermsPage(props: {params: Promise<{locale: string}
       </div>
     </>
   );
+}
+
+export async function generateMetadata(
+  { params }: { params: { locale: string } }
+): Promise<Metadata> {
+  const DEFAULT_LOCALE = 'en';
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://color-replace.com').replace(/\/+$/, '');
+  const locale = params.locale || DEFAULT_LOCALE;
+  const isDefault = locale === DEFAULT_LOCALE;
+  const canonicalPath = `${isDefault ? '' : '/' + locale}/terms` || '/terms';
+
+  const t = await getTranslations({ locale, namespace: 'Terms' });
+  const langMap: Record<string, string> = {};
+  for (const { value, hrefLang } of languages) {
+    const p = value === DEFAULT_LOCALE ? '/terms' : `/${value}/terms`;
+    langMap[hrefLang || value] = p;
+  }
+  (langMap as any)['x-default'] = '/terms';
+
+  return {
+    metadataBase: new URL(siteUrl),
+    title: t('title'),
+    description: t('description'),
+    robots: { index: true, follow: true },
+    alternates: {
+      canonical: canonicalPath,
+      languages: langMap
+    },
+    openGraph: {
+      type: 'website',
+      title: t('title'),
+      description: t('description'),
+      url: canonicalPath,
+      siteName: 'Color Replace',
+      images: [{ url: '/logo.png' }],
+      locale: locale.replace(/_/g, '-')
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+      images: ['/logo.png']
+    }
+  };
 }

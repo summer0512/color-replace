@@ -7,7 +7,6 @@ import { ColorReplaceSettings } from '@/components/ColorReplaceSettings';
 import { ColorPair } from '@/types/color';
 import ToolDescription from '@/components/ToolDescription';
 import UsageExamples from '@/components/UsageExamples';
-import HeadInfo from '@/components/head-info';
 
 export default function Home(props: { params: Promise<{ locale: string }> }) {
   const homeT = useTranslations('HomePage');
@@ -44,13 +43,6 @@ export default function Home(props: { params: Promise<{ locale: string }> }) {
 
   return (
     <>
-      <HeadInfo
-        locale={params.locale}
-        page=""
-        title={homeT('title')}
-        description={homeT('description')}
-        keywords={homeT('keywords')}
-      />
       <div className="mx-auto w-full px-4 lg:container">
         <div className="fixed left-0 right-0 top-16 z-40">
           <div className="mx-auto w-full px-4 lg:container">

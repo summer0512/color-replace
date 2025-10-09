@@ -1,7 +1,9 @@
 import type { MetadataRoute } from 'next'
 import { languages } from '@/i18n/config'
 
-const url = process.env.NEXT_PUBLIC_SITE_URL
+// Prefer an explicit site URL, but fall back to the production domain.
+const FALLBACK_SITE_URL = 'https://color-replace.com';
+const url = (process.env.NEXT_PUBLIC_SITE_URL || FALLBACK_SITE_URL).replace(/\/+$/, '');
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
