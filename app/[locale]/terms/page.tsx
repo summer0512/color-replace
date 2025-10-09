@@ -3,9 +3,9 @@ import type { Metadata } from 'next';
 import { languages } from '@/i18n/config';
 
 
-export default async function TermsPage(props: { params: Promise<{ locale: string }> }) {
-  const params = await props.params;
+export default async function TermsPage(props: {params: Promise<{locale: string}>}) {
   const t = await getTranslations('Terms');
+  const params = await props.params;
 
   return (
     <>
