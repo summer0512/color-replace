@@ -1,0 +1,248 @@
+{
+  "HomePage": {
+    "title": "Kuvan värinvaihtotyökalu",
+    "originalImages": "Alkuperäiset kuvat",
+    "processedImages": "Käsitellyt kuvat",
+    "previewButton": "Esikatselu",
+    "downloadButton": "Lataa",
+    "description": "Selainpohjainen työkalu nopeaan kuvan värinvaihtoon. Vaihda useita värejä, muokkaa tiedostoja erissä ja säilytä laatu yksityisellä paikallisella käsittelyllä laitteellasi.",
+    "keywords": "kuvan värinvaihto, värinvaihtotyökalu, eräkuvausmuokkaus, värinmuutin, suunnittelutyökalu"
+  },
+  "Header": {
+    "title": "Värinvaihto",
+    "subtitle": "Ammattimainen online-kuvan värinvaihtotyökalu",
+    "home": "Koti",
+    "settings": "Asetukset",
+    "about": "Tietoja"
+  },
+  "ColorReplaceSettings": {
+    "title": "Värinvaihdon asetukset",
+    "addColorPair": "Lisää väripari",
+    "colorPairTitle": "Väripari #{id}",
+    "removeColorPair": "Poista tämä väripari",
+    "sourceColor": "Lähdeväri",
+    "targetColor": "Kohdeväri",
+    "toleranceLabel": "Väri vastaavuussieto: {value}%",
+    "emptyState": "Ei värinvaihtosääntöjä. Napsauta \"Lisää väripari\" aloittaaksesi",
+    "toleranceTitle": "Väri vastaavuussieto",
+    "toleranceLow": "Tarkka",
+    "toleranceHigh": "Samankaltainen",
+    "replace": "Korvaa",
+    "download": "Lataa",
+    "clearFiles": "Tyhjennä kuvat"
+  },
+  "ColorPicker": {
+    "transparent": "läpinäkyvä",
+    "useTransparent": "Käytä läpinäkyvää",
+    "useColor": "Käytä väriä"
+  },
+  "EyeDropper": {
+    "tooltip": "Käytä värivalitsinta"
+  },
+  "ToolDescription": {
+    "title": "Ilmainen online-kuvan värinvaihtotyökalu",
+    "mainDescription": "Muunna kuvasi välittömästi ammattimaisella värinvaihtotyökalullamme. Täydellinen suunnittelijoille, markkinoijille ja sisällöntuottajille, jotka tarvitsevat muuttaa kuvien värejä nopeasti ja tehokkaasti. Olitpa sitten luomassa tuotevaihtoehtoja, säätämässä brändin värejä tai kokeilemassa designvaihtoehtoja, työkalumme tarjoaa tarkan värien manipuloinnin säilyttäen samalla kuvan laadun - kaikki suoraan selaimessasi, ilman latausta vaaditaan.",
+    "features": {
+      "title": "Ammattimaiset ominaisuudet kuvan värinmuokkaukseen",
+      "feature1": {
+        "title": "Älykäs värinvaihtoteknologia",
+        "description": "Korvaa mikä tahansa väri kuvissasi pikselitarkalla tarkkuudella. Edistynyt värin vastaavuusalgoritmimme varmistaa pehmeät siirtymät ja ammattimaisen näköiset tulokset, täydelliset tuotekuviin ja designresursseihin."
+      },
+      "feature2": {
+        "title": "Monivärinvaihto",
+        "description": "Säästä aikaa korvaamalla useita värejä samanaikaisesti. Ihanteellinen brändin värin päivityksiin, teeman muutoksiin ja tuotevaihtoehtojen luomiseen. Lisää useita väripareja muuttaaksesi koko väripaletteja kerralla."
+      },
+      "feature3": {
+        "title": "Tehokas eräkäsittely",
+        "description": "Käsittele useita kuvia samanaikaisesti tehokkaalla eräkäsittelyominaisuudellamme. Täydellinen verkkokaupan tuotekuville, markkinointimateriaaleille ja suurille designprojekteille. Säästä tunteja manuaalista muokkausaikaa."
+      },
+      "feature4": {
+        "title": "Ammattimaiset värinvalintatyökalut",
+        "description": "Käytä tarkkaa pipettityökaluamme valitaksesi täsmällisiä värejä kuvistasi. Yhteensopiva heksakoodien ja RGB-arvojen kanssa, mikä tekee brändisi värien täydellisestä vastaamisesta helppoa."
+      },
+      "feature5": {
+        "title": "Edistyneet värin vastaavuuden hallinnat",
+        "description": "Hienosäädä värinvaihtojesi älykkäillä samankaltaisuuden hallinnoillamme. Täydellinen gradienttien, varjojen ja monimutkaisten värimuunnosten käsittelyyn säilyttäen samalla luonnollisen näköiset tulokset."
+      },
+      "feature6": {
+        "title": "Turvallinen paikallinen käsittely",
+        "description": "Koe nopea, turvallinen kuvankäsittely suoraan selaimessasi. Ei tiedostolatausta tarvita - kuvasi eivät koskaan jätä laitettasi, mikä varmistaa täydellisen yksityisyyden ja välittömät tulokset."
+      }
+    },
+    "privacyTitle": "100% Yksityinen & Turvallinen",
+    "privacyDescription": "Yksityisyytesi ja tietoturvasi ovat korkein prioriteettimme. Toisin kuin muut online-työkalut, kuvankäsittelijämme toimii täysin selaimessasi - kuviasi ei koskaan ladata millekään palvelimelle. Työskentele luottavaisin mielin tietäen, että arkaluontoiset designresurssisi pysyvät yksityisinä ja turvallisina laitteellasi."
+  },
+  "UsageExamples": {
+    "title": "Käyttöesimerkit",
+    "description": "Tässä on muutamia esimerkkejä siitä, miten voit käyttää värinvaihtotyökalua:",
+    "before": "Ennen",
+    "after": "Jälkeen",
+    "settingsTitle": "Väriasetukset",
+    "tolerance": "Sieto",
+    "loadExample": "Lataa esimerkki",
+    "example1": {
+      "title": "Usean väriparin asetukset",
+      "description": "Korvaa useita värejä samanaikaisesti lisäämällä useita väripareja.",
+      "beforeAlt": "Tyhjän tilan kuvitus punaisella väripaletilla",
+      "afterAlt": "Tyhjän tilan kuvitus sinisellä väripaletilla"
+    },
+    "example2": {
+      "title": "Kuvien eräkäsittely",
+      "description": "Käsittele useita kuvia kerralla tehokasta eräkäsittelyä varten.",
+      "beforeAlt": "joukko sinisiä ikoneita",
+      "afterAlt": "joukko punaisia ikoneita"
+    },
+    "example3": {
+      "title": "korvaa väri läpinäkyvällä",
+      "description": "tukee värin korvaamista läpinäkyvällä.",
+      "beforeAlt": "profiilikuva keltaisella taustalla",
+      "afterAlt": "profiilikuva läpinäkyvällä taustalla"
+    }
+  },
+  "Metadata": {
+    "title": "Värinvaihto - Ilmainen online-kuvan värinvaihtotyökalu",
+    "titleTemplate": "%s | Värinvaihto - Kuvan värimuokkain",
+    "description": "Ilmainen online-työkalu tarkkaan kuvan värinvaihtoon. Korvaa useita värejä samanaikaisesti, käsittele kuvia erissä ja säilytä kuvan laatu. Ei latausta vaadita - käsittele paikallisesti selaimessa.",
+    "keywords": "värinvaihto, kuvan värimuokkain, värinvaihtotyökalu, eräkuvankäsittely, kuvan värinmuutin, värinvaihtotyökalu, kuvanmuokkaus, suunnittelutyökalu",
+    "locale": "fi_FI",
+    "ogTitle": "Värinvaihto - Ilmainen online-kuvan värinvaihtotyökalu",
+    "ogDescription": "Muunna kuvasi tehokkaalla värinvaihtotyökalullamme. Korvaa useita värejä, käsittele kuvia erissä ja säilytä laatu. Ei latausta tarvita - kaikki käsittely tapahtuu selaimessasi.",
+    "ogImageAlt": "Värinvaihtotyökalun käyttöliittymä",
+    "twitterTitle": "Värinvaihto - Ilmainen online-kuvan värinvaihtotyökalu",
+    "twitterDescription": "Muunna kuvasi tehokkaalla värinvaihtotyökalullamme. Korvaa useita värejä, käsittele kuvia erissä ja säilytä laatu."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Pudota ladataksesi kuvia",
+    "dragAndDrop": "Raahaa ja pudota kuvat tähän, tai napsauta ladataksesi",
+    "supportedFormats": "Tukee PNG, JPG, JPEG, GIF, WEBP muotoja, max 5MB per tiedosto",
+    "error": {
+      "fileTooLarge": "Tiedosto liian suuri, lataa kuvia alle 5MB",
+      "invalidFormat": "Lataa kelvollisia kuvamuotoja",
+      "canvasContext": "Ei voida luoda kangaskontekstia",
+      "noFilesUploaded": "Lataa kuvia käsiteltäväksi"
+    }
+  },
+  "Privacy": {
+    "title": "Tietosuojakäytäntö",
+    "description": "Tietosuojakäytäntö Värinvaihto kuvan värinvaihtotyökalulle",
+    "keywords": "tietosuojakäytäntö, tietosuoja, GDPR, käyttäjän yksityisyys, kuvankäsittely",
+    "information_collection": {
+      "title": "Keräämämme tiedot",
+      "description": "Keräämme minimaalista tietoa tarjotaksemme värinvaihtopalvelumme:",
+      "uploaded_images": "Kuvat, jotka lataat värinvaihtoon (käsitellään paikallisesti selaimessasi)",
+      "usage_data": "Peruskäyttötilastot ja analytiikkadata",
+      "device_info": "Laite- ja selaintiedot palvelun optimointia varten"
+    },
+    "data_usage": {
+      "title": "Miten käytämme tietojasi",
+      "description": "Käytämme kerättyjä tietoja seuraaviin tarkoituksiin:",
+      "provide_service": "Tarjotaksemme ja ylläpitääksemme värinvaihtopalveluamme",
+      "improve_service": "Parantaaksemme ja optimoidaksemme työkalumme suorituskykyä",
+      "analytics": "Ymmärtääksemme käyttömalleja ja parantaaksemme käyttökokemusta",
+      "advertising": "Näyttääksemme relevantteja mainoksia Google Adensen kautta"
+    },
+    "data_storage": {
+      "title": "Tietojen tallennus ja turvallisuus",
+      "description": "Yksityisyytesi ja tietoturvasi ovat korkein prioriteettimme:",
+      "temporary": "Ladatut kuvat käsitellään paikallisesti selaimessasi eivätkä tallenneta palvelimillemme"
+    },
+    "third_party": {
+      "title": "Kolmannen osapuolen palvelut",
+      "description": "Käytämme seuraavia kolmannen osapuolen palveluita:",
+      "analytics": "Verkkosivuanalytiikkaan ja suorituskyvyn valvontaan",
+      "advertising": "Mainosten näyttämiseen verkkosivullamme"
+    },
+    "cookies": {
+      "title": "Evästeet ja seuranta",
+      "description": "Käytämme evästeitä ja vastaavia teknologioita parantaaksemme kokemustasi ja tarjotaksemme analytiikkaa.",
+      "control": "Voit hallita evästeasetuksia selainasetuksiesi tai suostumushallinta-alustamme kautta."
+    },
+    "user_rights": {
+      "title": "Oikeutesi",
+      "description": "GDPR:n ja muiden tietosuojalakien mukaan sinulla on seuraavat oikeudet:",
+      "access": "Oikeus päästä henkilötietoihisi",
+      "correction": "Oikeus korjata virheelliset henkilötiedot",
+      "deletion": "Oikeus pyytää henkilötietojesi poistamista",
+      "portability": "Oikeus tietojen siirrettävyyteen"
+    },
+    "contact": {
+      "title": "Ota yhteyttä",
+      "description": "Jos sinulla on kysyttävää tästä tietosuojakäytännöstä, ota yhteyttä verkkosivustomme kautta."
+    },
+    "updates": {
+      "title": "Käytännön päivitykset",
+      "description": "Voimme päivittää tätä tietosuojakäytäntöä aika ajoin. Ilmoitamme sinulle muutoksista julkaisemalla uuden tietosuojakäytännön tällä sivulla."
+    },
+    "last_updated": "Viimeksi päivitetty"
+  },
+  "Terms": {
+    "title": "Käyttöehdot",
+    "description": "Käyttöehdot Värinvaihto kuvan värinvaihtotyökalulle",
+    "keywords": "käyttöehdot, käyttäjä sopimus, ehdot ja edellytykset, palvelun ehdot",
+    "acceptance": {
+      "title": "Ehtojen hyväksyminen",
+      "description": "Käyttämällä Värinvaihto-työkaluamme hyväksyt ja sitoudut olemaan sitoutunut tämän sopimuksen ehtoihin ja määräyksiin."
+    },
+    "service_description": {
+      "title": "Palvelun kuvaus",
+      "description": "Värinvaihto on ilmainen online-työkalu, joka tarjoaa:",
+      "color_replacement": "Kuvan värinvaihdon ja muokkausominaisuudet",
+      "image_processing": "Paikallisen kuvankäsittelyn ilman palvelinlatausta",
+      "free_service": "Ilmaisen pääsyn kaikkiin perusvärinvaihto-ominaisuuksiin"
+    },
+    "user_responsibilities": {
+      "title": "Käyttäjän vastuut",
+      "description": "Palvelumme käyttäjänä sitoudut:",
+      "legal_content": "Lataamaan ja käsittelemään vain kuvia, joihin sinulla on laillinen oikeus",
+      "copyright": "Kunnioittamaan tekijänoikeuksia ja immateriaalioikeuksia",
+      "appropriate_use": "Käyttämään palvelua vain laillisiin tarkoituksiin",
+      "no_harmful_content": "Ei lataamaan haitallista, loukkaavaa tai sopimatonta sisältöä"
+    },
+    "prohibited_uses": {
+      "title": "Kielletyt käytöt",
+      "description": "Et voi käyttää palveluamme:",
+      "illegal_content": "Laittoman tai haitallisen sisällön käsittelyyn",
+      "copyright_violation": "Tekijänoikeuksien tai immateriaalioikeuksien rikkomiseen",
+      "malicious_use": "Mihinkään haitallisiin tai vahingollisiin toimiin",
+      "system_abuse": "Järjestelmiemme väärinkäyttöön tai ylikuormittamiseen yrittämiseen"
+    },
+    "intellectual_property": {
+      "title": "Imateriaalioikeudet",
+      "description": "Värinvaihto-työkalu ja sen alkuperäinen sisältö, ominaisuudet ja toiminnallisuus omistetaan meille ja suojataan kansainvälisilla tekijänoikeus-, tavaramerkki- ja muilla immateriaalioikeuslaeilla.",
+      "user_content": "Säilytät kaikki oikeudet kuviin, jotka lataat ja käsittelet työkalullamme."
+    },
+    "disclaimers": {
+      "title": "Vastuuvapauslausekkeet",
+      "description": "Palvelumme tarjotaan 'sellaisenaan'. Emme anna mitään takuita, ilmaisia tai oletettuja, ja täten kiistämme kaikki muut takuut mukaan lukien:",
+      "as_is": "Palvelu tarjotaan ilman mitään takuita",
+      "availability": "Emme takaa keskeytymätöntä tai virheetöntä palvelua",
+      "accuracy": "Emme takaa tulosten tarkkuutta tai täydellisyyttä"
+    },
+    "limitation_liability": {
+      "title": "Vastuunrajoitus",
+      "description": "Missään olosuhteissa Värinvaihto ei ole vastuussa mistään epäsuorista, satunnaisista, erityisistä, seuraamuksellisista tai rangaistusluonteisista vahingoista, mukaan lukien mutta ei rajoittuen voiton, tiedon, käytön, goodwillin tai muiden aineettomien menetysten menetyksestä."
+    },
+    "termination": {
+      "title": "Päättyminen",
+      "description": "Voimme irtisanoa tai keskeyttää pääsysi välittömästi, ilman ennakkoilmoitusta tai vastuuta, mistä tahansa syystä, mukaan lukien mutta ei rajoittuen, jos rikot ehtoja."
+    },
+    "changes": {
+      "title": "Ehtojen muutokset",
+      "description": "Pidätämme oikeuden, harkintamme mukaan, muuttaa tai korvata nämä ehdot milloin tahansa. Jos muutos on merkittävä, yritämme antaa vähintään 30 päivän ilmoituksen ennen uusien ehtojen voimaantuloa."
+    },
+    "governing_law": {
+      "title": "Soveltava laki",
+      "description": "Näitä ehtoja tulkitaan ja hallitaan sen lainkäyttöalueen lakien mukaan, jossa toimimme, ottamatta huomioon sen lainvalintaa koskevia säännöksiä."
+    },
+    "contact": {
+      "title": "Yhteystiedot",
+      "description": "Jos sinulla on kysyttävää näistä Käyttöehdoista, ota yhteyttä verkkosivustomme kautta."
+    },
+    "last_updated": "Viimeksi päivitetty"
+  },
+  "Footer": {
+    "rights_reserved": "Kaikki oikeudet pidätetään.",
+    "privacy_policy": "Tietosuojakäytäntö",
+    "terms_of_service": "Käyttöehdot"
+  }
+}

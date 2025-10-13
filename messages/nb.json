@@ -1,0 +1,248 @@
+{
+  "HomePage": {
+    "title": "Bilde-fargebytteverktøy",
+    "originalImages": "Originalbilder",
+    "processedImages": "Behandlede bilder",
+    "previewButton": "Forhåndsvis",
+    "downloadButton": "Last ned",
+    "description": "Nettleserbasert verktøy for rask bildefargebytte. Bytt flere farger, rediger filer i batch og behold kvaliteten med privat behandling på enheten din.",
+    "keywords": "bilde-fargebytte, fargebytteverktøy, batch-bilderedigering, fargeendrer, designverktøy"
+  },
+  "Header": {
+    "title": "Fargebytte",
+    "subtitle": "Profesjonelt onlineverktøy for bildefargebytte",
+    "home": "Hjem",
+    "settings": "Innstillinger",
+    "about": "Om"
+  },
+  "ColorReplaceSettings": {
+    "title": "Innstillinger for fargebytte",
+    "addColorPair": "Legg til fargepar",
+    "colorPairTitle": "Fargepar #{id}",
+    "removeColorPair": "Fjern dette fargeparet",
+    "sourceColor": "Kildefarge",
+    "targetColor": "Målfarge",
+    "toleranceLabel": "Fargematching-toleranse: {value}%",
+    "emptyState": "Ingen regler for fargebytte. Klikk på \"Legg til fargepar\" for å starte",
+    "toleranceTitle": "Fargematching-toleranse",
+    "toleranceLow": "Nøyaktig",
+    "toleranceHigh": "Lignende",
+    "replace": "Bytt ut",
+    "download": "Last ned",
+    "clearFiles": "Tøm bilder"
+  },
+  "ColorPicker": {
+    "transparent": "gjennomsiktig",
+    "useTransparent": "Bruk gjennomsiktig",
+    "useColor": "Bruk farge"
+  },
+  "EyeDropper": {
+    "tooltip": "Bruk fargevelger"
+  },
+  "ToolDescription": {
+    "title": "Gratis onlineverktøy for bildefargebytte",
+    "mainDescription": "Transformer bildene dine umiddelbart med vårt profesjonelle fargebytteverktøy. Perfekt for designere, markedsførere og innholdsskapere som raskt og effektivt trenger å endre bildefarger. Enten du lager produktvarianter, justerer merkefarger eller eksperimenterer med designalternativer, gir verktøyet vårt presis fargemanipulering samtidig som bildekvaliteten bevares - alt direkte i nettleseren din, uten opplasting kreves.",
+    "features": {
+      "title": "Profesjonelle funksjoner for bildefarge-redigering",
+      "feature1": {
+        "title": "Smart teknologi for fargebytte",
+        "description": "Bytt ut hvilken som helst farge i bildene dine med pikselperfekt nøyaktighet. Vår avanserte fargematchingsalgoritme sikrer jevne overganger og profesjonelle resultater, perfekte for produktbilder og designressurser."
+      },
+      "feature2": {
+        "title": "Multifargebytte",
+        "description": "Spar tid ved å bytte flere farger samtidig. Ideelt for merkefargeoppdateringer, temaendringer og opprettelse av produktvarianter. Legg til flere fargepar for å transformere hele fargepaletter på en gang."
+      },
+      "feature3": {
+        "title": "Effektiv batch-behandling",
+        "description": "Behandle flere bilder samtidig med vår kraftfulle batch-behandlingsfunksjon. Perfekt for e-handels produktbilder, markedsføringsmateriell og store designprosjekter. Spar timer med manuell redigeringstid."
+      },
+      "feature4": {
+        "title": "Profesjonelle fargevalgverktøy",
+        "description": "Bruk vårt presise pipetteverktøy for å velge nøyaktige farger fra bildene dine. Kompatibelt med hekskoder og RGB-verdier, noe som gjør det enkelt å perfekt matche merkefargene dine."
+      },
+      "feature5": {
+        "title": "Avanserte kontroller for fargematching",
+        "description": "Finnjuster fargebytene dine med våre intelligente likhetskontroller. Perfekt for å håndtere gradienter, skygger og komplekse fargevariasjoner samtidig som naturlige resultater opprettholdes."
+      },
+      "feature6": {
+        "title": "Sikker lokal behandling",
+        "description": "Opplev rask, sikker bildebehandling direkte i nettleseren din. Ingen filopplasting nødvendig - bildene dine forlater aldri enheten din, noe som sikrer fullstendig personvern og umiddelbare resultater."
+      }
+    },
+    "privacyTitle": "100% Privat & Sikker",
+    "privacyDescription": "Ditt personvern og datasikkerhet er vår høyeste prioritet. I motsetning til andre onlineverktøy, fungerer bildebehandleren vår helt i nettleseren din - bildene dine lastes aldri opp til noen server. Arbeid trygt med kunnskapen om at dine sensitive designressurser forblir private og sikre på enheten din."
+  },
+  "UsageExamples": {
+    "title": "Brukseksempler",
+    "description": "Her er noen eksempler på hvordan du kan bruke fargebytteverktøyet:",
+    "before": "Før",
+    "after": "Etter",
+    "settingsTitle": "Fargeinnstillinger",
+    "tolerance": "Toleranse",
+    "loadExample": "Last eksempel",
+    "example1": {
+      "title": "Innstillinger for flere fargepar",
+      "description": "Bytt ut flere farger samtidig ved å legge til flere fargepar.",
+      "beforeAlt": "Tilstandsillustrasjon med rødt fargeskjema",
+      "afterAlt": "Tilstandsillustrasjon med blått fargeskjema"
+    },
+    "example2": {
+      "title": "Batch-bildebehandling",
+      "description": "Behandle flere bilder samtidig for effektiv batch-behandling.",
+      "beforeAlt": "et sett med blå ikoner",
+      "afterAlt": "et sett med røde ikoner"
+    },
+    "example3": {
+      "title": "bytt ut farge med gjennomsiktig",
+      "description": "støtter utbytte av farge med gjennomsiktig.",
+      "beforeAlt": "profilbilde med gul bakgrunn",
+      "afterAlt": "profilbilde med gjennomsiktig bakgrunn"
+    }
+  },
+  "Metadata": {
+    "title": "Fargebytte - Gratis onlineverktøy for bildefargebytte",
+    "titleTemplate": "%s | Fargebytte - Bildefarge-redigerer",
+    "description": "Gratis onlineverktøy for presist bildefargebytte. Bytt ut flere farger samtidig, behandle bilder i batch og behold bildekvaliteten. Ingen opplasting kreves - behandle lokalt i nettleser.",
+    "keywords": "fargebytte, bildefarge-redigerer, fargebytteverktøy, batch-bildebehandling, bildefargeendrer, fargebytteverktøy, bilderedigering, designverktøy",
+    "locale": "nb_NO",
+    "ogTitle": "Fargebytte - Gratis onlineverktøy for bildefargebytte",
+    "ogDescription": "Transformer bildene dine med vårt kraftfulle fargebytteverktøy. Bytt ut flere farger, behandle bilder i batch og behold kvaliteten. Ingen opplasting nødvendig - all behandling skjer i nettleseren din.",
+    "ogImageAlt": "Fargebytteverktøy-grensesnitt",
+    "twitterTitle": "Fargebytte - Gratis onlineverktøy for bildefargebytte",
+    "twitterDescription": "Transformer bildene dine med vårt kraftfulle fargebytteverktøy. Bytt ut flere farger, behandle bilder i batch og behold kvaliteten."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Slipp for å laste opp bilder",
+    "dragAndDrop": "Dra og slipp bilder her, eller klikk for å laste opp",
+    "supportedFormats": "Støtter PNG, JPG, JPEG, GIF, WEBP formater, maks 5MB per fil",
+    "error": {
+      "fileTooLarge": "Filen for stor, last opp bilder under 5MB",
+      "invalidFormat": "Last opp gyldige bildeformatfiler",
+      "canvasContext": "Kan ikke opprette canvas-kontekst",
+      "noFilesUploaded": "Last opp bilder for å behandle"
+    }
+  },
+  "Privacy": {
+    "title": "Personvernserklæring",
+    "description": "Personvernserklæring for Fargebytte bildefargebytteverktøy",
+    "keywords": "personvernserklæring, databeskyttelse, GDPR, brukerpersonvern, bildebehandling",
+    "information_collection": {
+      "title": "Informasjon vi samler inn",
+      "description": "Vi samler inn minimal informasjon for å tilby vår fargebytningstjeneste:",
+      "uploaded_images": "Bilder du laster opp for fargebytte (behandles lokalt i nettleseren din)",
+      "usage_data": "Grunnleggende bruksstatistikk og analysedata",
+      "device_info": "Enhets- og nettleserinformasjon for tjenesteoptimalisering"
+    },
+    "data_usage": {
+      "title": "Hvordan vi bruker dataene dine",
+      "description": "Vi bruker innsamlet informasjon for følgende formål:",
+      "provide_service": "For å tilby og vedlikeholde vår fargebytningstjeneste",
+      "improve_service": "For å forbedre og optimalisere verktøyets vårt ytelse",
+      "analytics": "For å forstå bruksmønstre og forbedre brukeropplevelsen",
+      "advertising": "For å vise relevante annonser gjennom Google AdSense"
+    },
+    "data_storage": {
+      "title": "Datalagring og sikkerhet",
+      "description": "Ditt personvern og datasikkerhet er vår høyeste prioritet:",
+      "temporary": "Opplastede bilder behandles lokalt i nettleseren din og lagres ikke på våre servere"
+    },
+    "third_party": {
+      "title": "Tredjepartstjenester",
+      "description": "Vi bruker følgende tredjepartstjenester:",
+      "analytics": "For nettstedanalyse og ytelsesovervåking",
+      "advertising": "For å vise annonser på nettstedet vårt"
+    },
+    "cookies": {
+      "title": "Informasjonskapsler og sporing",
+      "description": "Vi bruker informasjonskapsler og lignende teknologier for å forbedre opplevelsen din og tilby analyse.",
+      "control": "Du kan kontrollere informasjonskapsel-preferanser gjennom nettleserinnstillingene dine eller vår samtykkesstyringsplattform."
+    },
+    "user_rights": {
+      "title": "Dine rettigheter",
+      "description": "I henhold til GDPR og andre personvernlover har du følgende rettigheter:",
+      "access": "Rett til å få tilgang til personopplysningene dine",
+      "correction": "Rett til å korrigere unøyaktige personopplysninger",
+      "deletion": "Rett til å be om sletting av personopplysningene dine",
+      "portability": "Rett til dataportabilitet"
+    },
+    "contact": {
+      "title": "Kontakt oss",
+      "description": "Hvis du har spørsmål om denne Personvernserklæringen, vennligst kontakt oss via nettstedet vårt."
+    },
+    "updates": {
+      "title": "Oppdateringer av erklæringen",
+      "description": "Vi kan oppdatere denne Personvernserklæringen fra tid til annen. Vi vil varsle deg om eventuelle endringer ved å publisere den nye Personvernserklæringen på denne siden."
+    },
+    "last_updated": "Sist oppdatert"
+  },
+  "Terms": {
+    "title": "Tjenestevilkår",
+    "description": "Tjenestevilkår for Fargebytte bildefargebytteverktøy",
+    "keywords": "tjenestevilkår, brukeravtale, vilkår og betingelser, tjenestebetingelser",
+    "acceptance": {
+      "title": "Godkjenning av vilkår",
+      "description": "Ved å få tilgang til og bruke vårt Fargebytte-verktøy, aksepterer og godkjenner du å være bundet av vilkårene og bestemmelsene i denne avtalen."
+    },
+    "service_description": {
+      "title": "Tjenestebeskrivelse",
+      "description": "Fargebytte er et gratis onlineverktøy som tilbyr:",
+      "color_replacement": "Bildefargebytte og redigeringsmuligheter",
+      "image_processing": "Lokal bildebehandling uten serveropplasting",
+      "free_service": "Gratis tilgang til alle grunnleggende fargebyttefunksjoner"
+    },
+    "user_responsibilities": {
+      "title": "Brukeransvar",
+      "description": "Som bruker av vår tjeneste godkjenner du å:",
+      "legal_content": "Bare laste opp og behandle bilder du har juridisk rett til å bruke",
+      "copyright": "Respektere opphavsrett og immaterielle rettigheter",
+      "appropriate_use": "Bruke tjenesten kun for lovlige formål",
+      "no_harmful_content": "Ikke laste opp skadelig, støtende eller upassende innhold"
+    },
+    "prohibited_uses": {
+      "title": "Forbudt bruk",
+      "description": "Du kan ikke bruke vår tjeneste for:",
+      "illegal_content": "Behandling av ulovlig eller skadelig innhold",
+      "copyright_violation": "Krenkelse av opphavsrett eller immaterielle rettigheter",
+      "malicious_use": "Noen ondsinnede eller skadelige aktiviteter",
+      "system_abuse": "Forsøk på å misbruke eller overbelaste systemene våre"
+    },
+    "intellectual_property": {
+      "title": "Immaterielle rettigheter",
+      "description": "Fargebytte-verktøyet og dets originale innhold, funksjoner og funksjonalitet eies av oss og er beskyttet av internasjonale lover om opphavsrett, varemerke og andre immaterielle rettigheter.",
+      "user_content": "Du beholder alle rettigheter til bilder du laster opp og behandler med verktøyet vårt."
+    },
+    "disclaimers": {
+      "title": "Ansvarsfraskrivelser",
+      "description": "Vår tjeneste leveres \"som den er\". Vi gir ingen garantier, uttrykte eller underforståtte, og fraskriver oss hermed alle andre garantier, inkludert:",
+      "as_is": "Tjenesten leveres uten garanti av noe slag",
+      "availability": "Vi garanterer ikke uavbrutt eller feilfri tjeneste",
+      "accuracy": "Vi garanterer ikke nøyaktigheten eller fullstendigheten av resultater"
+    },
+    "limitation_liability": {
+      "title": "Ansvarsbegrensning",
+      "description": "Under ingen omstendigheter skal Fargebytte være ansvarlig for noen indirekte, tilfeldige, spesielle, påfølgende eller straffende skader, inkludert uten begrensning, tap av profitt, data, bruk, goodwill eller andre immaterielle tap."
+    },
+    "termination": {
+      "title": "Oppsigelse",
+      "description": "Vi kan avslutte eller suspendere tilgangen din umiddelbart, uten forhåndsvarsel eller ansvar, for enhver som helst grunn, inkludert uten begrensning hvis du bryter vilkårene."
+    },
+    "changes": {
+      "title": "Endringer i vilkår",
+      "description": "Vi forbeholder oss retten, etter eget skjønn, til å endre eller erstatte disse vilkårene når som helst. Hvis en revisjon er vesentlig, vil vi prøve å gi minst 30 dagers varsel før nye vilkår trer i kraft."
+    },
+    "governing_law": {
+      "title": "Gjeldende lov",
+      "description": "Disse vilkårene skal tolkes og styres av lovene i jurisdiksjonen der vi opererer, uten hensyn til dets lovkonfliktbestemmelser."
+    },
+    "contact": {
+      "title": "Kontaktinformasjon",
+      "description": "Hvis du har spørsmål om disse Tjenestevilkårene, vennligst kontakt oss via nettstedet vårt."
+    },
+    "last_updated": "Sist oppdatert"
+  },
+  "Footer": {
+    "rights_reserved": "Alle rettigheter forbeholdt.",
+    "privacy_policy": "Personvernserklæring",
+    "terms_of_service": "Tjenestevilkår"
+  }
+}

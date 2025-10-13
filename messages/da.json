@@ -1,0 +1,248 @@
+{
+  "HomePage": {
+    "title": "Billedfarve-udskiftningsværktøj",
+    "originalImages": "Originalbilleder",
+    "processedImages": "Behandlede billeder",
+    "previewButton": "Forhåndsvisning",
+    "downloadButton": "Download",
+    "description": "Browser-baseret værktøj til hurtig billedfarve-udskiftning. Udskift flere farver, rediger filer i batch og behold kvaliteten med privat behandling på din enhed.",
+    "keywords": "billedfarve-udskiftning, farveudskiftningsværktøj, batch billedredigering, farveændrer, designværktøj"
+  },
+  "Header": {
+    "title": "Farveudskiftning",
+    "subtitle": "Professionelt onlineværktøj til billedfarve-udskiftning",
+    "home": "Hjem",
+    "settings": "Indstillinger",
+    "about": "Om"
+  },
+  "ColorReplaceSettings": {
+    "title": "Indstillinger for farveudskiftning",
+    "addColorPair": "Tilføj farvepar",
+    "colorPairTitle": "Farvepar #{id}",
+    "removeColorPair": "Fjern dette farvepar",
+    "sourceColor": "Kildefarve",
+    "targetColor": "Målfarve",
+    "toleranceLabel": "Farvematchning-tolerance: {value}%",
+    "emptyState": "Ingen regler for farveudskiftning. Klikk på \"Tilføj farvepar\" for at starte",
+    "toleranceTitle": "Farvematchning-tolerance",
+    "toleranceLow": "Præcis",
+    "toleranceHigh": "Lignende",
+    "replace": "Udskift",
+    "download": "Download",
+    "clearFiles": "Ryd billeder"
+  },
+  "ColorPicker": {
+    "transparent": "gennemsigtig",
+    "useTransparent": "Brug gennemsigtig",
+    "useColor": "Brug farve"
+  },
+  "EyeDropper": {
+    "tooltip": "Brug farvevælger"
+  },
+  "ToolDescription": {
+    "title": "Gratis onlineværktøj til billedfarve-udskiftning",
+    "mainDescription": "Transformer dine billeder øjeblikkeligt med vores professionelle farveudskiftningsværktøj. Perfekt til designere, marketingfolk og indholdsskabere, der hurtigt og effektivt har brug for at ændre billedfarver. Uanset om du skaber produktvarianter, justerer brandfarver eller eksperimenterer med designmuligheder, giver vores værktøj præcis farvemanipulation samtidig med at billedkvaliteten bevares - alt direkte i din browser, uden upload krævet.",
+    "features": {
+      "title": "Professionelle funktioner til billedfarveredigering",
+      "feature1": {
+        "title": "Smart teknologi til farveudskiftning",
+        "description": "Udskift enhver farve i dine billeder med pixel-perfekt nøjagtighed. Vores avancerede farvematchningsalgoritme sikrer jævne overgange og professionelle resultater, perfekte til produktbilleder og designressourcer."
+      },
+      "feature2": {
+        "title": "Multifarve-udskiftning",
+        "description": "Spar tid ved at udskifte flere farver samtidigt. Ideelt til brandfarveopdateringer, temaændringer og skabelse af produktvarianter. Tilføj flere farvepar for at transformere hele farveskemaer på én gang."
+      },
+      "feature3": {
+        "title": "Effektiv batch-behandling",
+        "description": "Behandl flere billeder samtidigt med vores kraftfulde batch-behandlingsfunktion. Perfekt til e-handels produktbilleder, marketingmaterialer og store designprojekter. Spar timer af manuel redigeringstid."
+      },
+      "feature4": {
+        "title": "Professionelle farvevalgsværktøjer",
+        "description": "Brug vores præcise pipetteværktøj til at vælge nøjagtige farver fra dine billeder. Kompatibelt med hex-koder og RGB-værdier, hvilket gør det nemt at matche dine brandfarver perfekt."
+      },
+      "feature5": {
+        "title": "Avancerede kontroller til farvematchning",
+        "description": "Finjuster dine farveudskiftninger med vores intelligente lighedskontroller. Perfekt til håndtering af gradienter, skygger og komplekse farvevariationer samtidig med at naturligt udseende resultater opretholdes."
+      },
+      "feature6": {
+        "title": "Sikker lokal behandling",
+        "description": "Oplev hurtig, sikker billedbehandling direkte i din browser. Ingen fil-upload nødvendig - dine billeder forlader aldrig din enhed, hvilket sikrer fuldstændig privatliv og øjeblikkelige resultater."
+      }
+    },
+    "privacyTitle": "100% Privat & Sikker",
+    "privacyDescription": "Dit privatliv og datasikkerhed er vores højeste prioritet. I modsætning til andre onlineværktøjer fungerer vores billedbehandler fuldstændigt i din browser - dine billeder uploades aldrig til nogen server. Arbejd trygt med visheden om, at dine følsomme designressourcer forbliver private og sikre på din enhed."
+  },
+  "UsageExamples": {
+    "title": "Brugseksempler",
+    "description": "Her er nogle eksempler på, hvordan du kan bruge farveudskiftningsværktøjet:",
+    "before": "Før",
+    "after": "Efter",
+    "settingsTitle": "Farveindstillinger",
+    "tolerance": "Tolerance",
+    "loadExample": "Indlæs eksempel",
+    "example1": {
+      "title": "Indstillinger for flere farvepar",
+      "description": "Udskift flere farver samtidigt ved at tilføje flere farvepar.",
+      "beforeAlt": "Tomtilstandsillustration med rødt farveskema",
+      "afterAlt": "Tomtilstandsillustration med blåt farveskema"
+    },
+    "example2": {
+      "title": "Batch-billedbehandling",
+      "description": "Behandl flere billeder på én gang for effektiv batch-behandling.",
+      "beforeAlt": "et sæt blå ikoner",
+      "afterAlt": "et sæt røde ikoner"
+    },
+    "example3": {
+      "title": "udskift farve med gennemsigtig",
+      "description": "understøtter udskiftning af farve med gennemsigtig.",
+      "beforeAlt": "profilbillede med gul baggrund",
+      "afterAlt": "profilbillede med gennemsigtig baggrund"
+    }
+  },
+  "Metadata": {
+    "title": "Farveudskiftning - Gratis onlineværktøj til billedfarve-udskiftning",
+    "titleTemplate": "%s | Farveudskiftning - Billedfarve-redigerer",
+    "description": "Gratis onlineværktøj til præcis billedfarve-udskiftning. Udskift flere farver samtidigt, behandl billeder i batch og behold billedkvaliteten. Ingen upload krævet - behandl lokalt i browser.",
+    "keywords": "farveudskiftning, billedfarve-redigerer, farveudskiftningsværktøj, batch-billedbehandling, billedfarveændrer, farveudskiftningsværktøj, billedredigering, designværktøj",
+    "locale": "da_DK",
+    "ogTitle": "Farveudskiftning - Gratis onlineværktøj til billedfarve-udskiftning",
+    "ogDescription": "Transformer dine billeder med vores kraftfulde farveudskiftningsværktøj. Udskift flere farver, behandl billeder i batch og behold kvaliteten. Ingen upload nødvendig - al behandling sker i din browser.",
+    "ogImageAlt": "Farveudskiftningsværktøj interface",
+    "twitterTitle": "Farveudskiftning - Gratis onlineværktøj til billedfarve-udskiftning",
+    "twitterDescription": "Transformer dine billeder med vores kraftfulde farveudskiftningsværktøj. Udskift flere farver, behandl billeder i batch og behold kvaliteten."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Slip for at uploade billeder",
+    "dragAndDrop": "Træk og slip billeder her, eller klik for at uploade",
+    "supportedFormats": "Understøtter PNG, JPG, JPEG, GIF, WEBP formater, max 5MB pr. fil",
+    "error": {
+      "fileTooLarge": "Filen for stor, upload billeder under 5MB",
+      "invalidFormat": "Upload gyldige billedformatfiler",
+      "canvasContext": "Kan ikke oprette canvas-kontekst",
+      "noFilesUploaded": "Upload billeder for at behandle"
+    }
+  },
+  "Privacy": {
+    "title": "Privatlivspolitik",
+    "description": "Privatlivspolitik for Farveudskiftning billedfarve-udskiftningsværktøj",
+    "keywords": "privatlivspolitik, databeskyttelse, GDPR, brugerprivatliv, billedbehandling",
+    "information_collection": {
+      "title": "Information vi indsamler",
+      "description": "Vi indsamler minimal information for at yde vores farveudskiftningstjeneste:",
+      "uploaded_images": "Billeder du uploader til farveudskiftning (behandles lokalt i din browser)",
+      "usage_data": "Grundlæggende brugsstatistik og analysedata",
+      "device_info": "Enheds- og browserinformation til tjenesteoptimering"
+    },
+    "data_usage": {
+      "title": "Hvordan vi bruger dine data",
+      "description": "Vi bruger indsamlet information til følgende formål:",
+      "provide_service": "For at yde og vedligeholde vores farveudskiftningstjeneste",
+      "improve_service": "For at forbedre og optimere vores værktøjs ydeevne",
+      "analytics": "For at forstå brugsmønstre og forbedre brugeroplevelsen",
+      "advertising": "For at vise relevante annoncer gennem Google AdSense"
+    },
+    "data_storage": {
+      "title": "Datalagring og sikkerhed",
+      "description": "Dit privatliv og datasikkerhed er vores højeste prioritet:",
+      "temporary": "Uploadede billeder behandles lokalt i din browser og gemmes ikke på vores servere"
+    },
+    "third_party": {
+      "title": "Tredjeparts-tjenester",
+      "description": "Vi bruger følgende tredjeparts-tjenester:",
+      "analytics": "Til hjemmesideanalyse og ydeevneovervågning",
+      "advertising": "Til visning af annoncer på vores hjemmeside"
+    },
+    "cookies": {
+      "title": "Cookies og sporing",
+      "description": "Vi bruger cookies og lignende teknologier til at forbedre din oplevelse og yde analyse.",
+      "control": "Du kan kontrollere cookie-præferencer via dine browserindstillinger eller vores samtykkestyringsplatform."
+    },
+    "user_rights": {
+      "title": "Dine rettigheder",
+      "description": "I henhold til GDPR og andre privatlivslove har du følgende rettigheder:",
+      "access": "Ret til at få adgang til dine personoplysninger",
+      "correction": "Ret til at korrigere unøjagtige personoplysninger",
+      "deletion": "Ret til at anmode om sletning af dine personoplysninger",
+      "portability": "Ret til dataportabilitet"
+    },
+    "contact": {
+      "title": "Kontakt os",
+      "description": "Hvis du har spørgsmål til denne Privatlivspolitik, bedes du kontakte os via vores hjemmeside."
+    },
+    "updates": {
+      "title": "Politikopdateringer",
+      "description": "Vi kan opdatere denne Privatlivspolitik fra tid til anden. Vi vil orientere dig om eventuelle ændringer ved at offentliggøre den nye Privatlivspolitik på denne side."
+    },
+    "last_updated": "Sidst opdateret"
+  },
+  "Terms": {
+    "title": "Servicevilkår",
+    "description": "Servicevilkår for Farveudskiftning billedfarve-udskiftningsværktøj",
+    "keywords": "servicevilkår, brugeraftale, vilkår og betingelser, servicevilkår",
+    "acceptance": {
+      "title": "Accept af vilkår",
+      "description": "Ved at få adgang til og bruge vores Farveudskiftning-værktøj accepterer og godkender du at være bundet af vilkårene og bestemmelserne i denne aftale."
+    },
+    "service_description": {
+      "title": "Servicebeskrivelse",
+      "description": "Farveudskiftning er et gratis onlineværktøj, der tilbyder:",
+      "color_replacement": "Billedfarve-udskiftning og redigeringsmuligheder",
+      "image_processing": "Lokal billedbehandling uden server-upload",
+      "free_service": "Gratis adgang til alle grundlæggende farveudskiftningsfunktioner"
+    },
+    "user_responsibilities": {
+      "title": "Brugeransvar",
+      "description": "Som bruger af vores tjeneste accepterer du at:",
+      "legal_content": "Kun uploade og behandle billeder, du har juridisk ret til at bruge",
+      "copyright": "Respektere ophavsret og immaterielle rettigheder",
+      "appropriate_use": "Bruge tjenesten kun til lovlige formål",
+      "no_harmful_content": "Ikke uploade skadeligt, stødende eller upassende indhold"
+    },
+    "prohibited_uses": {
+      "title": "Forbudt brug",
+      "description": "Du må ikke bruge vores tjeneste til:",
+      "illegal_content": "Behandling af ulovligt eller skadeligt indhold",
+      "copyright_violation": "Krænkelse af ophavsret eller immaterielle rettigheder",
+      "malicious_use": "Enhver ondsindet eller skadelig aktivitet",
+      "system_abuse": "Forsøg på at misbruge eller overbelaste vores systemer"
+    },
+    "intellectual_property": {
+      "title": "Immaterialret",
+      "description": "Farveudskiftning-værktøjet og dets oprindelige indhold, funktioner og funktionalitet ejes af os og er beskyttet af internationale ophavsrets-, varemærke- og andre immaterialretslove.",
+      "user_content": "Du bevarer alle rettigheder til billeder, du uploader og behandler med vores værktøj."
+    },
+    "disclaimers": {
+      "title": "Ansvarsfraskrivelser",
+      "description": "Vores tjeneste leveres 'som den er'. Vi giver ingen garantier, udtrykte eller underforståede, og fraskriver os hermed alle andre garantier, inklusive:",
+      "as_is": "Tjenesten leveres uden garanti af nogen art",
+      "availability": "Vi garanterer ikke uafbrudt eller fejlfri service",
+      "accuracy": "Vi garanterer ikke nøjagtigheden eller fuldstændigheden af resultater"
+    },
+    "limitation_liability": {
+      "title": "Ansvarsbegrænsning",
+      "description": "Under ingen omstændigheder skal Farveudskiftning være ansvarlig for nogen indirekte, hændelige, specielle, følgeskader eller straffeskader, herunder uden begrænsning tab af fortjeneste, data, brug, goodwill eller andre immaterielle tab."
+    },
+    "termination": {
+      "title": "Opsigelse",
+      "description": "Vi kan opsige eller suspendere din adgang øjeblikkeligt, uden forudgående varsel eller ansvar, af enhver som helst grund, herunder uden begrænsning hvis du overtræder vilkårene."
+    },
+    "changes": {
+      "title": "Ændringer i vilkår",
+      "description": "Vi forbeholder os retten, efter eget skøn, at ændre eller erstatte disse vilkår når som helst. Hvis en revision er væsentlig, vil vi forsøge at give mindst 30 dages varsel før nye vilkår træder i kraft."
+    },
+    "governing_law": {
+      "title": "Gældende lov",
+      "description": "Disse vilkår skal fortolkes og reguleres af lovgivningen i den jurisdiktion, hvor vi opererer, uden hensyn til dets lovvalgsregler."
+    },
+    "contact": {
+      "title": "Kontaktinformation",
+      "description": "Hvis du har spørgsmål til disse Servicevilkår, bedes du kontakte os via vores hjemmeside."
+    },
+    "last_updated": "Sidst opdateret"
+  },
+  "Footer": {
+    "rights_reserved": "Alle rettigheder forbeholdes.",
+    "privacy_policy": "Privatlivspolitik",
+    "terms_of_service": "Servicevilkår"
+  }
+}

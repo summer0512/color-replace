@@ -1,0 +1,248 @@
+{
+  "HomePage": {
+    "title": "Bildfärgbytesverktyg",
+    "originalImages": "Originalbilder",
+    "processedImages": "Behandlade bilder",
+    "previewButton": "Förhandsgranska",
+    "downloadButton": "Ladda ner",
+    "description": "Webbläsarbaserat verktyg för snabb bildfärgbyte. Byt flera färger, redigera filer i batch och behåll kvaliteten med privat behandling på din enhet.",
+    "keywords": "bildfärgbyte, färgbytesverktyg, batch-bildredigering, färgändrare, designverktyg"
+  },
+  "Header": {
+    "title": "Färgbyte",
+    "subtitle": "Professionellt onlineverktyg för bildfärgbyte",
+    "home": "Hem",
+    "settings": "Inställningar",
+    "about": "Om"
+  },
+  "ColorReplaceSettings": {
+    "title": "Färgbytesinställningar",
+    "addColorPair": "Lägg till färgpar",
+    "colorPairTitle": "Färgpar #{id}",
+    "removeColorPair": "Ta bort detta färgpar",
+    "sourceColor": "Källfärg",
+    "targetColor": "Målfärg",
+    "toleranceLabel": "Färgmatchningstolerans: {value}%",
+    "emptyState": "Inga regler för färgbyte. Klicka på \"Lägg till färgpar\" för att börja",
+    "toleranceTitle": "Färgmatchningstolerans",
+    "toleranceLow": "Exakt",
+    "toleranceHigh": "Liknande",
+    "replace": "Byt ut",
+    "download": "Ladda ner",
+    "clearFiles": "Rensa bilder"
+  },
+  "ColorPicker": {
+    "transparent": "transparent",
+    "useTransparent": "Använd transparent",
+    "useColor": "Använd färg"
+  },
+  "EyeDropper": {
+    "tooltip": "Använd färgväljare"
+  },
+  "ToolDescription": {
+    "title": "Gratis onlineverktyg för bildfärgbyte",
+    "mainDescription": "Transformera dina bilder direkt med vårt professionella färgbytesverktyg. Perfekt för designers, marknadsförare och innehållsskapare som snabbt och effektivt behöver ändra bildfärger. Oavsett om du skapar produktvarianter, justerar varumärkesfärger eller experimenterar med designalternativ, erbjuder vårt verktyg precis färgmanipulation samtidigt som bildkvaliteten bevaras - allt direkt i din webbläsare, utan uppladdning krävs.",
+    "features": {
+      "title": "Professionella funktioner för bildfärgredigering",
+      "feature1": {
+        "title": "Smart teknologi för färgbyte",
+        "description": "Byt ut valfri färg i dina bilder med pixelperfekt noggrannhet. Vår avancerade färgmatchningsalgoritm säkerställer smidiga övergångar och professionella resultat, perfekta för produktfoton och designresurser."
+      },
+      "feature2": {
+        "title": "Multifärgbytes",
+        "description": "Spara tid genom att byta flera färger samtidigt. Idealt för varumärkesfärguppdateringar, temanändringar och skapande av produktvarianter. Lägg till flera färgpar för att transformera hela färgscheman på en gång."
+      },
+      "feature3": {
+        "title": "Effektiv batchbehandling",
+        "description": "Behandla flera bilder samtidigt med vår kraftfulla batchbehandlingsfunktion. Perfekt för e-handelns produktfoton, marknadsföringsmaterial och stora designprojekt. Spara timmar av manuell redigeringstid."
+      },
+      "feature4": {
+        "title": "Professionella färgvalverktyg",
+        "description": "Använd vårt precisa pipettverktyg för att plocka exakta färger från dina bilder. Kompatibelt med hex-koder och RGB-värden, vilket gör det enkelt att perfekt matcha dina varumärkesfärger."
+      },
+      "feature5": {
+        "title": "Avancerade kontroller för färgmatchning",
+        "description": "Finjustera dina färgbyten med våra intelligenta likhetskontroller. Perfekt för att hantera gradienter, skuggor och komplexa färgvariationer samtidigt som naturliga resultat bibehålls."
+      },
+      "feature6": {
+        "title": "Säker lokal behandling",
+        "description": "Upplev snabb, säker bildbehandling direkt i din webbläsare. Ingen filuppladdning behövs - dina bilder lämnar aldrig din enhet, vilket säkerställer fullständig integritet och omedelbara resultat."
+      }
+    },
+    "privacyTitle": "100% Privat & Säker",
+    "privacyDescription": "Din integritet och datasäkerhet är vår högsta prioritet. Till skillnad från andra onlineverktyg fungerar vår bildbehandlare helt i din webbläsare - dina bilder laddas aldrig upp till någon server. Arbeta med förtroende, eftersom dina känsliga designresurser förblir privata och säkra på din enhet."
+  },
+  "UsageExamples": {
+    "title": "Användningsexempel",
+    "description": "Här är några exempel på hur du kan använda färgbytesverktyget:",
+    "before": "Före",
+    "after": "Efter",
+    "settingsTitle": "Färginställningar",
+    "tolerance": "Tolerans",
+    "loadExample": "Ladda exempel",
+    "example1": {
+      "title": "Inställningar för flera färgpar",
+      "description": "Byt ut flera färger samtidigt genom att lägga till flera färgpar.",
+      "beforeAlt": "Tillståndsillustration med röd färgscheman",
+      "afterAlt": "Tillståndsillustration med blå färgscheman"
+    },
+    "example2": {
+      "title": "Batch-bildbehandling",
+      "description": "Behandla flera bilder samtidigt för effektiv batchbehandling.",
+      "beforeAlt": "ett set med blå ikoner",
+      "afterAlt": "ett set med röda ikoner"
+    },
+    "example3": {
+      "title": "byt ut färg mot transparent",
+      "description": "stödjer byte av färg mot transparent.",
+      "beforeAlt": "profilbild med gul bakgrund",
+      "afterAlt": "profilbild med transparent bakgrund"
+    }
+  },
+  "Metadata": {
+    "title": "Färgbyte - Gratis onlineverktyg för bildfärgbyte",
+    "titleTemplate": "%s | Färgbyte - Bildfärgredigerare",
+    "description": "Gratis onlineverktyg för precist bildfärgbyte. Byt ut flera färger samtidigt, behandla bilder i batch och behåll bildkvaliteten. Ingen uppladdning krävs - behandla lokalt i webbläsare.",
+    "keywords": "färgbyte, bildfärgredigerare, färgbytesverktyg, batch-bildbehandling, bildfärgändrare, färgbytesverktyg, bildredigering, designverktyg",
+    "locale": "sv_SE",
+    "ogTitle": "Färgbyte - Gratis onlineverktyg för bildfärgbyte",
+    "ogDescription": "Transformera dina bilder med vårt kraftfulla färgbytesverktyg. Byt ut flera färger, behandla bilder i batch och behåll kvaliteten. Ingen uppladdning behövs - all behandling sker i din webbläsare.",
+    "ogImageAlt": "Färgbytesverktygets gränssnitt",
+    "twitterTitle": "Färgbyte - Gratis onlineverktyg för bildfärgbyte",
+    "twitterDescription": "Transformera dina bilder med vårt kraftfulla färgbytesverktyg. Byt ut flera färger, behandla bilder i batch och behåll kvaliteten."
+  },
+  "ImageProcessor": {
+    "dropToUpload": "Släpp för att ladda upp bilder",
+    "dragAndDrop": "Dra och släpp bilder här, eller klicka för att ladda upp",
+    "supportedFormats": "Stödjer PNG, JPG, JPEG, GIF, WEBP format, max 5MB per fil",
+    "error": {
+      "fileTooLarge": "Filen för stor, ladda upp bilder under 5MB",
+      "invalidFormat": "Ladda upp giltiga bildformatfiler",
+      "canvasContext": "Kan inte skapa canvas-kontext",
+      "noFilesUploaded": "Ladda upp bilder för att behandla"
+    }
+  },
+  "Privacy": {
+    "title": "Integritetspolicy",
+    "description": "Integritetspolicy för Färgbyte bildfärgbytesverktyg",
+    "keywords": "integritetspolicy, dataskydd, GDPR, användarintegritet, bildbehandling",
+    "information_collection": {
+      "title": "Information vi samlar in",
+      "description": "Vi samlar in minimal information för att tillhandahålla vår färgbytningstjänst:",
+      "uploaded_images": "Bilder du laddar upp för färgbyte (behandlas lokalt i din webbläsare)",
+      "usage_data": "Grundläggande användningsstatistik och analysdata",
+      "device_info": "Enhets- och webbläsarinformation för tjänstoptimering"
+    },
+    "data_usage": {
+      "title": "Hur vi använder dina data",
+      "description": "Vi använder insamlad information för följande ändamål:",
+      "provide_service": "För att tillhandahålla och underhålla vår färgbytningstjänst",
+      "improve_service": "För att förbättra och optimera vårt verktygs prestanda",
+      "analytics": "För att förstå användningsmönster och förbättra användarupplevelsen",
+      "advertising": "För att visa relevanta annonser genom Google AdSense"
+    },
+    "data_storage": {
+      "title": "Datalagring och säkerhet",
+      "description": "Din integritet och datasäkerhet är vår högsta prioritet:",
+      "temporary": "Uppladdade bilder behandlas lokalt i din webbläsare och lagras inte på våra servrar"
+    },
+    "third_party": {
+      "title": "Tredjepartstjänster",
+      "description": "Vi använder följande tredjepartstjänster:",
+      "analytics": "För webbplatsanalys och prestandaövervakning",
+      "advertising": "För att visa annonser på vår webbplats"
+    },
+    "cookies": {
+      "title": "Kakor och spårning",
+      "description": "Vi använder kakor och liknande teknologier för att förbättra din upplevelse och tillhandahålla analys.",
+      "control": "Du kan kontrollera kaka-preferenser genom dina webbläsarinställningar eller vår samtyckeshanteringsplattform."
+    },
+    "user_rights": {
+      "title": "Dina rättigheter",
+      "description": "Enligt GDPR och andra integritetslagar har du följande rättigheter:",
+      "access": "Rätt att komma åt dina personuppgifter",
+      "correction": "Rätt att korrigera felaktiga personuppgifter",
+      "deletion": "Rätt att begära radering av dina personuppgifter",
+      "portability": "Rätt till dataöverförbarhet"
+    },
+    "contact": {
+      "title": "Kontakta oss",
+      "description": "Om du har några frågor om denna Integritetspolicy, vänligen kontakta oss via vår webbplats."
+    },
+    "updates": {
+      "title": "Policyuppdateringar",
+      "description": "Vi kan uppdatera denna Integritetspolicy från tid till annan. Vi kommer att meddela dig om eventuella ändringar genom att publicera den nya Integritetspolicyn på denna sida."
+    },
+    "last_updated": "Senast uppdaterad"
+  },
+  "Terms": {
+    "title": "Användarvillkor",
+    "description": "Användarvillkor för Färgbyte bildfärgbytesverktyg",
+    "keywords": "användarvillkor, användaravtal, villkor och betingelser, tjänstevillkor",
+    "acceptance": {
+      "title": "Godkännande av villkor",
+      "description": "Genom att komma åt och använda vårt Färgbyte-verktyg accepterar och godkänner du att vara bunden av villkoren och bestämmelserna i detta avtal."
+    },
+    "service_description": {
+      "title": "Tjänstbeskrivning",
+      "description": "Färgbyte är ett gratis onlineverktyg som tillhandahåller:",
+      "color_replacement": "Bildfärgbyte och redigeringsmöjligheter",
+      "image_processing": "Lokal bildbehandling utan serveruppladdning",
+      "free_service": "Gratis tillgång till alla grundläggande färgbytesfunktioner"
+    },
+    "user_responsibilities": {
+      "title": "Användaransvar",
+      "description": "Som användare av vår tjänst godkänner du att:",
+      "legal_content": "Endast ladda upp och behandla bilder du har laglig rätt att använda",
+      "copyright": "Respektera upphovsrätt och immateriella rättigheter",
+      "appropriate_use": "Använda tjänsten endast för lagliga ändamål",
+      "no_harmful_content": "Inte ladda upp skadligt, stötande eller olämpligt innehåll"
+    },
+    "prohibited_uses": {
+      "title": "Förbjudna användningar",
+      "description": "Du får inte använda vår tjänst för:",
+      "illegal_content": "Behandling av olagligt eller skadligt innehåll",
+      "copyright_violation": "Brott mot upphovsrätt eller immateriella rättigheter",
+      "malicious_use": "Några skadliga eller skadliga aktiviteter",
+      "system_abuse": "Försök att missbruka eller överbelasta våra system"
+    },
+    "intellectual_property": {
+      "title": "Immateriella rättigheter",
+      "description": "Färgbyte-verktyget och dess ursprungliga innehåll, funktioner och funktionalitet ägs av oss och skyddas av internationella upphovsrätts-, varumärkes- och andra immateriella rättighetslagar.",
+      "user_content": "Du behåller alla rättigheter till bilder du laddar upp och behandlar med vårt verktyg."
+    },
+    "disclaimers": {
+      "title": "Ansvarsfriskrivningar",
+      "description": "Vår tjänst tillhandahålls i befintligt skick. Vi ger inga garantier, uttryckta eller underförstådda, och avsäger oss härmed alla andra garantier inklusive:",
+      "as_is": "Tjänsten tillhandahålls utan garanti av något slag",
+      "availability": "Vi garanterar inte oavbruten eller felfri tjänst",
+      "accuracy": "Vi garanterar inte riktigheten eller fullständigheten av resultat"
+    },
+    "limitation_liability": {
+      "title": "Ansvarsbegränsning",
+      "description": "Under inga omständigheter ska Färgbyte vara ansvarigt för några indirekta, tillfälliga, särskilda, följd- eller straffskador, inklusive utan begränsning, förlust av vinster, data, användning, goodwill eller andra immateriella förluster."
+    },
+    "termination": {
+      "title": "Avslutande",
+      "description": "Vi kan avsluta eller avbryta din åtkomst omedelbart, utan föregående meddelande eller ansvar, för vad som helst, inklusive utan begränsning om du bryter mot Villkoren."
+    },
+    "changes": {
+      "title": "Ändringar av villkor",
+      "description": "Vi förbehåller oss rätten, efter eget gottfinnande, att ändra eller ersätta dessa Villkor när som helst. Om en revidering är väsentlig kommer vi att försöka ge minst 30 dagars meddelande innan nya villkor träder i kraft."
+    },
+    "governing_law": {
+      "title": "Gällande lag",
+      "description": "Dessa Villkor ska tolkas och styras av lagarna i den jurisdiktion där vi verkar, utan hänsyn till dess lagkonfliktbestämmelser."
+    },
+    "contact": {
+      "title": "Kontaktinformation",
+      "description": "Om du har några frågor om dessa Användarvillkor, vänligen kontakta oss via vår webbplats."
+    },
+    "last_updated": "Senast uppdaterad"
+  },
+  "Footer": {
+    "rights_reserved": "Alla rättigheter förbehållna.",
+    "privacy_policy": "Integritetspolicy",
+    "terms_of_service": "Användarvillkor"
+  }
+}

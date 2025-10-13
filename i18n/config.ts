@@ -18,5 +18,9 @@ export const languages = [
   { value: 'vi', name: 'Vietnamese', label: 'Tiếng Việt', hrefLang: 'vi' },
   { value: 'th', name: 'Thai', label: 'ไทย', hrefLang: 'th' },
   { value: 'nl', name: 'Dutch', label: 'Nederlands', hrefLang: 'nl' },
-  { value: 'pl', name: 'Polish', label: 'Polski', hrefLang: 'pl' }
+  { value: 'pl', name: 'Polish', label: 'Polski', hrefLang: 'pl' },
+  { value: 'sv', name: 'Swedish', label: 'Svenska', hrefLang: 'sv' },
+  { value: 'nb', name: 'Norwegian (Bokmål)', label: 'Norsk bokmål', hrefLang: 'nb' },
+  { value: 'fi', name: 'Finnish', label: 'Suomi', hrefLang: 'fi' },
+  { value: 'da', name: 'Danish', label: 'Dansk', hrefLang: 'da' }
 ] as const;
