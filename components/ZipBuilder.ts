@@ -7,11 +7,9 @@ class ZipBuilder {
         this.zip = new JSZip();
     }
 
-    addFilesFromCanvases(canvasList: HTMLCollectionOf<HTMLCanvasElement>) {
-        Array.from(canvasList).forEach((canvas, index) => {
-            const imgData = canvas.toDataURL('image/png');
-            this.zip.file(`image-${index + 1}.png`, imgData.split(',')[1], { base64: true });
-        });
+    addCanvas(fileName: string, canvas: HTMLCanvasElement) {
+        const imgData = canvas.toDataURL('image/png');
+        this.zip.file(fileName, imgData.split(',')[1], { base64: true });
         return this;
     }
 

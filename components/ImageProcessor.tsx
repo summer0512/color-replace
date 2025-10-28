@@ -13,6 +13,7 @@ interface ImageFile extends File {
     width: number;
     height: number;
   };
+  originalName: string;
   width?: number;
   height?: number;
   processRef?: React.RefObject<HTMLDivElement>;
@@ -141,7 +142,7 @@ export const ImageProcessor = forwardRef<ImageProcessorRef, ImageProcessorProps>
     const newFiles = await Promise.all(acceptedFiles.map(async (file) => {
       const preview = URL.createObjectURL(file);
       const dimensions = await getImageDimensions({ ...file, preview });
-      return Object.assign(file, { preview, dimensions });
+      return Object.assign(file, { preview, dimensions, originalName: file.name });
     })
     );
 
@@ -409,26 +410,34 @@ export const ImageProcessor = forwardRef<ImageProcessorRef, ImageProcessorProps>
       }
       if (files.length > 1) {
         // 多文件下载为 zip
-        const canvasList = document.getElementsByTagName('canvas');
+        const zipBuilder = new ZipBuilder();
+        files.forEach((file, index) => {
+          const canvas = document.querySelector(`.canvas-${index} canvas`) as HTMLCanvasElement | null;
+          if (canvas) {
+            const fileName = file.originalName ?? file.name;
+            zipBuilder.addCanvas(fileName, canvas);
+          }
+        });
+
+        const pad = (value: number) => value.toString().padStart(2, '0');
+        const now = new Date();
+        const timestamp = `${now.getFullYear()}${pad(now.getMonth() + 1)}${pad(now.getDate())}${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}`;
 
         const link = document.createElement('a');
-        link.href = URL.createObjectURL(
-          await new ZipBuilder()
-            .addFilesFromCanvases(canvasList)
-            .build()
-        )
-        link.download = 'color-replaced-images.zip';
+        link.href = URL.createObjectURL(await zipBuilder.build());
+        link.download = `color-replaced-images-${timestamp}.zip`;
         link.click();
         URL.revokeObjectURL(link.href);
-      } else if (files.length === 1) {
-        // 单文件直接下载
-        const canvas = document.querySelector('.canvas-wrapper canvas') as HTMLCanvasElement;
-        if (canvas) {
-          const link = document.createElement('a');
-          link.download = files[0].name; // 使用原始文件名
-          link.href = canvas.toDataURL('image/png');
-          link.click();
-        }
+        return;
+      }
+
+      // 单文件直接下载
+      const canvas = document.querySelector('.canvas-wrapper canvas') as HTMLCanvasElement | null;
+      if (canvas) {
+        const link = document.createElement('a');
+        link.download = files[0].originalName ?? files[0].name; // 使用原始文件名
+        link.href = canvas.toDataURL('image/png');
+        link.click();
       }
     };
 
