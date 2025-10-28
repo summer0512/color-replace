@@ -141,7 +141,7 @@ export const ImageProcessor = forwardRef<ImageProcessorRef, ImageProcessorProps>
     // Handle accepted files
     const newFiles = await Promise.all(acceptedFiles.map(async (file) => {
       const preview = URL.createObjectURL(file);
-      const dimensions = await getImageDimensions({ ...file, preview });
+      const dimensions = await getImageDimensions({ ...file, preview, originalName: file.name });
       return Object.assign(file, { preview, dimensions, originalName: file.name });
     })
     );
