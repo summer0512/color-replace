@@ -80,8 +80,18 @@ export function ColorReplaceSettings({ onChange, onHeightChange, children, defau
     setColorPairs(prev => [...prev, newPair]);
   }, []);
 
+  const toleranceTimersRef = useRef<Record<string, number>>({});
   // Remove a color pair by id
   const handleRemovePair = useCallback((id: string) => {
+    const timers = toleranceTimersRef.current;
+    if (timers[id]) {
+      window.clearTimeout(timers[id]);
+      delete timers[id];
+    }
+    setTempTolerances(prev => {
+      const { [id]: _removed, ...rest } = prev;
+      return rest;
+    });
     setColorPairs(prev => prev.filter(pair => pair.id !== id));
   }, []);
 
@@ -93,6 +103,64 @@ export function ColorReplaceSettings({ onChange, onHeightChange, children, defau
       }
       return pair;
     }));
+  }, []);
+
+  // Store temporary tolerance values for immediate visual feedback
+  const [tempTolerances, setTempTolerances] = useState<Record<string, number>>({});
+
+  // Handle tolerance change with immediate visual feedback
+  const handleToleranceChange = useCallback((id: string, value: number) => {
+    // Update visual display immediately
+    setTempTolerances(prev => ({ ...prev, [id]: value }));
+
+    const timers = toleranceTimersRef.current;
+    if (timers[id]) {
+      window.clearTimeout(timers[id]);
+    }
+
+    timers[id] = window.setTimeout(() => {
+      handlePairChange(id, 'tolerance', value);
+      setTempTolerances(prev => {
+        const { [id]: _removed, ...rest } = prev;
+        return rest;
+      });
+      delete toleranceTimersRef.current[id];
+    }, 200);
+  }, [handlePairChange]);
+
+  // Get current tolerance value (temp or actual)
+  const getCurrentTolerance = useCallback((pair: ColorPair) => {
+    return tempTolerances[pair.id] ?? pair.tolerance;
+  }, [tempTolerances]);
+
+  // Keep in-flight tolerance updates only for pairs that still exist
+  useEffect(() => {
+    const activeIds = new Set(colorPairs.map(pair => pair.id));
+
+    setTempTolerances(prev => {
+      const retained: Record<string, number> = {};
+      for (const [id, value] of Object.entries(prev)) {
+        if (activeIds.has(id)) {
+          retained[id] = value;
+        }
+      }
+      return Object.keys(retained).length === Object.keys(prev).length ? prev : retained;
+    });
+
+    const timers = toleranceTimersRef.current;
+    for (const [id, timer] of Object.entries(timers)) {
+      if (!activeIds.has(id)) {
+        window.clearTimeout(timer);
+        delete timers[id];
+      }
+    }
+  }, [colorPairs]);
+
+  // Clean up tolerance timers on unmount
+  useEffect(() => {
+    return () => {
+      Object.values(toleranceTimersRef.current).forEach(timer => window.clearTimeout(timer));
+    };
   }, []);
 
   const handleConfirm = useCallback(() => {
@@ -164,7 +232,7 @@ export function ColorReplaceSettings({ onChange, onHeightChange, children, defau
               <div className="flex flex-col gap-1">
                 <div className="flex justify-between items-center text-sm text-gray-600">
                   <span>{t('toleranceTitle')}</span>
-                  <span className="font-medium">{pair.tolerance}%</span>
+                  <span className="font-medium">{getCurrentTolerance(pair)}%</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <span className="text-xs text-gray-500">{t('toleranceLow')}</span>
@@ -172,8 +240,8 @@ export function ColorReplaceSettings({ onChange, onHeightChange, children, defau
                     type="range"
                     min="0"
                     max="100"
-                    value={pair.tolerance}
-                    onChange={(e) => handlePairChange(pair.id, 'tolerance', parseInt(e.target.value))}
+                    value={getCurrentTolerance(pair)}
+                    onChange={(e) => handleToleranceChange(pair.id, parseInt(e.target.value))}
                     className="flex-1 h-1 bg-gray-200 rounded-lg appearance-none cursor-pointer"
                   />
                   <span className="text-xs text-gray-500">{t('toleranceHigh')}</span>
