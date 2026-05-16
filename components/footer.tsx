@@ -9,8 +9,10 @@ export default async function Footer() {
   // Friend links (external). Set follow=true for dofollow links.
   const friendLinks: { name: string; href: string; follow?: boolean }[] = [
     { name: 'Time Card Calculator', href: 'https://time-card-calculator.work/', follow: true },
-    { name: 'Wordle Hint', href: 'https://wordle-hint.net/', follow: true},
-    { name: 'Termo Jogo', href: 'https://termo-jogo.com/', follow: true},
+    { name: 'Morse Code Kit', href: 'https://morsecodekit.com/', follow: true },
+    { name: 'PrintableGen', href: 'https://printablegen.com/', follow: true },
+    { name: 'Generate Org Chart', href: 'https://generateorgchart.com/', follow: true },
+    { name: 'Size Chart Kit', href: 'https://sizechartkit.com/', follow: true },
   ];
 
   return (
