@@ -13,6 +13,13 @@ export default async function Footer() {
     { name: 'PrintableGen', href: 'https://printablegen.com/', follow: true },
     { name: 'Generate Org Chart', href: 'https://generateorgchart.com/', follow: true },
     { name: 'Size Chart Kit', href: 'https://sizechartkit.com/', follow: true },
+    { name: "Device Test Tools", href: "https://devicetesttools.com/", follow: true },
+    { name: "IBAN Tools", href: "https://ibantools.net/", follow: true },
+    { name: "Randlyx", href: "https://randlyx.com/", follow: true },
+    { name: "Subnautica Hub", href: "https://subnauticahub.com/", follow: true },
+    { name: "Test Score Hub", href: "https://testscorehub.com/", follow: true },
+    { name: "EasyPdfNow", href: "https://easypdfnow.com/", follow: true },
+    { name: "Solarpunk Hub", href: "https://solarpunkhub.com/", follow: true }
   ];
 
   return (
@@ -83,7 +90,7 @@ export default async function Footer() {
             {friendLinks.length === 0 ? (
               <p className="text-sm text-neutral-500">Coming soon</p>
             ) : (
-              <ul className="space-y-2 text-sm">
+              <ul className="text-sm md:grid-cols-2 grid">
                 {friendLinks.map((l) => (
                   <li key={l.href}>
                     <a
