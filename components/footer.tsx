@@ -8,6 +8,7 @@ export default async function Footer() {
 
   // Friend links (external). Set follow=true for dofollow links.
   const friendLinks: { name: string; href: string; follow?: boolean }[] = [
+    { name: 'Color Replace', href: 'https://link.zhihu.com/?target=https://color-replace.com', follow: true },
     { name: 'Time Card Calculator', href: 'https://time-card-calculator.work/', follow: true },
     { name: 'Morse Code Kit', href: 'https://morsecodekit.com/', follow: true },
     { name: 'PrintableGen', href: 'https://printablegen.com/', follow: true },
@@ -19,7 +20,7 @@ export default async function Footer() {
     { name: "Subnautica Hub", href: "https://subnauticahub.com/", follow: true },
     { name: "Test Score Hub", href: "https://testscorehub.com/", follow: true },
     { name: "EasyPdfNow", href: "https://easypdfnow.com/", follow: true },
-    { name: "Solarpunk Hub", href: "https://solarpunkhub.com/", follow: true }
+    { name: "Solarpunk Hub", href: "https://solarpunkhub.com/", follow: true },
   ];
 
   return (
