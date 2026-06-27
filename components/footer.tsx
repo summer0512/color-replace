@@ -21,6 +21,7 @@ export default async function Footer() {
     { name: "Test Score Hub", href: "https://testscorehub.com/", follow: true },
     { name: "EasyPdfNow", href: "https://easypdfnow.com/", follow: true },
     { name: "Solarpunk Hub", href: "https://solarpunkhub.com/", follow: true },
+    { name: "GAG2Hub", href: "https://gag2hub.com/", follow: true },
   ];
 
   return (
