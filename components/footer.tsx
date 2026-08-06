@@ -38,7 +38,7 @@ export default async function Footer() {
             {/* Site Links */}
             <div className="mt-2">
               {/* <div className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Links</div> */}
-              <ul className="space-y-2 text-sm">
+              <ul className="text-sm flex items-center gap-4">
                 <li>
                   <Link href="/privacy" className="hover:text-white transition-colors">
                     {t('privacy_policy')}
@@ -66,7 +66,7 @@ export default async function Footer() {
           </div>
 
           {/* Languages */}
-          <div className="text-left md:text-center">
+          <div className="text-left md:text-center md:col-span-2">
             <div className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Languages</div>
             <ul className="flex flex-wrap gap-x-3 gap-y-2 text-sm">
               {languages.map(({ value, label, hrefLang }) => {
@@ -87,7 +87,7 @@ export default async function Footer() {
           </div>
 
           {/* Friend Links */}
-          <div className="md:text-right">
+          {/* <div className="md:text-right">
             <div className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Friend Links</div>
             {friendLinks.length === 0 ? (
               <p className="text-sm text-neutral-500">Coming soon</p>
@@ -107,7 +107,7 @@ export default async function Footer() {
                 ))}
               </ul>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
