@@ -8,20 +8,23 @@ export default async function Footer() {
 
   // Friend links (external). Set follow=true for dofollow links.
   const friendLinks: { name: string; href: string; follow?: boolean }[] = [
-    { name: 'Color Replace', href: 'https://link.zhihu.com/?target=https://color-replace.com', follow: true },
-    { name: 'Time Card Calculator', href: 'https://time-card-calculator.work/', follow: true },
-    { name: 'Morse Code Kit', href: 'https://morsecodekit.com/', follow: true },
-    { name: 'PrintableGen', href: 'https://printablegen.com/', follow: true },
+    // { name: 'Color Replace', href: 'https://link.zhihu.com/?target=https://color-replace.com', follow: true },
+    // { name: 'Time Card Calculator', href: 'https://time-card-calculator.work/', follow: true },
+    // { name: 'Morse Code Kit', href: 'https://morsecodekit.com/', follow: true },
+    // { name: 'PrintableGen', href: 'https://printablegen.com/', follow: true },
     { name: 'Generate Org Chart', href: 'https://generateorgchart.com/', follow: true },
-    { name: 'Size Chart Kit', href: 'https://sizechartkit.com/', follow: true },
-    { name: "Device Test Tools", href: "https://devicetesttools.com/", follow: true },
-    { name: "IBAN Tools", href: "https://ibantools.net/", follow: true },
-    { name: "Randlyx", href: "https://randlyx.com/", follow: true },
-    { name: "Subnautica Hub", href: "https://subnauticahub.com/", follow: true },
-    { name: "Test Score Hub", href: "https://testscorehub.com/", follow: true },
-    { name: "EasyPdfNow", href: "https://easypdfnow.com/", follow: true },
-    { name: "Solarpunk Hub", href: "https://solarpunkhub.com/", follow: true },
-    { name: "GAG2Hub", href: "https://gag2hub.com/", follow: true },
+    { name: 'VizVero', href: 'https://vizvero.app/', follow: true },
+    { name: 'SudokuAgora', href: 'https://sudokuagora.com/', follow: false },
+    { name: 'SudokuDefi', href: 'https://sudokudefi.com/', follow: false },
+    // { name: 'Size Chart Kit', href: 'https://sizechartkit.com/', follow: true },
+    // { name: "Device Test Tools", href: "https://devicetesttools.com/", follow: true },
+    // { name: "IBAN Tools", href: "https://ibantools.net/", follow: true },
+    // { name: "Randlyx", href: "https://randlyx.com/", follow: true },
+    // { name: "Subnautica Hub", href: "https://subnauticahub.com/", follow: true },
+    // { name: "Test Score Hub", href: "https://testscorehub.com/", follow: true },
+    // { name: "EasyPdfNow", href: "https://easypdfnow.com/", follow: true },
+    // { name: "Solarpunk Hub", href: "https://solarpunkhub.com/", follow: true },
+    // { name: "GAG2Hub", href: "https://gag2hub.com/", follow: true },
   ];
 
   return (
@@ -66,7 +69,7 @@ export default async function Footer() {
           </div>
 
           {/* Languages */}
-          <div className="text-left md:text-center md:col-span-2">
+          <div className="text-left md:text-center md:col-span-1">
             <div className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Languages</div>
             <ul className="flex flex-wrap gap-x-3 gap-y-2 text-sm">
               {languages.map(({ value, label, hrefLang }) => {
@@ -87,7 +90,7 @@ export default async function Footer() {
           </div>
 
           {/* Friend Links */}
-          {/* <div className="md:text-right">
+          <div className="md:text-right">
             <div className="text-xs uppercase tracking-wide text-neutral-400 mb-3">Friend Links</div>
             {friendLinks.length === 0 ? (
               <p className="text-sm text-neutral-500">Coming soon</p>
@@ -107,7 +110,7 @@ export default async function Footer() {
                 ))}
               </ul>
             )}
-          </div> */}
+          </div>
         </div>
       </div>
     </footer>
