@@ -59,7 +59,7 @@ Your privacy and data security are our top priority. Unlike other online tools, 
 
 `lib/site-scripts.ts` contains independent `googleAnalytics`, `googleAds`, and `adsterra` switches. Real vendor scripts load only with `NODE_ENV=production` on `color-replace.com`. Development and preview environments show desktop Adsterra placeholders without loading advertising or analytics scripts.
 
-Advertising requires a mouse/trackpad and a viewport of at least 1024px. Mobile keeps production Google Analytics but loads neither ad provider. Tool-page side banners require at least 1536px width and 760px height: 160×600 on the left and 160×300 on the right. The 300×250 dialog appears after a PNG or ZIP download is initiated, can be closed immediately, and is limited to once every 30 minutes per tab session. Privacy and terms pages do not show Adsterra banners.
+Advertising requires a mouse/trackpad and a viewport of at least 1024px. Mobile keeps production Google Analytics but loads neither ad provider. Tool-page side banners require at least 1536px width and 760px height: 160×600 on the left and 160×300 on the right. The 300×250 dialog appears after a PNG or ZIP download is initiated, can be closed immediately, and appears after each successful download initiation without a frequency cap. Privacy and terms pages do not show Adsterra banners.
 
 ## Keywords
 

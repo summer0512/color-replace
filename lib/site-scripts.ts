@@ -10,8 +10,6 @@ export const SITE_SCRIPTS = {
 export const DESKTOP_AD_QUERY = '(min-width: 1024px) and (hover: hover) and (pointer: fine)';
 // The existing content container is 1080px wide. Keep room for both rails.
 export const SIDE_AD_QUERY = '(min-width: 1536px) and (min-height: 760px) and (hover: hover) and (pointer: fine)';
-export const DOWNLOAD_AD_COOLDOWN_MS = 30 * 60_000;
-export const DOWNLOAD_AD_STORAGE_KEY = 'color-replace.last-download-ad.v1';
 
 export function isProductionSite(environment: string | undefined, hostname: string) {
   return environment === 'production' && hostname === PRODUCTION_HOSTNAME;
