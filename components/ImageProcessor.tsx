@@ -4,8 +4,10 @@ import { useDropzone } from 'react-dropzone';
 import Image from 'next/image';
 import { ColorPair } from '@/types/color';
 import Spinner from './Spinner';
-import { useTranslations } from 'next-intl';
-import ZipBuilder from './ZipBuilder';
+import { useLocale, useTranslations } from 'next-intl';
+import { downloadProcessedImages } from './downloadProcessedImages';
+import { useDownloadAd } from './ads/SiteAds';
+import { getAdCopy } from '@/i18n/ads';
 
 interface ImageFile extends File {
   preview: string;
@@ -45,6 +47,9 @@ export const ImageProcessor = forwardRef<ImageProcessorRef, ImageProcessorProps>
   const canvasRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const t = useTranslations('ImageProcessor');
+  const adCopy = getAdCopy(useLocale());
+  const showDownloadAd = useDownloadAd();
+  const downloadInFlight = useRef(false);
   const [containerDimensions, setContainerDimensions] = useState<{ width: number; height: number }>({ width: 800, height: 320 });
   const containerRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -404,40 +409,23 @@ export const ImageProcessor = forwardRef<ImageProcessorRef, ImageProcessorProps>
   useEffect(() => {
     const handleDownload = async () => {
       if (files.length === 0) {
-        // 提示没有上传图片
         setError(t('error.noFilesUploaded'));
         return;
       }
-      if (files.length > 1) {
-        // 多文件下载为 zip
-        const zipBuilder = new ZipBuilder();
-        files.forEach((file, index) => {
-          const canvas = document.querySelector(`.canvas-${index} canvas`) as HTMLCanvasElement | null;
-          if (canvas) {
-            const fileName = file.originalName ?? file.name;
-            zipBuilder.addCanvas(fileName, canvas);
-          }
-        });
-
-        const pad = (value: number) => value.toString().padStart(2, '0');
-        const now = new Date();
-        const timestamp = `${now.getFullYear()}${pad(now.getMonth() + 1)}${pad(now.getDate())}${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}`;
-
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(await zipBuilder.build());
-        link.download = `color-replaced-images-${timestamp}.zip`;
-        link.click();
-        URL.revokeObjectURL(link.href);
-        return;
-      }
-
-      // 单文件直接下载
-      const canvas = document.querySelector('.canvas-wrapper canvas') as HTMLCanvasElement | null;
-      if (canvas) {
-        const link = document.createElement('a');
-        link.download = files[0].originalName ?? files[0].name; // 使用原始文件名
-        link.href = canvas.toDataURL('image/png');
-        link.click();
+      if (downloadInFlight.current || loading.some(Boolean)) return;
+      downloadInFlight.current = true;
+      setError('');
+      try {
+        await downloadProcessedImages(files.map((file, index) => ({
+          name: file.originalName ?? file.name,
+          canvas: canvasRefs.current[index]?.querySelector('canvas') ?? null,
+        })));
+        showDownloadAd();
+      } catch (error) {
+        console.error('Image download failed:', error);
+        setError(adCopy.downloadError);
+      } finally {
+        downloadInFlight.current = false;
       }
     };
 
@@ -445,7 +433,7 @@ export const ImageProcessor = forwardRef<ImageProcessorRef, ImageProcessorProps>
     return () => {
       window.removeEventListener('downloadProcessedImages', handleDownload);
     };
-  }, [files]);
+  }, [files, loading, t, showDownloadAd, adCopy.downloadError]);
 
   return (
     <div>

@@ -55,6 +55,12 @@ Maximum file size: 5MB per file
 
 Your privacy and data security are our top priority. Unlike other online tools, our image processor works entirely in your browser - your images are never uploaded to any server. Work confidently knowing your sensitive design assets stay private and secure on your device.
 
+## Analytics and advertising
+
+`lib/site-scripts.ts` contains independent `googleAnalytics`, `googleAds`, and `adsterra` switches. Real vendor scripts load only with `NODE_ENV=production` on `color-replace.com`. Development and preview environments show desktop Adsterra placeholders without loading advertising or analytics scripts.
+
+Advertising requires a mouse/trackpad and a viewport of at least 1024px. Mobile keeps production Google Analytics but loads neither ad provider. Tool-page side banners require at least 1536px width and 760px height: 160×600 on the left and 160×300 on the right. The 300×250 dialog appears after a PNG or ZIP download is initiated, can be closed immediately, and appears after each successful download initiation without a frequency cap. Privacy and terms pages do not show Adsterra banners.
+
 ## Keywords
 
 image color replacement, color swap tool, batch image processing, image color editor, color changer, image editing tool, online image editor, free image color tool, design tool, color replacement software

@@ -6,6 +6,8 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import { ProductionScripts } from '@/components/ProductionScripts';
+import { SiteAds } from '@/components/ads/SiteAds';
 import { ThemeProvider } from "@/components/theme-provider";
 import type { Metadata } from 'next';
 import { languages } from '@/i18n/config';
@@ -46,14 +48,17 @@ export default async function RootLayout(props: Readonly<{
           enableSystem
           disableTransitionOnChange
         >
+          <ProductionScripts />
           <NextIntlClientProvider messages={messages}>
-            <div className="min-h-screen flex flex-col">
-              <Header />
-              <main className="flex-1">
-                {children}
-              </main>
-              <Footer />
-            </div>
+            <SiteAds>
+              <div className="min-h-screen flex flex-col">
+                <Header />
+                <main className="flex-1">
+                  {children}
+                </main>
+                <Footer />
+              </div>
+            </SiteAds>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
