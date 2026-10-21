@@ -46,6 +46,7 @@ export default async function PrivacyPage(props: { params: Promise<{ locale: str
             <ul className="list-disc pl-6 mb-4">
               <li><strong>Google Analytics:</strong> {t('third_party.analytics')}</li>
               <li><strong>Google AdSense:</strong> {t('third_party.advertising')}</li>
+              <li><strong>Adsterra:</strong> {t('third_party.advertising')}</li>
             </ul>
           </section>
 

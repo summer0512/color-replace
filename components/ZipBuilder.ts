@@ -9,6 +9,9 @@ class ZipBuilder {
 
     addCanvas(fileName: string, canvas: HTMLCanvasElement) {
         const imgData = canvas.toDataURL('image/png');
+        if (!imgData.startsWith('data:image/png;base64,') || !imgData.split(',')[1]) {
+            throw new Error('Empty image data');
+        }
         this.zip.file(fileName, imgData.split(',')[1], { base64: true });
         return this;
     }

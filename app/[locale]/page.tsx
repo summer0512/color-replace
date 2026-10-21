@@ -43,8 +43,8 @@ export default function Home() {
   return (
     <>
       <div className="mx-auto w-full px-4 lg:container">
-        <div className="fixed left-0 right-0 top-16 z-40">
-          <div className="mx-auto w-full px-4 lg:container">
+        <div className="pointer-events-none fixed left-0 right-0 top-16 z-40">
+          <div className="pointer-events-auto mx-auto w-full px-4 lg:container">
             <ColorReplaceSettings
               defaultSettings={defaultSettings}
               onChange={(settings) => {
