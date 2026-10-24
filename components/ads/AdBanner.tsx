@@ -8,8 +8,7 @@ export function AdBanner({ placement, label }: { placement: keyof typeof AD_UNIT
   const desktop = useMediaQuery(DESKTOP_AD_QUERY);
   if (!desktop) return null;
   const unit = AD_UNITS[placement];
-  return <div data-ad-placement={placement} className="space-y-1.5" style={{ width: unit.width }}>
-    <p className="text-center text-[10px] uppercase tracking-wider text-muted-foreground">{label}</p>
+  return <div data-ad-placement={placement} style={{ width: unit.width }}>
     {production ? (
       <iframe title={`${label} ${unit.width}×${unit.height}`} width={unit.width} height={unit.height} src={`/api/adsterra/banner/${placement}`} referrerPolicy="strict-origin-when-cross-origin" className="block border-0" />
     ) : (
